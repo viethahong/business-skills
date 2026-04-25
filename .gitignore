@@ -1,0 +1,19 @@
+# Logs
+.DS_Store
+node_modules/
+dist/
+build/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# AI/LLM
+.anthropic/
+.cursor/
+.dify/
+.continue/
