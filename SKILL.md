@@ -38,6 +38,7 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 - launch-strategy
 - pricing-strategy
 - competitor-analysis
+- brand-building
 
 ## Nghiên cứu & Phân tích
 - customer-research
@@ -49,10 +50,13 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 - copywriting
 - social-media
 - email-marketing
+- influencer-marketing
 
 ## Tối ưu & Tăng trưởng
 - conversion-optimization
 - marketing-psychology
 - paid-ads
 - seo
+- churn-prevention
+- referral-program
 </related_skills>

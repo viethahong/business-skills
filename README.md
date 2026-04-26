@@ -35,6 +35,7 @@ business-skills/
 │   ├── launch-strategy.md            # Chiến lược ra mắt sản phẩm
 │   ├── pricing-strategy.md           # Chiến lược định giá
 │   ├── competitor-analysis.md        # Phân tích đối thủ cạnh tranh
+│   ├── brand-building.md             # Xây dựng thương hiệu (Corporate & Personal)
 │   │
 │   ├── 🔬 NGHIÊN CỨU & PHÂN TÍCH
 │   ├── customer-research.md          # Nghiên cứu khách hàng
@@ -46,12 +47,15 @@ business-skills/
 │   ├── content-marketing.md          # Marketing nội dung dài hạn
 │   ├── social-media.md               # Mạng xã hội
 │   ├── email-marketing.md            # Email marketing & CRM
+│   ├── influencer-marketing.md       # KOL/KOC Marketing
 │   │
 │   └── 🚀 TỐI ƯU & TĂNG TRƯỞNG
 │       ├── conversion-optimization.md # Tối ưu tỷ lệ chuyển đổi (CRO)
 │       ├── marketing-psychology.md    # Tâm lý học marketing
 │       ├── paid-ads.md               # Quảng cáo trả phí (Facebook/Google)
-│       └── seo.md                    # Tối ưu hóa công cụ tìm kiếm
+│       ├── seo.md                    # Tối ưu hóa công cụ tìm kiếm
+│       ├── churn-prevention.md        # Giữ chân & Giảm rời bỏ khách hàng
+│       └── referral-program.md        # Chương trình giới thiệu khách hàng
 │
 └── examples/                    # Các ví dụ và case study thực tế
 ```
@@ -64,10 +68,12 @@ product-marketing-context (nền tảng — load trước tiên)
         ├── marketing-strategy ──── launch-strategy
         │           │               pricing-strategy
         │           │               competitor-analysis
+        │           │               brand-building
         │           │
         ├── customer-research ────→ copywriting
         │                          conversion-optimization
         │                          marketing-psychology
+        │                          churn-prevention
         │
         ├── analytics ──────────→ ab-testing
         │
@@ -77,6 +83,8 @@ product-marketing-context (nền tảng — load trước tiên)
         └── content-marketing ──→ social-media
                                    email-marketing
                                    seo
+                                   influencer-marketing
+                                   referral-program
 ```
 
 ## ✍️ Cách thêm Skill mới
