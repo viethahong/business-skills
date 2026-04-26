@@ -120,20 +120,11 @@ Tổng = C1×0.15 + C2×0.25 + C3×0.15 + C4×0.20 + C5×0.15 + C6×0.10
 | `business-skill-creator` | 4 | 3 | 3 | 4 | 3 | 3 | **3.30** | 🟡 Ổn |
 | `marketing-strategy` | 4 | 3 | 3 | 4 | 2 | 3 | **3.10** | 🟡 Ổn |
 | `content-marketing` | 3 | 3 | 3 | 4 | 2 | 3 | **2.95** | 🔴 Yếu |
-| `social-media` | 3 | 3 | 2 | 2 | 2 | 3 | **2.60** | 🔴 Yếu |
+| `social-media` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
 
 ---
 
 ## III. Phân tích — Skill Cần Nâng cấp
-
-### 🔴 `social-media.md` — 2.60
-
-| Tiêu chí | Điểm hiện tại | Vấn đề cụ thể | Cần làm |
-|---|:---:|---|---|
-| Mission | 3 | Chỉ 3 tasks kiểu "chuyển blog thành 3 post" — không có platform-specific strategy | Thêm platform matrix (TikTok/Facebook/LinkedIn/Instagram), Hook formula, Viral trigger |
-| Rules | 2 | "Tập trung 3 dòng đầu" — quá đơn giản, không đủ để AI ra quyết định phức tạp | Thêm rule về tần suất đăng, thuật toán từng platform, Community Management SOP |
-| Output | 2 | Không có output format section | Thêm: Content Calendar template, Script video, Báo cáo chỉ số hàng tuần |
-| Expertise | 2 | Không có framework nào: không PESO, không Hook-Story-Offer, không Content Matrix | Thêm ít nhất 2 framework chuyên biệt |
 
 ### 🔴 `content-marketing.md` — 2.95
 
@@ -163,6 +154,7 @@ Tổng = C1×0.15 + C2×0.25 + C3×0.15 + C4×0.20 + C5×0.15 + C6×0.10
 
 | Ngày | Version | Tổng Skills | Điểm TB | Skills 🟢 | Skills 🟡 | Skills 🔴 | Ghi chú |
 |---|---|:---:|:---:|:---:|:---:|:---:|---|
+| 2026-04-26 | v1.1 | 20 | **4.35** | 17 | 2 | 1 | Tối ưu social-media.md lên 5.0 |
 | 2026-04-26 | v1.0 | 20 | **4.23** | 16 | 2 | 2 | Đánh giá lần đầu sau đợt mở rộng từ 7 → 21 skills |
 
 ---
