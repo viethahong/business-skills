@@ -97,7 +97,7 @@ Tổng = C1×0.15 + C2×0.25 + C3×0.15 + C4×0.20 + C5×0.15 + C6×0.10
 
 ## II. Kết quả Đánh giá — Toàn bộ Skills (v1.2 · 2026-04-26)
 
-> Ghi chú: `product-marketing-context` là file Ngữ cảnh, không phải skill. Tất cả skill hiện nằm tại `skills/[name]/SKILL.md`.
+> Ghi chú: `product-marketing-context` là file Ngữ cảnh, không phải skill. Tất cả skill hiện nằm tại `skills/[category]/[name]/SKILL.md`.
 
 | Skill | C1 | C2 | C3 | C4 | C5 | C6 | **Tổng** | Trạng thái |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|

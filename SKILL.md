@@ -29,36 +29,38 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 </output_format>
 
 <related_skills>
-*Lưu ý: Mỗi kỹ năng dưới đây nằm trong thư mục tương ứng tại `skills/[skill-name]/SKILL.md`*
+*Lưu ý: Mỗi kỹ năng dưới đây nằm trong thư mục hạng mục tại `skills/[category]/[skill-name]/SKILL.md`*
 
-## Nền tảng
+## 📋 Nền tảng (foundation/)
 - product-marketing-context
 - business-skill-creator
 
-## Chiến lược
+## 🎯 Chiến lược (strategy/)
 - marketing-strategy
 - launch-strategy
 - pricing-strategy
 - competitor-analysis
 - brand-building
 
-## Nghiên cứu & Phân tích
+## 🔬 Nghiên cứu & Phân tích (research/)
 - customer-research
 - analytics
 - ab-testing
 
-## Nội dung & Kênh
+## ✍️ Nội dung (content/)
 - content-marketing
 - copywriting
 - social-media
-- email-marketing
 - influencer-marketing
 
-## Tối ưu & Tăng trưởng
-- conversion-optimization
-- marketing-psychology
+## 📢 Kênh & Quảng cáo (ads/)
 - paid-ads
 - seo
+- email-marketing
+
+## 🚀 Tối ưu & Tăng trưởng (growth/)
+- conversion-optimization
+- marketing-psychology
 - churn-prevention
 - referral-program
 </related_skills>

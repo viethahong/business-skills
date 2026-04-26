@@ -26,15 +26,38 @@ business-skills/
 ├── CONTRIBUTING.md              # Hướng dẫn thêm skill mới
 ├── LICENSE                      # Giấy phép MIT
 ├── skills/                      # Thư viện các kỹ năng chuyên biệt
-│   ├── [skill-name]/            # Tên của kỹ năng cụ thể
-│   │   ├── SKILL.md             # Hướng dẫn thực thi chính cho AI
-│   │   ├── evals/               # Các trường hợp kiểm thử (test cases)
-│   │   └── references/          # Tài liệu tham khảo, framework bổ trợ
+│   ├── foundation/              # 📋 Nền tảng
+│   │   ├── product-marketing-context/
+│   │   └── business-skill-creator/
 │   │
-│   ├── product-marketing-context/ # Bối cảnh doanh nghiệp (BẮT BUỘC)
-│   ├── marketing-strategy/        # Chiến lược marketing tổng thể
-│   ├── copywriting/               # Viết copy bán hàng
-│   └── ... (các kỹ năng khác)
+│   ├── strategy/                # 🎯 Chiến lược
+│   │   ├── marketing-strategy/
+│   │   ├── launch-strategy/
+│   │   ├── pricing-strategy/
+│   │   ├── competitor-analysis/
+│   │   └── brand-building/
+│   │
+│   ├── research/                # 🔬 Nghiên cứu & Phân tích
+│   │   ├── customer-research/
+│   │   ├── analytics/
+│   │   └── ab-testing/
+│   │
+│   ├── content/                 # ✍️ Nội dung
+│   │   ├── copywriting/
+│   │   ├── content-marketing/
+│   │   ├── social-media/
+│   │   └── influencer-marketing/
+│   │
+│   ├── ads/                     # 📢 Kênh & Quảng cáo
+│   │   ├── paid-ads/
+│   │   ├── seo/
+│   │   └── email-marketing/
+│   │
+│   └── growth/                  # 🚀 Tối ưu & Tăng trưởng
+│       ├── conversion-optimization/
+│       ├── marketing-psychology/
+│       ├── churn-prevention/
+│       └── referral-program/
 │
 └── examples/                    # Các ví dụ và case study thực tế
 ```
