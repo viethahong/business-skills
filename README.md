@@ -21,41 +21,20 @@ Bạn có thể sử dụng repo này theo nhiều cách:
 business-skills/
 ├── README.md                    # Giới thiệu tổng quan
 ├── SKILL.md                     # Master Prompt - "Bộ não" điều phối
+├── SKILL-AUDIT.md               # Hệ thống đánh giá chất lượng skills
 ├── AGENTS.md                    # Hướng dẫn triển khai trên các nền tảng
 ├── CONTRIBUTING.md              # Hướng dẫn thêm skill mới
 ├── LICENSE                      # Giấy phép MIT
 ├── skills/                      # Thư viện các kỹ năng chuyên biệt
+│   ├── [skill-name]/            # Tên của kỹ năng cụ thể
+│   │   ├── SKILL.md             # Hướng dẫn thực thi chính cho AI
+│   │   ├── evals/               # Các trường hợp kiểm thử (test cases)
+│   │   └── references/          # Tài liệu tham khảo, framework bổ trợ
 │   │
-│   ├── 📋 NỀN TẢNG
-│   ├── product-marketing-context.md  # Bối cảnh doanh nghiệp (BẮT BUỘC)
-│   ├── business-skill-creator.md     # Công cụ tạo skill mới
-│   │
-│   ├── 🎯 CHIẾN LƯỢC
-│   ├── marketing-strategy.md         # Chiến lược marketing tổng thể
-│   ├── launch-strategy.md            # Chiến lược ra mắt sản phẩm
-│   ├── pricing-strategy.md           # Chiến lược định giá
-│   ├── competitor-analysis.md        # Phân tích đối thủ cạnh tranh
-│   ├── brand-building.md             # Xây dựng thương hiệu (Corporate & Personal)
-│   │
-│   ├── 🔬 NGHIÊN CỨU & PHÂN TÍCH
-│   ├── customer-research.md          # Nghiên cứu khách hàng
-│   ├── analytics.md                  # Đo lường & phân tích dữ liệu
-│   ├── ab-testing.md                 # Thiết kế thử nghiệm A/B
-│   │
-│   ├── ✍️ NỘI DUNG & KÊNH
-│   ├── copywriting.md                # Viết copy bán hàng
-│   ├── content-marketing.md          # Marketing nội dung dài hạn
-│   ├── social-media.md               # Mạng xã hội
-│   ├── email-marketing.md            # Email marketing & CRM
-│   ├── influencer-marketing.md       # KOL/KOC Marketing
-│   │
-│   └── 🚀 TỐI ƯU & TĂNG TRƯỞNG
-│       ├── conversion-optimization.md # Tối ưu tỷ lệ chuyển đổi (CRO)
-│       ├── marketing-psychology.md    # Tâm lý học marketing
-│       ├── paid-ads.md               # Quảng cáo trả phí (Facebook/Google)
-│       ├── seo.md                    # Tối ưu hóa công cụ tìm kiếm
-│       ├── churn-prevention.md        # Giữ chân & Giảm rời bỏ khách hàng
-│       └── referral-program.md        # Chương trình giới thiệu khách hàng
+│   ├── product-marketing-context/ # Bối cảnh doanh nghiệp (BẮT BUỘC)
+│   ├── marketing-strategy/        # Chiến lược marketing tổng thể
+│   ├── copywriting/               # Viết copy bán hàng
+│   └── ... (các kỹ năng khác)
 │
 └── examples/                    # Các ví dụ và case study thực tế
 ```

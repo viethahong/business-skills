@@ -10,7 +10,7 @@ Tài liệu này hướng dẫn cách đưa các "Business Skills" từ repo nà
 ## 2. Custom GPT (OpenAI)
 - **Cách dùng**: Vào "Explore GPTs" -> "Create".
 - **Knowledge**: Upload các file `.md` trong repo này làm tài liệu tham khảo.
-- **Instructions**: Sử dụng nội dung của file skill cụ thể (ví dụ `marketing-strategy.md`) làm instruction chính cho GPT đó.
+- **Instructions**: Sử dụng nội dung của file skill cụ thể (ví dụ `skills/marketing-strategy/SKILL.md`) làm instruction chính cho GPT đó.
 
 ## 3. Cursor / Continue.dev
 - **Cursor**: Sử dụng tính năng `@Files` hoặc `@Folder` để index thư mục `skills/`. Bạn có thể dùng lệnh `/ask` kèm theo file skill để hướng dẫn Cursor thực hiện các nhiệm vụ marketing ngay trong code.
@@ -21,4 +21,4 @@ Tài liệu này hướng dẫn cách đưa các "Business Skills" từ repo nà
 - **Knowledge Base**: Bạn có thể import toàn bộ repo này vào Dify Knowledge để Agent có thể tra cứu skill phù hợp khi cần.
 
 ## 5. Load Shared Context
-Luôn nhớ load file `skills/product-marketing-context.md` kèm theo các skill cụ thể để AI hiểu rõ về startup, khách hàng và mục tiêu kinh doanh của bạn.
+Luôn nhớ load file `skills/shared-context/SKILL.md` (hoặc `skills/product-marketing-context/SKILL.md`) kèm theo các skill cụ thể để AI hiểu rõ về startup, khách hàng và mục tiêu kinh doanh của bạn.

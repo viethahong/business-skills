@@ -29,6 +29,8 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 </output_format>
 
 <related_skills>
+*Lưu ý: Mỗi kỹ năng dưới đây nằm trong thư mục tương ứng tại `skills/[skill-name]/SKILL.md`*
+
 ## Nền tảng
 - product-marketing-context
 - business-skill-creator
