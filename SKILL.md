@@ -29,11 +29,30 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 </output_format>
 
 <related_skills>
+## Nền tảng
 - product-marketing-context
 - business-skill-creator
+
+## Chiến lược
 - marketing-strategy
+- launch-strategy
+- pricing-strategy
+- competitor-analysis
+
+## Nghiên cứu & Phân tích
+- customer-research
+- analytics
+- ab-testing
+
+## Nội dung & Kênh
 - content-marketing
+- copywriting
 - social-media
-- seo
 - email-marketing
+
+## Tối ưu & Tăng trưởng
+- conversion-optimization
+- marketing-psychology
+- paid-ads
+- seo
 </related_skills>

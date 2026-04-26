@@ -19,16 +19,64 @@ Bạn có thể sử dụng repo này theo nhiều cách:
 ## 📂 Cấu trúc thư mục
 ```text
 business-skills/
-├── README.md           # Giới thiệu tổng quan
-├── SKILL.md            # Master Prompt - "Bộ não" điều phối
-├── AGENTS.md           # Hướng dẫn triển khai trên các nền tảng
-├── CONTRIBUTING.md     # Hướng dẫn thêm skill mới
-├── LICENSE             # Giấy phép MIT
-├── skills/             # Thư viện các kỹ năng chuyên biệt
-│   ├── product-marketing-context.md # Bối cảnh doanh nghiệp
-│   ├── business-skill-creator.md    # Công cụ tạo skill mới
-│   └── ... (các marketing skills khác)
-└── examples/           # Các ví dụ và case study thực tế
+├── README.md                    # Giới thiệu tổng quan
+├── SKILL.md                     # Master Prompt - "Bộ não" điều phối
+├── AGENTS.md                    # Hướng dẫn triển khai trên các nền tảng
+├── CONTRIBUTING.md              # Hướng dẫn thêm skill mới
+├── LICENSE                      # Giấy phép MIT
+├── skills/                      # Thư viện các kỹ năng chuyên biệt
+│   │
+│   ├── 📋 NỀN TẢNG
+│   ├── product-marketing-context.md  # Bối cảnh doanh nghiệp (BẮT BUỘC)
+│   ├── business-skill-creator.md     # Công cụ tạo skill mới
+│   │
+│   ├── 🎯 CHIẾN LƯỢC
+│   ├── marketing-strategy.md         # Chiến lược marketing tổng thể
+│   ├── launch-strategy.md            # Chiến lược ra mắt sản phẩm
+│   ├── pricing-strategy.md           # Chiến lược định giá
+│   ├── competitor-analysis.md        # Phân tích đối thủ cạnh tranh
+│   │
+│   ├── 🔬 NGHIÊN CỨU & PHÂN TÍCH
+│   ├── customer-research.md          # Nghiên cứu khách hàng
+│   ├── analytics.md                  # Đo lường & phân tích dữ liệu
+│   ├── ab-testing.md                 # Thiết kế thử nghiệm A/B
+│   │
+│   ├── ✍️ NỘI DUNG & KÊNH
+│   ├── copywriting.md                # Viết copy bán hàng
+│   ├── content-marketing.md          # Marketing nội dung dài hạn
+│   ├── social-media.md               # Mạng xã hội
+│   ├── email-marketing.md            # Email marketing & CRM
+│   │
+│   └── 🚀 TỐI ƯU & TĂNG TRƯỞNG
+│       ├── conversion-optimization.md # Tối ưu tỷ lệ chuyển đổi (CRO)
+│       ├── marketing-psychology.md    # Tâm lý học marketing
+│       ├── paid-ads.md               # Quảng cáo trả phí (Facebook/Google)
+│       └── seo.md                    # Tối ưu hóa công cụ tìm kiếm
+│
+└── examples/                    # Các ví dụ và case study thực tế
+```
+
+## 🗺 Sơ đồ liên kết Skills
+
+```
+product-marketing-context (nền tảng — load trước tiên)
+        │
+        ├── marketing-strategy ──── launch-strategy
+        │           │               pricing-strategy
+        │           │               competitor-analysis
+        │           │
+        ├── customer-research ────→ copywriting
+        │                          conversion-optimization
+        │                          marketing-psychology
+        │
+        ├── analytics ──────────→ ab-testing
+        │
+        ├── paid-ads ───────────→ copywriting
+        │                         ab-testing
+        │
+        └── content-marketing ──→ social-media
+                                   email-marketing
+                                   seo
 ```
 
 ## ✍️ Cách thêm Skill mới
@@ -39,3 +87,4 @@ Dự án này được phát hành dưới giấy phép [MIT](./LICENSE).
 
 ---
 *Phát triển bởi [viethahong](https://github.com/viethahong)*
+
