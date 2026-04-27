@@ -1,37 +1,93 @@
 ---
 name: product-marketing-context
-description: "When the AI needs grounding: cung cấp toàn bộ bối cảnh về doanh nghiệp, khách hàng mục tiêu, giá trị cốt lõi và mục tiêu kinh doanh. Phải được load đầu tiên trước khi thực thi bất kỳ kỹ năng nào khác."
-version: 1.0.0
+description: When the AI needs grounding or context about the business: cung cấp toàn bộ ngữ cảnh doanh nghiệp, sản phẩm, khách hàng mục tiêu, giá trị cốt lõi, positioning và mục tiêu kinh doanh. **BẮT BUỘC phải load file này đầu tiên** trước khi thực thi bất kỳ skill marketing nào khác.
+version: 2.0.0
 ---
 
-# Product Marketing Context (Ngữ cảnh Doanh nghiệp)
+# Product Marketing Context (Ngữ cảnh Doanh nghiệp & Sản phẩm)
+
+**Vị trí file**: `skills/foundation/product-marketing-context/SKILL.md` (Hoặc tham chiếu tới `.agents/product-marketing-context.md` nếu dùng cho Agent bên ngoài)  
+**Mục đích**: Đây là **Single Source of Truth** duy nhất. Mọi skill khác (copywriting, CRO, SEO, email sequence, paid ads…) **phải đọc file này trước** để đảm bảo tính nhất quán và cá nhân hóa.
 
 ## 1. When to use
-Sử dụng file này làm "nguồn sự thật duy nhất" (Single Source of Truth) cho mọi hoạt động marketing. Bất kỳ khi nào Agent cần đưa ra tư vấn, viết nội dung hoặc lập kế hoạch, Agent phải đối chiếu với các thông tin trong này để đảm bảo tính cá nhân hóa và nhất quán.
+- Khi user yêu cầu bất kỳ công việc marketing nào (viết copy, thiết kế landing page, lập kế hoạch chiến dịch, phân tích CRO, SEO…).
+- Khi agent cần hiểu rõ business để đưa ra tư vấn chiến lược.
+- Khi có sự thay đổi lớn về sản phẩm, positioning hoặc audience → phải update file này trước.
 
-## 2. Business Profile (Hồ sơ Doanh nghiệp)
-- **Tên doanh nghiệp**: [Ví dụ: TechFlow Solutions]
-- **Mô hình**: [Ví dụ: B2B SaaS cho SMEs]
-- **Sản phẩm chính**: [Ví dụ: Phần mềm quản lý quy trình tự động bằng AI]
-- **Giá trị cốt lõi**: [Ví dụ: Đơn giản, Hiệu suất, Tối ưu chi phí]
+## 2. Business Overview
+- **Tên doanh nghiệp**: 
+- **Slogan / Tagline**:
+- **Mô hình kinh doanh**: (B2B SaaS, B2C, Marketplace, Agency…)
+- **Sứ mệnh & Tầm nhìn**:
+- **Giá trị cốt lõi** (Core Values):
 
-## 3. Target Audience (Đối tượng Mục tiêu)
-- **Phân khúc**: [Ví dụ: Chủ doanh nghiệp nhỏ, Quản lý Marketing tại các công ty từ 10-50 nhân sự]
-- **Nỗi đau (Pain Points)**: [Ví dụ: Quá tải công việc, Quy trình thủ công chậm chạp, Không biết cách áp dụng AI]
-- **Mong muốn**: [Ví dụ: Giải phóng thời gian, Tăng độ chính xác, Giảm chi phí nhân sự]
+## 3. Product & Offering (Sản phẩm & Dịch vụ)
+- **Sản phẩm chính**:
+- **Tính năng nổi bật** (Features):
+- **Lợi ích cho khách hàng** (Benefits – quan trọng nhất):
+- **Unique Selling Proposition (USP)**:
+- **Differentiators** (điểm khác biệt so với đối thủ):
+- **Pricing tiers** (nếu có):
 
-## 4. Strategic Goals (Mục tiêu Chiến lược)
-- **KPI chính (6-12 tháng)**: [Ví dụ: Đạt 100 khách hàng trả phí đầu tiên]
-- **Ngân sách**: [Ví dụ: 10-20 triệu VNĐ/tháng cho quảng cáo]
-- **Kênh ưu tiên**: [Ví dụ: LinkedIn, Facebook Group, SEO Blog]
+## 4. Target Audience & Buyer Personas
+**Phân khúc chính**:
+- **Persona 1**:
+  - Tên persona:
+  - Demographics:
+  - Job-to-be-Done (JTBD):
+  - Pain points (nỗi đau cấp bách):
+  - Gains / Desires (mong muốn):
+  - Objections thường gặp:
+  - Kênh họ hay dùng:
+*(Lặp lại cho 2-3 persona chính)*
 
-## 5. Brand Voice & Identity
-- **Giọng điệu**: Chuyên nghiệp nhưng gần gũi, thực tế, không dùng thuật ngữ quá hàn lâm.
-- **Xưng hô**: "Chúng tôi" (Doanh nghiệp) và "Bạn" (Khách hàng).
+## 5. Customer Journey & Buying Process
+- **Awareness Stage**:
+- **Consideration Stage**:
+- **Decision Stage**:
+- **Retention & Expansion**:
+- **Trigger events** (sự kiện kích hoạt mua hàng):
 
-## 6. Best Practices for Agents
-- **Luôn đối chiếu**: Khi viết copy, hãy dùng đúng "Nỗi đau" và "Mong muốn" đã liệt kê ở mục 3.
-- **Kiểm tra tính khả thi**: Các đề xuất marketing phải nằm trong giới hạn ngân sách và kênh ưu tiên ở mục 4.
+## 6. Value Proposition & Messaging Framework
+- **Main Value Proposition**:
+- **Messaging Hierarchy** (Primary → Secondary → Tertiary):
+- **Key Messages** cho từng phân khúc:
+- **Forbidden words / Tone guardrails**:
 
-## 7. Edge Cases
-- **Thông tin chưa cập nhật**: Nếu Agent nhận thấy dữ liệu trong này mâu thuẫn với thông tin mới từ người dùng, Agent phải yêu cầu xác nhận cập nhật file này trước khi tiếp tục.
+## 7. Brand Voice & Identity
+- **Giọng điệu tổng thể**:
+- **Xưng hô**:
+- **Visual identity** (màu chủ đạo, phong cách hình ảnh):
+- **Brand personality** (5 tính từ mô tả):
+
+## 8. Competitive Landscape
+- **Top 3-5 đối thủ trực tiếp**:
+- **Điểm mạnh/yếu của họ**:
+- **Cơ hội khác biệt hóa** của chúng ta:
+
+## 9. Strategic Goals & KPIs (6-12 tháng tới)
+- **Mục tiêu kinh doanh chính**:
+- **KPI marketing quan trọng**:
+- **Ngân sách marketing**:
+- **Kênh ưu tiên** (xếp hạng):
+- **Current baseline metrics** (hiện tại đang ở mức nào):
+
+## 10. Constraints & Guardrails
+- **Hạn chế pháp lý / quy định**:
+- **Điều kiện không được làm**:
+- **Thời gian / Resource hạn chế**:
+
+## 11. Best Practices for Agents
+- Luôn đọc toàn bộ file này trước khi bắt đầu bất kỳ task nào.
+- Khi viết copy hoặc thiết kế flow: **phải map trực tiếp vào Pain Points + JTBD + Value Proposition**.
+- Nếu phát hiện thông tin mới hoặc mâu thuẫn → **dừng lại và yêu cầu user update file này**.
+- Sử dụng cấu trúc này như “kiểm tra checklist” trước khi output cuối cùng.
+
+## 12. How to Update Context
+Agent nên nói rõ:  
+“Để đảm bảo tính chính xác, anh/chị vui lòng update file `skills/foundation/product-marketing-context/SKILL.md` với thông tin mới nhất. Tôi sẽ chờ xác nhận trước khi tiếp tục.”
+
+## 13. Edge Cases
+- User cung cấp thông tin mâu thuẫn → yêu cầu clarify.
+- User chưa điền đủ thông tin → agent phải hỏi bổ sung theo cấu trúc trên.
+- Doanh nghiệp thay đổi mô hình (pivot) → phải rebuild context.
