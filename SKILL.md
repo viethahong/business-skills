@@ -52,11 +52,16 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 - copywriting
 - social-media
 - influencer-marketing
+- tiktok-shop-strategy
+- livestream-selling
+- koc-marketing
 
 ## 📢 Kênh & Quảng cáo (ads/)
 - paid-ads
 - seo
 - email-marketing
+- zalo-marketing
+- ecommerce-marketplace
 
 ## 🚀 Tối ưu & Tăng trưởng (growth/)
 - conversion-optimization

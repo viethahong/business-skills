@@ -46,12 +46,17 @@ business-skills/
 │   │   ├── copywriting/
 │   │   ├── content-marketing/
 │   │   ├── social-media/
-│   │   └── influencer-marketing/
+│   │   ├── influencer-marketing/
+│   │   ├── tiktok-shop-strategy/    # [NEW]
+│   │   ├── livestream-selling/      # [NEW]
+│   │   └── koc-marketing/           # [NEW]
 │   │
 │   ├── ads/                     # 📢 Kênh & Quảng cáo
 │   │   ├── paid-ads/
 │   │   ├── seo/
-│   │   └── email-marketing/
+│   │   ├── email-marketing/
+│   │   ├── zalo-marketing/          # [NEW]
+│   │   └── ecommerce-marketplace/   # [NEW]
 │   │
 │   └── growth/                  # 🚀 Tối ưu & Tăng trưởng
 │       ├── conversion-optimization/
@@ -87,6 +92,11 @@ product-marketing-context (nền tảng — load trước tiên)
                                    seo
                                    influencer-marketing
                                    referral-program
+                                   tiktok-shop-strategy
+                                   zalo-marketing
+                                   livestream-selling
+                                   koc-marketing
+                                   ecommerce-marketplace
 ```
 
 ## ✍️ Cách thêm Skill mới

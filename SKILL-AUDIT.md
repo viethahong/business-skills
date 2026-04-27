@@ -121,6 +121,11 @@ Tổng = C1×0.15 + C2×0.25 + C3×0.15 + C4×0.20 + C5×0.15 + C6×0.10
 | `social-media` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
 | `business-skill-creator` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
 | `marketing-strategy` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `tiktok-shop-strategy` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `zalo-marketing` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `livestream-selling` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `koc-marketing` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `ecommerce-marketplace` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
 
 ---
 
