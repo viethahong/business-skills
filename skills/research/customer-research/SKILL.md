@@ -67,6 +67,6 @@ Bản báo cáo Nghiên cứu Khách hàng phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Công cụ và Kịch bản Nghiên cứu (Tools)](file:///Users/viethahong/Documents/business-skills/skills/research/customer-research/references/research-tools.md): Câu hỏi phỏng vấn JTBD, quy trình Review Mining và các công cụ hỗ trợ.
-- [Kịch bản Kiểm thử Insight (Evals)](file:///Users/viethahong/Documents/business-skills/skills/research/customer-research/evals/test-insight-mining.md): Các tình huống để đánh giá tư duy nghiên cứu và thấu cảm khách hàng.
+- [Công cụ và Kịch bản Nghiên cứu (Tools)](references/research-tools.md): Câu hỏi phỏng vấn JTBD, quy trình Review Mining và các công cụ hỗ trợ.
+- [Kịch bản Kiểm thử Insight (Evals)](evals/test-insight-mining.md): Các tình huống để đánh giá tư duy nghiên cứu và thấu cảm khách hàng.
 - [Mẫu bản đồ hành trình khách hàng (Journey Map)](link): Cách trực quan hóa trải nghiệm khách.

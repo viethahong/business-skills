@@ -69,6 +69,6 @@ Bản chiến lược/nội dung Social phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Thư viện Hook và Kỹ thuật Social (Tactics)](file:///Users/viethahong/Documents/business-skills/skills/content/social-media/references/social-tactics.md): 50+ mẫu Hook, ma trận định dạng và quy trình kịch bản Video.
-- [Kịch bản Kiểm thử Social (Evals)](file:///Users/viethahong/Documents/business-skills/skills/content/social-media/evals/test-social-engagement.md): Các tình huống để đánh giá khả năng tạo nội dung viral và quản trị cộng đồng.
+- [Thư viện Hook và Kỹ thuật Social (Tactics)](references/social-tactics.md): 50+ mẫu Hook, ma trận định dạng và quy trình kịch bản Video.
+- [Kịch bản Kiểm thử Social (Evals)](evals/test-social-engagement.md): Các tình huống để đánh giá khả năng tạo nội dung viral và quản trị cộng đồng.
 - [Mẫu kế hoạch Seeding tự nhiên](link): Cách tăng tương tác ban đầu mà không bị "lố".

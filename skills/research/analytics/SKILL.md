@@ -69,6 +69,6 @@ Bản thiết kế hệ thống Analytics phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Framework và SOP Đo lường Marketing (Tools)](file:///Users/viethahong/Documents/business-skills/skills/research/analytics/references/analytics-frameworks.md): Kế hoạch đo lường mẫu, SOP đặt UTM và North Star Metrics.
-- [Kịch bản Kiểm thử Analytics (Evals)](file:///Users/viethahong/Documents/business-skills/skills/research/analytics/evals/test-tracking-logic.md): Các tình huống để đánh giá tư duy tracking và phân tích phễu.
+- [Framework và SOP Đo lường Marketing (Tools)](references/analytics-frameworks.md): Kế hoạch đo lường mẫu, SOP đặt UTM và North Star Metrics.
+- [Kịch bản Kiểm thử Analytics (Evals)](evals/test-tracking-logic.md): Các tình huống để đánh giá tư duy tracking và phân tích phễu.
 - [Mẫu Dashboard Marketing hiệu suất (Looker Studio)](link): Template báo cáo tự động.

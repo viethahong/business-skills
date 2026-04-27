@@ -69,6 +69,6 @@ Bản kế hoạch Churn Prevention phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Framework Phòng chống Rời bỏ (Retention)](file:///Users/viethahong/Documents/business-skills/skills/growth/churn-prevention/references/retention-frameworks.md): Quy trình Save Flow, chuỗi Email Dunning và cách tính Customer Health Score.
-- [Kịch bản Kiểm thử Retention (Evals)](file:///Users/viethahong/Documents/business-skills/skills/growth/churn-prevention/evals/test-retention-strategy.md): Các tình huống để đánh giá khả năng giữ chân khách hàng và Win-back.
+- [Framework Phòng chống Rời bỏ (Retention)](references/retention-frameworks.md): Quy trình Save Flow, chuỗi Email Dunning và cách tính Customer Health Score.
+- [Kịch bản Kiểm thử Retention (Evals)](evals/test-retention-strategy.md): Các tình huống để đánh giá khả năng giữ chân khách hàng và Win-back.
 - [Mẫu Exit Survey (Khảo sát rời bỏ)](link): Các câu hỏi để lấy được sự thật từ khách hàng.

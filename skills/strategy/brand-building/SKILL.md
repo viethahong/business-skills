@@ -71,6 +71,6 @@ Bản thiết kế thương hiệu phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Tài liệu thiết kế Bản sắc (Archetypes & Matrix)](file:///Users/viethahong/Documents/business-skills/skills/strategy/brand-building/references/brand-identity-worksheets.md): Công cụ định hình tính cách và tiếng nói.
-- [Hướng dẫn kể chuyện (Storytelling Guide)](file:///Users/viethahong/Documents/business-skills/skills/strategy/brand-building/references/brand-storytelling-guide.md): Cách viết câu chuyện thương hiệu theo cấu trúc StoryBrand.
-- [Kịch bản Kiểm thử Thương hiệu (Evals)](file:///Users/viethahong/Documents/business-skills/skills/strategy/brand-building/evals/test-brand-consistency.md): Các tình huống để đánh giá mức độ đồng nhất thương hiệu.
+- [Tài liệu thiết kế Bản sắc (Archetypes & Matrix)](references/brand-identity-worksheets.md): Công cụ định hình tính cách và tiếng nói.
+- [Hướng dẫn kể chuyện (Storytelling Guide)](references/brand-storytelling-guide.md): Cách viết câu chuyện thương hiệu theo cấu trúc StoryBrand.
+- [Kịch bản Kiểm thử Thương hiệu (Evals)](evals/test-brand-consistency.md): Các tình huống để đánh giá mức độ đồng nhất thương hiệu.

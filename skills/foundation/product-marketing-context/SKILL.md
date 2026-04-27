@@ -103,6 +103,6 @@ Agent nên nói rõ:
 - Doanh nghiệp thay đổi mô hình (pivot) → phải rebuild context.
 ## 15. Resources & References
 Để hoàn thiện file context này một cách chuyên nghiệp nhất, bạn có thể tham khảo các tài liệu hướng dẫn chi tiết sau:
-- [Bảng hỏi Nghiên cứu Persona](file:///Users/viethahong/Documents/business-skills/skills/foundation/product-marketing-context/references/buyer-persona-worksheet.md): Giúp đào sâu nỗi đau và mong muốn khách hàng.
-- [Mẫu Tuyên bố Giá trị (Value Prop)](file:///Users/viethahong/Documents/business-skills/skills/foundation/product-marketing-context/references/value-proposition-template.md): Công thức viết thông điệp cốt lõi.
-- [Hướng dẫn tư duy JTBD](file:///Users/viethahong/Documents/business-skills/skills/foundation/product-marketing-context/references/jtbd-guide.md): Cách hiểu sâu động lực mua hàng.
+- [Bảng hỏi Nghiên cứu Persona](references/buyer-persona-worksheet.md): Giúp đào sâu nỗi đau và mong muốn khách hàng.
+- [Mẫu Tuyên bố Giá trị (Value Prop)](references/value-proposition-template.md): Công thức viết thông điệp cốt lõi.
+- [Hướng dẫn tư duy JTBD](references/jtbd-guide.md): Cách hiểu sâu động lực mua hàng.

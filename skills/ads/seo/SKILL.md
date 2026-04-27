@@ -70,6 +70,6 @@ Bản chiến lược SEO phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Quy trình và Checklist SEO (On-page & Technical)](file:///Users/viethahong/Documents/business-skills/skills/ads/seo/references/seo-checklists.md): 15 bước tối ưu bài viết, Ma trận Search Intent và các chỉ số KPIs.
-- [Kịch bản Kiểm thử SEO (Evals)](file:///Users/viethahong/Documents/business-skills/skills/ads/seo/evals/test-seo-growth.md): Các tình huống để đánh giá khả năng nghiên cứu từ khóa và audit tăng trưởng.
+- [Quy trình và Checklist SEO (On-page & Technical)](references/seo-checklists.md): 15 bước tối ưu bài viết, Ma trận Search Intent và các chỉ số KPIs.
+- [Kịch bản Kiểm thử SEO (Evals)](evals/test-seo-growth.md): Các tình huống để đánh giá khả năng nghiên cứu từ khóa và audit tăng trưởng.
 - [Hướng dẫn về Schema Markup cho người mới](link): Cách làm đẹp kết quả tìm kiếm với Rich Snippets.

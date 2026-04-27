@@ -70,6 +70,6 @@ Bản thiết kế thử nghiệm A/B phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Quy trình và Công cụ Thử nghiệm (Frameworks)](file:///Users/viethahong/Documents/business-skills/skills/research/ab-testing/references/testing-frameworks.md): Framework ICE, công thức xây dựng giả thuyết và các chỉ số thống kê.
-- [Kịch bản Kiểm thử Thử nghiệm (Evals)](file:///Users/viethahong/Documents/business-skills/skills/research/ab-testing/evals/test-experiment-design.md): Các tình huống để đánh giá tư duy khoa học và thiết kế bài test A/B.
+- [Quy trình và Công cụ Thử nghiệm (Frameworks)](references/testing-frameworks.md): Framework ICE, công thức xây dựng giả thuyết và các chỉ số thống kê.
+- [Kịch bản Kiểm thử Thử nghiệm (Evals)](evals/test-experiment-design.md): Các tình huống để đánh giá tư duy khoa học và thiết kế bài test A/B.
 - [Thư viện 100+ Ý tưởng A/B Test thành công](link): Các Case study từ các thương hiệu lớn.

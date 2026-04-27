@@ -66,6 +66,6 @@ Bản kế hoạch Influencer Marketing phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Công cụ và Biểu mẫu Influencer (Briefing)](file:///Users/viethahong/Documents/business-skills/skills/content/influencer-marketing/references/influencer-brief-templates.md): Quy trình Vetting, Mẫu Brief và các Content Angles.
-- [Kịch bản Kiểm thử Influencer (Evals)](file:///Users/viethahong/Documents/business-skills/skills/content/influencer-marketing/evals/test-influencer-strategy.md): Các tình huống để đánh giá khả năng lựa chọn và quản lý người ảnh hưởng.
+- [Công cụ và Biểu mẫu Influencer (Briefing)](references/influencer-brief-templates.md): Quy trình Vetting, Mẫu Brief và các Content Angles.
+- [Kịch bản Kiểm thử Influencer (Evals)](evals/test-influencer-strategy.md): Các tình huống để đánh giá khả năng lựa chọn và quản lý người ảnh hưởng.
 - [Hợp đồng mẫu Influencer Marketing](link): Các điều khoản bảo vệ quyền lợi doanh nghiệp.

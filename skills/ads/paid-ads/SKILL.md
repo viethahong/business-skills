@@ -69,6 +69,6 @@ Bản kế hoạch Paid Ads phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Công cụ và Chỉ số Quảng cáo (Frameworks)](file:///Users/viethahong/Documents/business-skills/skills/ads/paid-ads/references/ads-metrics-frameworks.md): Chi tiết Golden Metrics, Creative Matrix và quy tắc Scaling.
-- [Kịch bản Kiểm thử Quảng cáo (Evals)](file:///Users/viethahong/Documents/business-skills/skills/ads/paid-ads/evals/test-ads-performance.md): Các tình huống để đánh giá khả năng tối ưu ngân sách và Creative.
+- [Công cụ và Chỉ số Quảng cáo (Frameworks)](references/ads-metrics-frameworks.md): Chi tiết Golden Metrics, Creative Matrix và quy tắc Scaling.
+- [Kịch bản Kiểm thử Quảng cáo (Evals)](evals/test-ads-performance.md): Các tình huống để đánh giá khả năng tối ưu ngân sách và Creative.
 - [Bảng tính ROAS & Break-even CPA](link): Công cụ tính toán hiệu quả tài chính của ads.

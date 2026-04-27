@@ -67,6 +67,6 @@ Bản chiến lược nội dung phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Công cụ và Quy trình Nội dung (Frameworks)](file:///Users/viethahong/Documents/business-skills/skills/content/content-marketing/references/content-frameworks.md): Mẫu Content Brief, Quy trình Repurposing 1-đến-10 và KPIs.
-- [Kịch bản Kiểm thử Nội dung (Evals)](file:///Users/viethahong/Documents/business-skills/skills/content/content-marketing/evals/test-content-strategy.md): Các tình huống để đánh giá khả năng xây dựng hệ sinh thái nội dung.
+- [Công cụ và Quy trình Nội dung (Frameworks)](references/content-frameworks.md): Mẫu Content Brief, Quy trình Repurposing 1-đến-10 và KPIs.
+- [Kịch bản Kiểm thử Nội dung (Evals)](evals/test-content-strategy.md): Các tình huống để đánh giá khả năng xây dựng hệ sinh thái nội dung.
 - [Danh sách 100+ Tiêu đề Content triệu view](link): Công thức viết headline theo tâm lý học.

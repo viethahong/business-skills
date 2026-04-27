@@ -69,6 +69,6 @@ Bản thiết kế chương trình Referral phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Cơ chế và Kịch bản Giới thiệu (Frameworks)](file:///Users/viethahong/Documents/business-skills/skills/growth/referral-program/references/referral-frameworks.md): Các mô hình thưởng, kịch bản mời khách và bộ Sharing Kit.
-- [Kịch bản Kiểm thử Tăng trưởng (Evals)](file:///Users/viethahong/Documents/business-skills/skills/growth/referral-program/evals/test-viral-loops.md): Các tình huống để đánh giá khả năng thiết kế vòng lặp lan tỏa.
+- [Cơ chế và Kịch bản Giới thiệu (Frameworks)](references/referral-frameworks.md): Các mô hình thưởng, kịch bản mời khách và bộ Sharing Kit.
+- [Kịch bản Kiểm thử Tăng trưởng (Evals)](evals/test-viral-loops.md): Các tình huống để đánh giá khả năng thiết kế vòng lặp lan tỏa.
 - [Bảng tính toán Incentive dựa trên CAC/LTV](link): Đảm bảo chương trình có lãi.

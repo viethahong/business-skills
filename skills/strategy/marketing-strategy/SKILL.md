@@ -77,6 +77,6 @@ Hãy trình bày bản chiến lược theo cấu trúc phân tầng chuyên ngh
 </related_skills>
 
 ## Resources & References
-- [Công cụ Phân tích Chiến lược (SWOT, PESTEL, Porter)](file:///Users/viethahong/Documents/business-skills/skills/strategy/marketing-strategy/references/strategic-analysis-tools.md): Tài liệu hỗ trợ Giai đoạn 1.
-- [Checklist triển khai Go-to-Market (GTM)](file:///Users/viethahong/Documents/business-skills/skills/strategy/marketing-strategy/references/gtm-implementation-checklist.md): Danh mục kiểm tra trước khi thực thi.
-- [Kịch bản Kiểm thử Chiến lược (Evals)](file:///Users/viethahong/Documents/business-skills/skills/strategy/marketing-strategy/evals/test-strategy-quality.md): Các tình huống để đánh giá tư duy CMO của Agent.
+- [Công cụ Phân tích Chiến lược (SWOT, PESTEL, Porter)](references/strategic-analysis-tools.md): Tài liệu hỗ trợ Giai đoạn 1.
+- [Checklist triển khai Go-to-Market (GTM)](references/gtm-implementation-checklist.md): Danh mục kiểm tra trước khi thực thi.
+- [Kịch bản Kiểm thử Chiến lược (Evals)](evals/test-strategy-quality.md): Các tình huống để đánh giá tư duy CMO của Agent.

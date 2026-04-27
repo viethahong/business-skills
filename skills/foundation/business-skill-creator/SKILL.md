@@ -118,7 +118,7 @@ Agent phải ghi **Audit Report** ngắn gọn ở cuối output.
 - Cập nhật tài liệu hướng dẫn chung của repo.
 
 ## 13. Resources & Evals
-- [Mẫu Kỹ năng Hoàn chỉnh (Full Template)](file:///Users/viethahong/Documents/business-skills/skills/foundation/business-skill-creator/references/full-skill-template.md): Mẫu copy-paste để tạo file mới.
-- [Hướng dẫn Phong cách Viết (Style Guide)](file:///Users/viethahong/Documents/business-skills/skills/foundation/business-skill-creator/references/writing-style-guide.md): Cách viết chỉ dẫn có tính hành động cao.
-- [Kịch bản Kiểm thử (Test Cases)](file:///Users/viethahong/Documents/business-skills/skills/foundation/business-skill-creator/evals/test-cases.md): Dùng để đánh giá chất lượng đầu ra của Agent.
+- [Mẫu Kỹ năng Hoàn chỉnh (Full Template)](references/full-skill-template.md): Mẫu copy-paste để tạo file mới.
+- [Hướng dẫn Phong cách Viết (Style Guide)](references/writing-style-guide.md): Cách viết chỉ dẫn có tính hành động cao.
+- [Kịch bản Kiểm thử (Test Cases)](evals/test-cases.md): Dùng để đánh giá chất lượng đầu ra của Agent.
 

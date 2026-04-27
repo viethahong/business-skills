@@ -68,6 +68,6 @@ Bản tư vấn Tâm lý học Marketing phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Thư viện Đòn bẩy Tâm lý (Levers Library)](file:///Users/viethahong/Documents/business-skills/skills/growth/marketing-psychology/references/psychology-levers.md): Chi tiết 6 nguyên tắc Cialdini, Biases phổ biến và Checklist đạo đức.
-- [Kịch bản Kiểm thử Tâm lý (Evals)](file:///Users/viethahong/Documents/business-skills/skills/growth/marketing-psychology/evals/test-psychology-conversion.md): Các tình huống để đánh giá tư duy thuyết phục và tối ưu chuyển đổi.
+- [Thư viện Đòn bẩy Tâm lý (Levers Library)](references/psychology-levers.md): Chi tiết 6 nguyên tắc Cialdini, Biases phổ biến và Checklist đạo đức.
+- [Kịch bản Kiểm thử Tâm lý (Evals)](evals/test-psychology-conversion.md): Các tình huống để đánh giá tư duy thuyết phục và tối ưu chuyển đổi.
 - [Mẫu thiết kế "Micro-commitment" Flow](link): Cách dẫn dắt khách hàng qua từng bước nhỏ.

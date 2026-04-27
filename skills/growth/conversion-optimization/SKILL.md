@@ -70,6 +70,6 @@ Bản Audit và Tối ưu Chuyển đổi phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Quy trình và Checklist Tối ưu Chuyển đổi (CRO)](file:///Users/viethahong/Documents/business-skills/skills/growth/conversion-optimization/references/cro-checklists.md): Quy tắc 5 giây, 10 điểm vàng cho Landing Page và Ma trận ma sát.
-- [Kịch bản Kiểm thử CRO (Evals)](file:///Users/viethahong/Documents/business-skills/skills/growth/conversion-optimization/evals/test-cro-audit.md): Các tình huống để đánh giá khả năng audit và tối ưu hóa website.
+- [Quy trình và Checklist Tối ưu Chuyển đổi (CRO)](references/cro-checklists.md): Quy tắc 5 giây, 10 điểm vàng cho Landing Page và Ma trận ma sát.
+- [Kịch bản Kiểm thử CRO (Evals)](evals/test-cro-audit.md): Các tình huống để đánh giá khả năng audit và tối ưu hóa website.
 - [Hướng dẫn đọc Heatmap & Session Recording](link): Cách tìm ra điểm khách hàng bị "kẹt".

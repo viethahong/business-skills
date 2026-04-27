@@ -72,6 +72,6 @@ Bản thảo Copywriting phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Thư viện Công thức & Từ vựng mạnh (Frameworks)](file:///Users/viethahong/Documents/business-skills/skills/content/copywriting/references/copywriting-tools.md): Chi tiết AIDA, PAS và 200+ Power Verbs.
-- [Kịch bản Kiểm thử Copywriting (Evals)](file:///Users/viethahong/Documents/business-skills/skills/content/copywriting/evals/test-copy-conversion.md): Các tình huống để đánh giá khả năng "chốt đơn" qua ngôn từ.
+- [Thư viện Công thức & Từ vựng mạnh (Frameworks)](references/copywriting-tools.md): Chi tiết AIDA, PAS và 200+ Power Verbs.
+- [Kịch bản Kiểm thử Copywriting (Evals)](evals/test-copy-conversion.md): Các tình huống để đánh giá khả năng "chốt đơn" qua ngôn từ.
 - [Mẫu khung nội dung Landing Page](link): Cấu trúc 12 phần giúp khách hàng không thể rời mắt.

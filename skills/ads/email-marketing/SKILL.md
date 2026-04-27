@@ -69,6 +69,6 @@ Bản thiết kế Email Marketing phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Cấu trúc và Kịch bản Email Automation (Flows)](file:///Users/viethahong/Documents/business-skills/skills/ads/email-marketing/references/email-flow-scripts.md): Mẫu Welcome Flow, Abandoned Cart và bộ KPIs đo lường.
-- [Kịch bản Kiểm thử Email Marketing (Evals)](file:///Users/viethahong/Documents/business-skills/skills/ads/email-marketing/evals/test-email-conversion.md): Các tình huống để đánh giá khả năng tự động hóa và tối ưu chuyển đổi.
+- [Cấu trúc và Kịch bản Email Automation (Flows)](references/email-flow-scripts.md): Mẫu Welcome Flow, Abandoned Cart và bộ KPIs đo lường.
+- [Kịch bản Kiểm thử Email Marketing (Evals)](evals/test-email-conversion.md): Các tình huống để đánh giá khả năng tự động hóa và tối ưu chuyển đổi.
 - [Hướng dẫn cấu hình kỹ thuật (SPF, DKIM, DMARC)](link): Đảm bảo email vào thẳng Inbox.

@@ -69,6 +69,6 @@ Bản đề xuất định giá phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Công cụ và Mô hình Định giá (Frameworks)](file:///Users/viethahong/Documents/business-skills/skills/strategy/pricing-strategy/references/pricing-frameworks.md): Chi tiết về Value Metric, Anchoring và khảo sát WTP.
-- [Kịch bản Kiểm thử Định giá (Evals)](file:///Users/viethahong/Documents/business-skills/skills/strategy/pricing-strategy/evals/test-pricing-optimization.md): Các tình huống để đánh giá khả năng tối ưu doanh thu.
+- [Công cụ và Mô hình Định giá (Frameworks)](references/pricing-frameworks.md): Chi tiết về Value Metric, Anchoring và khảo sát WTP.
+- [Kịch bản Kiểm thử Định giá (Evals)](evals/test-pricing-optimization.md): Các tình huống để đánh giá khả năng tối ưu doanh thu.
 - [Mẫu email thông báo thay đổi giá](link): Cách viết thông điệp tăng giá khéo léo.

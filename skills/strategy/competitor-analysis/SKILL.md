@@ -70,6 +70,6 @@ Bản phân tích đối thủ phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Công cụ Theo dõi Đối thủ (Spy Tools & Matrix)](file:///Users/viethahong/Documents/business-skills/skills/strategy/competitor-analysis/references/competitor-spy-tools.md): Cách dùng Facebook Ads Library, SimilarWeb và mẫu Ma trận so sánh.
-- [Kịch bản Kiểm thử Đối thủ (Evals)](file:///Users/viethahong/Documents/business-skills/skills/strategy/competitor-analysis/evals/test-competitive-intelligence.md): Các tình huống để đánh giá khả năng tìm "Gap" thị trường.
+- [Công cụ Theo dõi Đối thủ (Spy Tools & Matrix)](references/competitor-spy-tools.md): Cách dùng Facebook Ads Library, SimilarWeb và mẫu Ma trận so sánh.
+- [Kịch bản Kiểm thử Đối thủ (Evals)](evals/test-competitive-intelligence.md): Các tình huống để đánh giá khả năng tìm "Gap" thị trường.
 - [Mẫu Sales Battlecard chuyên nghiệp](link): Hướng dẫn chi tiết cách xây dựng bộ phản biện cho đội Sales.
