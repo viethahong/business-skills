@@ -77,21 +77,31 @@ version: 2.0.0
 - **Điều kiện không được làm**:
 - **Thời gian / Resource hạn chế**:
 
-## 11. Best Practices for Agents
+## 11. Output Format (Đầu ra bắt buộc)
+Trước khi đưa ra bất kỳ kết quả thực thi nào (bản kế hoạch, nội dung copy...), Agent **phải** hiển thị bảng **Context Checklist** để xác nhận các thông tin nền tảng đã được sử dụng:
+
+| Yếu tố Context | Đã áp dụng? | Chi tiết cụ thể từ Context |
+| :--- | :--- | :--- |
+| **Persona & JTBD** | [x/ ] | [Tên Persona + Job cần hoàn thành] |
+| **Value Proposition** | [x/ ] | [Thông điệp chính sử dụng] |
+| **Brand Voice** | [x/ ] | [Tone & Xưng hô đã áp dụng] |
+| **Constraints** | [x/ ] | [Các rào cản đã kiểm tra] |
+
+## 12. Best Practices for Agents
 - Luôn đọc toàn bộ file này trước khi bắt đầu bất kỳ task nào.
 - Khi viết copy hoặc thiết kế flow: **phải map trực tiếp vào Pain Points + JTBD + Value Proposition**.
 - Nếu phát hiện thông tin mới hoặc mâu thuẫn → **dừng lại và yêu cầu user update file này**.
 - Sử dụng cấu trúc này như “kiểm tra checklist” trước khi output cuối cùng.
 
-## 12. How to Update Context
+## 13. How to Update Context
 Agent nên nói rõ:  
 “Để đảm bảo tính chính xác, anh/chị vui lòng update file `skills/foundation/product-marketing-context/SKILL.md` với thông tin mới nhất. Tôi sẽ chờ xác nhận trước khi tiếp tục.”
 
-## 13. Edge Cases
+## 14. Edge Cases
 - User cung cấp thông tin mâu thuẫn → yêu cầu clarify.
 - User chưa điền đủ thông tin → agent phải hỏi bổ sung theo cấu trúc trên.
 - Doanh nghiệp thay đổi mô hình (pivot) → phải rebuild context.
-## 14. Resources & References
+## 15. Resources & References
 Để hoàn thiện file context này một cách chuyên nghiệp nhất, bạn có thể tham khảo các tài liệu hướng dẫn chi tiết sau:
 - [Bảng hỏi Nghiên cứu Persona](file:///Users/viethahong/Documents/business-skills/skills/foundation/product-marketing-context/references/buyer-persona-worksheet.md): Giúp đào sâu nỗi đau và mong muốn khách hàng.
 - [Mẫu Tuyên bố Giá trị (Value Prop)](file:///Users/viethahong/Documents/business-skills/skills/foundation/product-marketing-context/references/value-proposition-template.md): Công thức viết thông điệp cốt lõi.
