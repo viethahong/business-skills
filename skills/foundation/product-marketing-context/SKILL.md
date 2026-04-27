@@ -1,6 +1,6 @@
 ---
 name: product-marketing-context
-description: When the AI needs grounding or context about the business: cung cấp toàn bộ ngữ cảnh doanh nghiệp, sản phẩm, khách hàng mục tiêu, giá trị cốt lõi, positioning và mục tiêu kinh doanh. **BẮT BUỘC phải load file này đầu tiên** trước khi thực thi bất kỳ skill marketing nào khác.
+description: "When the AI needs grounding or context about the business: cung cấp toàn bộ ngữ cảnh doanh nghiệp, sản phẩm, khách hàng mục tiêu, giá trị cốt lõi, positioning và mục tiêu kinh doanh. **BẮT BUỘC phải load file này đầu tiên** trước khi thực thi bất kỳ skill marketing nào khác."
 version: 2.0.0
 ---
 
