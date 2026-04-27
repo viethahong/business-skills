@@ -32,12 +32,12 @@ version: 2.0.0
 ## 4. Target Audience & Buyer Personas
 **Phân khúc chính**:
 - **Persona 1**:
-  - Tên persona:
-  - Demographics:
-  - Job-to-be-Done (JTBD):
+  - Nhóm công chúng:
+  - Demographics (Nhân khẩu học)):
+  - Job-to-be-Done (JTBD - Trách nhiệm nghĩa vụ phải hoàn thành):
   - Pain points (nỗi đau cấp bách):
-  - Gains / Desires (mong muốn):
-  - Objections thường gặp:
+  - Gains / Desires (mong muốn khao khát):
+  - Objections thường gặp (Rào cản cản trở):
   - Kênh họ hay dùng:
 *(Lặp lại cho 2-3 persona chính)*
 
@@ -91,3 +91,8 @@ Agent nên nói rõ:
 - User cung cấp thông tin mâu thuẫn → yêu cầu clarify.
 - User chưa điền đủ thông tin → agent phải hỏi bổ sung theo cấu trúc trên.
 - Doanh nghiệp thay đổi mô hình (pivot) → phải rebuild context.
+## 14. Resources & References
+Để hoàn thiện file context này một cách chuyên nghiệp nhất, bạn có thể tham khảo các tài liệu hướng dẫn chi tiết sau:
+- [Bảng hỏi Nghiên cứu Persona](file:///Users/viethahong/Documents/business-skills/skills/foundation/product-marketing-context/references/buyer-persona-worksheet.md): Giúp đào sâu nỗi đau và mong muốn khách hàng.
+- [Mẫu Tuyên bố Giá trị (Value Prop)](file:///Users/viethahong/Documents/business-skills/skills/foundation/product-marketing-context/references/value-proposition-template.md): Công thức viết thông điệp cốt lõi.
+- [Hướng dẫn tư duy JTBD](file:///Users/viethahong/Documents/business-skills/skills/foundation/product-marketing-context/references/jtbd-guide.md): Cách hiểu sâu động lực mua hàng.
