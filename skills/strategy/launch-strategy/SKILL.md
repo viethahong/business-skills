@@ -67,6 +67,6 @@ Bản kế hoạch ra mắt phải bao gồm:
 </related_skills>
 
 ## Resources & References
-- [Launch Countdown Template](link): Bảng tiến độ 60 ngày.
-- [Phân tích Launch case studies](link): Học hỏi từ những chiến dịch ra mắt thành công nhất.
-- [Checklist Readiness](link): Kiểm tra kỹ thuật và vận hành trước khi Go-live.
+- [Danh mục Tài sản Ra mắt (Launch Assets)](file:///Users/viethahong/Documents/business-skills/skills/strategy/launch-strategy/references/launch-asset-checklist.md): Danh sách mọi thứ cần chuẩn bị.
+- [Lịch trình Đếm ngược 60 ngày](file:///Users/viethahong/Documents/business-skills/skills/strategy/launch-strategy/references/launch-countdown-calendar.md): Lộ trình mẫu từ chuẩn bị đến khi bùng nổ.
+- [Kịch bản Kiểm thử Ra mắt (Evals)](file:///Users/viethahong/Documents/business-skills/skills/strategy/launch-strategy/evals/test-launch-performance.md): Các tình huống để đánh giá khả năng thực thi của Agent.
