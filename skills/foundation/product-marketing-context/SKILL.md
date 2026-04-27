@@ -1,3 +1,8 @@
+---
+name: product-marketing-context
+description: File nền tảng chứa thông tin bối cảnh doanh nghiệp (sản phẩm, đối tượng mục tiêu, KPI, ngân sách, brand voice). Phải được load trước tất cả các skill khác để đảm bảo AI có đủ ngữ cảnh về doanh nghiệp của bạn. Kích hoạt khi người dùng muốn cập nhật thông tin doanh nghiệp, hoặc khi bắt đầu một dự án marketing mới.
+---
+
 # Ngữ cảnh Tiếp thị Sản phẩm (Product Marketing Context)
 
 File này chứa thông tin nền tảng về doanh nghiệp để AI có thể đưa ra các phản hồi cá nhân hóa và chính xác.
