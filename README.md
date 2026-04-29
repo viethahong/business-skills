@@ -66,6 +66,7 @@ business-skills/
 │       └── referral-program/
 │
 └── examples/                    # Các ví dụ và case study thực tế
+    └── BEFORE-AFTER.md          # [NEW] So sánh hiệu quả trước và sau khi dùng skill
 ```
 
 ## 🗺 Sơ đồ liên kết Skills
