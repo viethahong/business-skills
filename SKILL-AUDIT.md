@@ -126,12 +126,13 @@ Tổng = C1×0.15 + C2×0.25 + C3×0.15 + C4×0.20 + C5×0.15 + C6×0.10
 | `livestream-selling` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
 | `koc-marketing` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
 | `ecommerce-marketplace` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `viral-content` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
 
 ---
 
 ## III. Phân tích — Trạng thái Hệ thống
 
-Hiện tại tất cả 20 skills đều đã đạt mức **5.0 (Xuất sắc)** hoặc tiệm cận tuyệt đối. Hệ thống đã sẵn sàng cho các workflow phức tạp.
+Hiện tại tất cả 26 skills đều đã đạt mức **5.0 (Xuất sắc)** hoặc tiệm cận tuyệt đối. Hệ thống đã sẵn sàng cho các workflow phức tạp.
 
 ---
 
@@ -139,6 +140,7 @@ Hiện tại tất cả 20 skills đều đã đạt mức **5.0 (Xuất sắc)*
 
 | Ngày | Version | Tổng Skills | Điểm TB | Skills 🟢 | Skills 🟡 | Skills 🔴 | Ghi chú |
 |---|---|:---:|:---:|:---:|:---:|:---:|---|
+| 2026-04-29 | v1.3 | 26 | **4.88** | 26 | 0 | 0 | Thêm viral-content và tối ưu template chuẩn mới |
 | 2026-04-26 | v1.2 | 20 | **4.75** | 20 | 0 | 0 | Tối ưu toàn bộ thư viện lên chuẩn 5.0 |
 | 2026-04-26 | v1.1 | 20 | **4.35** | 17 | 2 | 1 | Tối ưu social-media.md lên 5.0 |
 | 2026-04-26 | v1.0 | 20 | **4.23** | 16 | 2 | 2 | Đánh giá lần đầu sau đợt mở rộng từ 7 → 21 skills |
