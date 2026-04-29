@@ -27,13 +27,25 @@ Copy từ `TEMPLATE-SKILL.md` ở root. Mọi section bắt buộc:
 
 - **YAML frontmatter** (`name`, `description`, `version`)
 - `## When to use` — Trigger rõ ràng
-- `<identity>` — Định nghĩa vai trò AI
-- `<context>` — Tham chiếu `product-marketing-context` nếu cần
-- `<mission>` — Các bước thực thi cụ thể (≥3 tasks)
-- `<rules>` — Quy tắc cưỡng chế (≥3 rules)
-- `<output_format>` — Deliverables rõ ràng (≥3 items)
+- `<identity>
+
+` — Định nghĩa vai trò AI
+- `<context>
+
+` — Tham chiếu `product-marketing-context` nếu cần
+- `<mission>
+
+` — Các bước thực thi cụ thể (≥3 tasks)
+- `<rules>
+
+` — Quy tắc cưỡng chế (≥3 rules)
+- `<output_format>
+
+` — Deliverables rõ ràng (≥3 items)
 - `## Edge cases` — Xử lý rủi ro
-- `<related_skills>` — Link đến skills liên quan
+- `<related_skills>
+
+` — Link đến skills liên quan
 - `## Resources & References` — Dùng **relative path** (không dùng `file://` tuyệt đối)
 
 ### 3. Kiểm tra chất lượng trước khi merge

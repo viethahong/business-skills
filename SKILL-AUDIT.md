@@ -42,7 +42,9 @@ Mỗi skill được chấm điểm trên **6 tiêu chí**, thang **1–5 điể
 | **4** | ≥3 rules cụ thể, phần lớn đo lường được | *"Mỗi email phải có 1 CTA duy nhất."* |
 | **3** | ≥2 rules hợp lý nhưng còn mơ hồ, khó đo | *"Nội dung phải chất lượng và có giá trị."* |
 | **2** | 1–2 rules chung chung, AI khó áp dụng thực tế | *"Làm việc chuyên nghiệp."* |
-| **1** | Không có rules hoặc rules trái ngược nhau | Không có section `<rules>` |
+| **1** | Không có rules hoặc rules trái ngược nhau | Không có section `<rules>
+
+` |
 
 ---
 
@@ -54,7 +56,9 @@ Mỗi skill được chấm điểm trên **6 tiêu chí**, thang **1–5 điể
 | **4** | ≥3 deliverables tên cụ thể nhưng không nêu format chi tiết | *"Keyword Research Table, On-page Checklist, Content Outline"* |
 | **3** | 2 deliverables, tên chung chung | *"Báo cáo phân tích, Kế hoạch hành động"* |
 | **2** | 1 deliverable hoặc output mô tả rất sơ | *"Bản tóm tắt"* |
-| **1** | Không có section `<output_format>` | Thiếu hoàn toàn |
+| **1** | Không có section `<output_format>
+
+` | Thiếu hoàn toàn |
 
 ---
 
@@ -78,7 +82,9 @@ Mỗi skill được chấm điểm trên **6 tiêu chí**, thang **1–5 điể
 | **4** | ≥3 related skills liên quan và đúng | Danh sách đầy đủ, không thừa không thiếu |
 | **3** | 2 related skills, đúng nhưng có thể bổ sung thêm | Thiếu 1–2 skill liên quan quan trọng |
 | **2** | 1 related skill hoặc link sai | Chỉ link về `marketing-strategy` một cách máy móc |
-| **1** | Không có section `<related_skills>` | Thiếu hoàn toàn |
+| **1** | Không có section `<related_skills>
+
+` | Thiếu hoàn toàn |
 
 ---
 
