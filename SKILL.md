@@ -55,6 +55,7 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 - tiktok-shop-strategy
 - livestream-selling
 - koc-marketing
+- viral-content
 
 ## 📢 Kênh & Quảng cáo (ads/)
 - paid-ads

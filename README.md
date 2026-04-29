@@ -49,7 +49,8 @@ business-skills/
 │   │   ├── influencer-marketing/
 │   │   ├── tiktok-shop-strategy/    # [NEW]
 │   │   ├── livestream-selling/      # [NEW]
-│   │   └── koc-marketing/           # [NEW]
+│   │   ├── koc-marketing/           # [NEW]
+│   │   └── viral-content/           # [NEW]
 │   │
 │   ├── ads/                     # 📢 Kênh & Quảng cáo
 │   │   ├── paid-ads/
@@ -97,6 +98,7 @@ product-marketing-context (nền tảng — load trước tiên)
                                    livestream-selling
                                    koc-marketing
                                    ecommerce-marketplace
+                                   viral-content
 ```
 
 ## ✍️ Cách thêm Skill mới
