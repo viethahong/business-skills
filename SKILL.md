@@ -101,6 +101,7 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 - customer-support-framework
 - sop-designer
 - workflow-automation
+- project-management
 
 ## 💰 Tài chính (finance/)
 - unit-economics
