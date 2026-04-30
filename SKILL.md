@@ -117,4 +117,7 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 - first-principles-thinking
 - strategic-decision-making
 
+## ⚖️ Pháp lý (legal/)
+- compliance-checklists
+
 </related_skills>
