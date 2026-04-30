@@ -104,5 +104,6 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 
 ## 💰 Tài chính (finance/)
 - unit-economics
+- financial-planning
 
 </related_skills>
