@@ -52,6 +52,7 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 - pricing-strategy
 - competitor-analysis
 - brand-building
+- marcom-planning
 
 ## 🔬 Nghiên cứu & Phân tích (research/)
 - customer-research
