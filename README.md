@@ -41,6 +41,8 @@ business-skills/
 │   └── growth/                  # 🚀 Tối ưu & Tăng trưởng
 │
 └── examples/                    # Các ví dụ và case study thực tế
+    ├── BEFORE-AFTER.md          # So sánh hiệu quả trước và sau khi dùng skill
+    └── SQUAD-CASES.md           # [NEW] Cách phối hợp đa kỹ năng (Orchestration)
 ```
 
 ## 🗺 Sơ đồ liên kết Skills (Orchestration Map)

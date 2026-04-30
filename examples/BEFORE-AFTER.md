@@ -51,13 +51,54 @@ Tài liệu này trình bày sự khác biệt rõ rệt về chất lượng đ
 
 ---
 
-## 3. Tại sao Skill-Powered AI lại vượt trội?
+## 3. Ví dụ về Tài chính (Unit Economics)
+
+### ❌ Khi dùng AI thông thường
+**Prompt**: *"Tính giúp tôi lợi nhuận nếu bán 1000 sản phẩm giá 200k, giá vốn 100k, tiền ads 20tr."*
+
+**Kết quả**:
+- Doanh thu: 200tr. Giá vốn: 100tr. Tiền Ads: 20tr.
+- Lợi nhuận = 200 - 100 - 20 = 80tr.
+- **Nhận xét**: Chỉ tính toán số học đơn giản. Không tính đến chi phí vận hành, tỉ lệ hoàn hàng, hay giá trị trọn đời của khách hàng.
+
+### ✅ Khi dùng `unit-economics` skill
+**Prompt**: (Kích hoạt skill) *"Dùng kỹ năng unit-economics, phân tích hiệu quả kinh doanh cho sản phẩm..."*
+
+**Kết quả**:
+- **Contribution Margin**: Trừ thêm phí sàn (3%), phí đóng gói (2k), tỉ lệ hoàn hàng (5%).
+- **LTV/CAC Ratio**: Dự báo tỉ lệ mua lại và tính toán xem 20k Ads/đơn có bền vững không.
+- **Payback Period**: Tính toán xem sau bao nhiêu đơn hàng thì hòa vốn đầu tư cố định.
+- **Nhận xét**: Cung cấp bức tranh tài chính chân thực, cảnh báo rủi ro về dòng tiền và khả năng mở rộng (Scale).
+
+---
+
+## 4. Ví dụ về Vận hành (SOP Designer)
+
+### ❌ Khi dùng AI thông thường
+**Prompt**: *"Viết quy trình tư vấn khách hàng cho shop thời trang."*
+
+**Kết quả**:
+1. Chào khách. 2. Hỏi nhu cầu. 3. Tư vấn mẫu. 4. Chốt đơn. 5. Gửi hàng.
+- **Nhận xét**: Quá sơ sài, không có tiêu chuẩn đo lường, không có cách xử lý tình huống phát sinh.
+
+### ✅ Khi dùng `sop-designer` skill
+**Prompt**: (Kích hoạt skill) *"Dùng kỹ năng sop-designer, xây dựng SOP tư vấn khách hàng..."*
+
+**Kết quả**:
+- **Cấu trúc chuẩn**: Mục tiêu, Thiết bị cần dùng, Quy trình 5 bước chi tiết.
+- **Kịch bản xử lý từ chối**: Cung cấp sẵn các mẫu câu khi khách chê đắt hoặc muốn đổi trả.
+- **Bảng kiểm chất lượng (QC)**: Các tiêu chí để quản lý đánh giá xem nhân viên có làm đúng SOP không.
+- **Nhận xét**: Quy trình có tính thực thi cao, giúp nhân viên mới có thể làm việc ngay mà không cần đào tạo nhiều.
+
+---
+
+## 5. Tại sao Skill-Powered AI lại vượt trội?
 
 | Tiêu chí | AI Thông thường | Skill-Powered AI |
 | :--- | :--- | :--- |
 | **Bối cảnh (Context)** | Mơ hồ, thường phải nhắc lại nhiều lần. | Nhất quán nhờ `product-marketing-context`. |
 | **Độ sâu chuyên môn** | Kiến thức bề nổi, chung chung. | Áp dụng Framework chuẩn (AIDA, STEPPS, 4U...). |
-| **Định dạng (Format)** | Tự do, không nhất quán. | Chuẩn hóa, chuyên nghiệp, dùng được ngay. |
+| **Tính kết nối** | Làm việc đơn lẻ từng tác vụ. | Khả năng xâu chuỗi (Chaining) nhiều skill. |
 | **Tư duy phản biện** | Luôn đồng ý với người dùng. | Biết đặt câu hỏi ngược lại để làm rõ yêu cầu. |
 | **Tính thực thi** | Cần chỉnh sửa nhiều (70-80%). | Thực thi được ngay (chỉ cần chỉnh 10-20%). |
 
