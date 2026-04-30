@@ -21,6 +21,8 @@ version: 1.1.1
 
 [Xác định các thông tin đầu vào cần thiết].
 - Bắt buộc tham chiếu: `skills/foundation/product-marketing-context/SKILL.md` để nắm bắt chân dung khách hàng và thông điệp cốt lõi.
+- **Inputs**: [Mô tả dữ liệu cần nhận từ các skill trước đó, ví dụ: 'Bản phân tích chân dung khách hàng từ customer-research'].
+- **Outputs**: [Mô tả định dạng dữ liệu đầu ra để skill tiếp theo có thể sử dụng, ví dụ: 'Danh sách 5 thông điệp cốt lõi dạng bullet points'].
 - [Các thông tin bổ sung khác nếu có].
 
 </context>
