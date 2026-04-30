@@ -113,6 +113,7 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 
 ## 👥 Nhân sự (hr/)
 - recruitment-onboarding
+- cv-screening
 
 ## 🤝 Bán hàng (sales/)
 - crm-sales-strategy
