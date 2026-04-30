@@ -108,5 +108,6 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 
 ## 📦 Sản phẩm (product/)
 - product-discovery
+- prd-writing
 
 </related_skills>
