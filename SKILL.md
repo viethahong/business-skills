@@ -106,4 +106,7 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 - unit-economics
 - financial-planning
 
+## 📦 Sản phẩm (product/)
+- product-discovery
+
 </related_skills>
