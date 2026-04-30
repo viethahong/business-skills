@@ -103,6 +103,7 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 - workflow-automation
 - project-management
 - meeting-efficiency
+- periodic-reporting
 
 ## 💰 Tài chính (finance/)
 - unit-economics
