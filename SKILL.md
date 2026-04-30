@@ -102,4 +102,7 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 - sop-designer
 - workflow-automation
 
+## 💰 Tài chính (finance/)
+- unit-economics
+
 </related_skills>
