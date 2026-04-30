@@ -110,4 +110,7 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 - product-discovery
 - prd-writing
 
+## 👥 Nhân sự (hr/)
+- recruitment-onboarding
+
 </related_skills>
