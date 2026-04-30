@@ -119,6 +119,7 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 
 ## 🤝 Bán hàng (sales/)
 - crm-sales-strategy
+- lead-scoring
 
 ## 🧠 Tư duy (mindset/)
 - first-principles-thinking
