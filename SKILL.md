@@ -113,4 +113,8 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 ## 👥 Nhân sự (hr/)
 - recruitment-onboarding
 
+## 🧠 Tư duy (mindset/)
+- first-principles-thinking
+- strategic-decision-making
+
 </related_skills>
