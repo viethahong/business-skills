@@ -4,14 +4,14 @@ Chào mừng bạn đến với **business-skills** – Thư viện "Modular Bus
 
 ## 🎯 Mục tiêu
 - **Modular hóa kiến thức**: Biến các kỹ năng kinh doanh phức tạp thành các module mà AI có thể hiểu và thực thi ngay lập tức.
-- **Tập trung Marketing**: Giai đoạn đầu tập trung mạnh vào Marketing & Truyền thông cho Startup và SMEs.
+- **Agentic Agency OS**: Evolve từ một thư viện marketing thành một hệ điều hành doanh nghiệp toàn diện, cho phép AI Agents điều phối (Orchestrate) nhiều kỹ năng cùng lúc.
 - **Tương thích đa nền tảng**: Dễ dàng tích hợp vào Claude Projects, Custom GPTs, Cursor, và các hệ thống Agentic Workflow.
 
 ## 🛠 Cách sử dụng
 Bạn có thể sử dụng repo này theo nhiều cách:
 1. **Claude Projects**: Tải thư mục `skills/` lên Project Knowledge để AI nắm vững bối cảnh và kỹ năng.
 2. **Custom GPTs**: Sử dụng file `SKILL.md` hoặc các file skill cụ thể làm hướng dẫn (Instructions).
-3. **Cursor/Continue**: Tham chiếu các file skill khi yêu cầu AI viết nội dung hoặc lên kế hoạch marketing.
+3. **Cursor/Continue**: Tham chiếu các file skill khi yêu cầu AI viết nội dung hoặc lên kế hoạch kinh doanh.
 4. **Agentic Workflows (Dify/n8n)**: Sử dụng các file `.md` làm System Prompt cho các node xử lý.
 
 > Xem hướng dẫn chi tiết tại [AGENTS.md](./AGENTS.md).
@@ -27,79 +27,62 @@ business-skills/
 ├── LICENSE                      # Giấy phép MIT
 ├── skills/                      # Thư viện các kỹ năng chuyên biệt
 │   ├── foundation/              # 📋 Nền tảng
-│   │   ├── product-marketing-context/
-│   │   └── business-skill-creator/
 │   │
 │   ├── strategy/                # 🎯 Chiến lược
-│   │   ├── marketing-strategy/
-│   │   ├── launch-strategy/
-│   │   ├── pricing-strategy/
-│   │   ├── competitor-analysis/
-│   │   └── brand-building/
 │   │
-│   ├── research/                # 🔬 Nghiên cứu & Phân tích
-│   │   ├── customer-research/
-│   │   ├── analytics/
-│   │   └── ab-testing/
+│   ├── ops/                     # ⚙️ Vận hành (CSKH, SOP, Automation, Project Management) [NEW]
 │   │
+│   ├── finance/                 # 💰 Tài chính (Unit Economics, Forecasting) [NEW]
+│   │
+│   ├── product/                 # 📦 Sản phẩm (Discovery, PRD Writing) [NEW]
+│   │
+│   ├── hr/                      # 👥 Nhân sự (Recruitment, Onboarding) [NEW]
+│   │
+│   ├── sales/                   # 🤝 Bán hàng (Sales Strategy, CRM) [NEW]
+│   │
+│   ├── legal/                   # ⚖️ Pháp lý (Compliance, TOS/Privacy) [NEW]
+│   │
+│   ├── mindset/                 # 🧠 Tư duy (First Principles, Decision Making) [NEW]
+│   │
+│   ├── research/                # 🔬 Nghiên cứu
 │   ├── content/                 # ✍️ Nội dung
-│   │   ├── copywriting/
-│   │   ├── content-marketing/
-│   │   ├── social-media/
-│   │   ├── influencer-marketing/
-│   │   ├── tiktok-shop-strategy/    # [NEW]
-│   │   ├── livestream-selling/      # [NEW]
-│   │   ├── koc-marketing/           # [NEW]
-│   │   └── viral-content/           # [NEW]
-│   │
 │   ├── ads/                     # 📢 Kênh & Quảng cáo
-│   │   ├── paid-ads/
-│   │   ├── seo/
-│   │   ├── email-marketing/
-│   │   ├── zalo-marketing/          # [NEW]
-│   │   └── ecommerce-marketplace/   # [NEW]
-│   │
-│   └── growth/                  # 🚀 Tối ưu & Tăng trưởng
-│       ├── conversion-optimization/
-│       ├── marketing-psychology/
-│       ├── churn-prevention/
-│       └── referral-program/
+│   └── growth/                  # 🚀 Tăng trưởng
 │
 └── examples/                    # Các ví dụ và case study thực tế
-    └── BEFORE-AFTER.md          # [NEW] So sánh hiệu quả trước và sau khi dùng skill
 ```
 
-## 🗺 Sơ đồ liên kết Skills
+## 🗺 Sơ đồ liên kết Skills (Orchestration Map)
 
-```
-product-marketing-context (nền tảng — load trước tiên)
-        │
-        ├── marketing-strategy ──── launch-strategy
-        │           │               pricing-strategy
-        │           │               competitor-analysis
-        │           │               brand-building
-        │           │
-        ├── customer-research ────→ copywriting
-        │                          conversion-optimization
-        │                          marketing-psychology
-        │                          churn-prevention
-        │
-        ├── analytics ──────────→ ab-testing
-        │
-        ├── paid-ads ───────────→ copywriting
-        │                         ab-testing
-        │
-        └── content-marketing ──→ social-media
-                                   email-marketing
-                                   seo
-                                   influencer-marketing
-                                   referral-program
-                                   tiktok-shop-strategy
-                                   zalo-marketing
-                                   livestream-selling
-                                   koc-marketing
-                                   ecommerce-marketplace
-                                   viral-content
+```mermaid
+graph TD
+    subgraph Foundation
+        PM[Product Marketing Context]
+        SC[Skill Creator]
+    end
+
+    subgraph Strategy_Mindset
+        MS[Marketing Strategy]
+        SDM[Strategic Decision Making]
+        FP[First Principles Thinking]
+    end
+
+    subgraph Execution_Pillars
+        OPS[Operations: SOP, PM, Automation]
+        FIN[Finance: Unit Economics, Forecasting]
+        PROD[Product: Discovery, PRD]
+        HR[HR: Recruitment, Onboarding]
+        SALES[Sales: CRM, Pipeline]
+        MKT[Marketing: Content, Ads, Growth]
+    end
+
+    PM --> MS
+    MS --> SDM
+    SDM --> Execution_Pillars
+    OPS --> MKT
+    PROD --> MKT
+    FIN --> SALES
+    HR --> OPS
 ```
 
 ## ✍️ Cách thêm Skill mới
