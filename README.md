@@ -26,28 +26,19 @@ business-skills/
 ├── CONTRIBUTING.md              # Hướng dẫn thêm skill mới
 ├── LICENSE                      # Giấy phép MIT
 ├── skills/                      # Thư viện các kỹ năng chuyên biệt
-│   ├── foundation/              # 📋 Nền tảng
-│   │
-│   ├── strategy/                # 🎯 Chiến lược
-│   │
-│   ├── ops/                     # ⚙️ Vận hành (CSKH, SOP, Automation, Project Management) [NEW]
-│   │
-│   ├── finance/                 # 💰 Tài chính (Unit Economics, Forecasting) [NEW]
-│   │
-│   ├── product/                 # 📦 Sản phẩm (Discovery, PRD Writing) [NEW]
-│   │
-│   ├── hr/                      # 👥 Nhân sự (Recruitment, Onboarding) [NEW]
-│   │
-│   ├── sales/                   # 🤝 Bán hàng (Sales Strategy, CRM) [NEW]
-│   │
-│   ├── legal/                   # ⚖️ Pháp lý (Compliance, TOS/Privacy) [NEW]
-│   │
-│   ├── mindset/                 # 🧠 Tư duy (First Principles, Decision Making) [NEW]
-│   │
-│   ├── research/                # 🔬 Nghiên cứu
-│   ├── content/                 # ✍️ Nội dung
+│   ├── foundation/              # 📋 Nền tảng (Context, Skill Creator)
+│   ├── strategy/                # 🎯 Chiến lược (Marketing, Launch, Pricing, MarCom)
+│   ├── ops/                     # ⚙️ Vận hành (CSKH, SOP, Automation, PM, Meeting, Reporting)
+│   ├── finance/                 # 💰 Tài chính (Unit Economics, Planning)
+│   ├── product/                 # 📦 Sản phẩm (Discovery, PRD Writing)
+│   ├── hr/                      # 👥 Nhân sự (Recruitment, Onboarding, CV Screening)
+│   ├── sales/                   # 🤝 Bán hàng (Sales Strategy, CRM, Lead Scoring)
+│   ├── legal/                   # ⚖️ Pháp lý (Compliance, TOS/Privacy)
+│   ├── mindset/                 # 🧠 Tư duy (First Principles, Decision Making)
+│   ├── research/                # 🔬 Nghiên cứu & Phân tích
+│   ├── content/                 # ✍️ Nội dung & Sáng tạo
 │   ├── ads/                     # 📢 Kênh & Quảng cáo
-│   └── growth/                  # 🚀 Tăng trưởng
+│   └── growth/                  # 🚀 Tối ưu & Tăng trưởng
 │
 └── examples/                    # Các ví dụ và case study thực tế
 ```
