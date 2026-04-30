@@ -99,5 +99,6 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 
 ## ⚙️ Vận hành (ops/)
 - customer-support-framework
+- sop-designer
 
 </related_skills>
