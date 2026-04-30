@@ -97,4 +97,7 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 - churn-prevention
 - referral-program
 
+## ⚙️ Vận hành (ops/)
+- customer-support-framework
+
 </related_skills>
