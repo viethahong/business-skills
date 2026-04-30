@@ -89,6 +89,7 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 - seo
 - email-marketing
 - zalo-marketing
+- zalo-oa-strategy
 - ecommerce-marketplace
 
 ## 🚀 Tối ưu & Tăng trưởng (growth/)
