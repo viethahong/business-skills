@@ -28,34 +28,40 @@ Xác định các thông tin đầu vào cần thiết:
 
 <mission>
 
-Quy trình thực thi phân tích Unit Economics:
-1. **Xác định Đơn vị Phân tích (Unit Selection)**: Xác định đơn vị là "Một khách hàng" hay "Một đơn vị sản phẩm".
-2. **Tính toán CAC (Customer Acquisition Cost)**: Tổng chi phí Marketing & Sales / Số khách hàng mới thu được.
-3. **Tính toán LTV (Lifetime Value)**: Dự phóng tổng lợi nhuận gộp mà một khách hàng mang lại trong suốt vòng đời của họ.
-4. **Phân tích Tỉ lệ LTV/CAC**: Đánh giá sức khỏe mô hình (Tỉ lệ lý tưởng thường là 3:1).
-5. **Xác định Thời gian Hoàn vốn (Payback Period)**: Mất bao lâu để lợi nhuận từ khách hàng bù đắp được chi phí thu hút họ.
-6. **Đề xuất Tối ưu**: Dựa trên con số để đưa ra giải pháp tăng LTV hoặc giảm CAC.
+1. **[Bước 1: Kiểm toán Chi phí Thu hút (CAC Audit)]**:
+   - Phân tách Paid CAC (Chi phí trả phí) và Blended CAC (Chi phí trung bình).
+   - Đảm bảo tính "Fully Loaded" (Bao gồm lương team Sales, hoa hồng, và phí công cụ).
+2. **[Bước 2: Tính toán Giá trị Vòng đời (LTV Calculation)]**:
+   - Dựa trên Lợi nhuận gộp (Gross Margin), không phải doanh thu.
+   - Áp dụng tỷ lệ Churn rate thực tế hoặc dự phòng.
+3. **[Bước 3: Phân tích Tỷ lệ LTV/CAC]**: Đánh giá sức mạnh của đơn vị kinh doanh (Ví dụ: <1: Lỗ; 1-3: Trung bình; >3: Tuyệt vời).
+4. **[Bước 4: Xác định Điểm hòa vốn khách hàng (Payback Period)]**: Tính toán chính xác số tháng cần thiết để một khách hàng bù đắp được chi phí thu hút chính họ.
+5. **[Bước 5: Đánh giá Khả năng Mở rộng (Scaling Readiness)]**: AI phân tích xem nếu tăng ngân sách marketing lên X lần thì hiệu quả kinh tế có bị gãy không (Diminishing returns).
+6. **[Bước 6: Thiết lập Ma trận Tối ưu]**: Đề xuất hành động theo 2 trục: Giảm CAC (Tăng chuyển đổi) vs Tăng LTV (Upsell/Cross-sell).
 
 </mission>
 
 <rules>
 
-Các nguyên tắc "Bất di bất dịch" để đảm bảo chất lượng:
-- **Rule 1: Gross Margin, not Revenue**: Luôn tính LTV dựa trên lợi nhuận gộp, không phải doanh thu thuần.
-- **Rule 2: Fully Loaded CAC**: Phải bao gồm tất cả các chi phí liên quan đến việc có được khách hàng (Lương team sale, phí công cụ, phí quảng cáo).
-- **Rule 3: Realism over Optimism**: Luôn sử dụng các con số thực tế hoặc thận trọng khi dự báo tỉ lệ churn.
-- **Rule 4: Segmentation**: Phân tích Unit Economics theo từng kênh (Channel) để biết kênh nào thực sự hiệu quả.
+- **Rule 1**: **Blended vs. Paid**: Luôn hiển thị cả 2 chỉ số CAC để người dùng thấy rõ vai trò của kênh Organic.
+- **Rule 2**: **Payback Priority**: Ưu tiên rút ngắn thời gian hoàn vốn (Payback Period) xuống dưới 6-12 tháng cho các SME có dòng tiền yếu.
+- **Rule 3**: **Conservative Churn**: Luôn dự báo tỷ lệ rời bỏ khách hàng (Churn rate) cao hơn thực tế 5-10% để đảm bảo tính an toàn tài chính.
+- **Rule 4**: Sử dụng biểu đồ thanh Markdown để minh họa đường cong hoàn vốn (Payback Curve).
 
 </rules>
 
 <output_format>
 
-Cấu trúc phản hồi tiêu chuẩn:
-
-1. **[Section 1: Bảng chỉ số Tổng quan]**: CAC, LTV, LTV/CAC, Payback Period.
-2. **[Section 2: Phân tích chi tiết]**: Giải thích ý nghĩa của các con số hiện tại.
-3. **[Section 3: Đánh giá sức khỏe mô hình]**: Kết luận mô hình đang (Tốt / Nguy hiểm / Cần điều chỉnh).
-4. **[Section 4: Chiến lược tối ưu]**: 3-5 hành động cụ thể để cải thiện chỉ số.
+1. **[Section 1: Bảng Chỉ số Sức khỏe Đơn vị]**:
+   - Paid CAC | Blended CAC
+   - LTV (Lợi nhuận gộp vòng đời)
+   - Tỷ lệ LTV/CAC & Payback Period (Tháng).
+2. **[Section 2: Đường cong Hoàn vốn (Payback Curve)]**: Minh họa trực quan thời điểm khách hàng bắt đầu sinh lời cho doanh nghiệp.
+3. **[Section 3: Chỉ số Sẵn sàng Mở rộng (Scaling Readiness Score)]**: `[1-10]` - Đánh giá xem có nên "đốt thêm tiền" vào marketing không.
+4. **[Section 4: Chiến lược Tối ưu hóa con số]**: 
+   - 3 cách giảm CAC ngay lập tức.
+   - 2 phương án tăng LTV (Retention & Expansion).
+5. **[Section 5: Next Action]**: Gợi ý skill `conversion-optimization` nếu CAC quá cao hoặc `churn-prevention` nếu LTV quá thấp.
 
 </output_format>
 
