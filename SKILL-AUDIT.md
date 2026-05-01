@@ -101,44 +101,85 @@ Tổng = C1×0.15 + C2×0.25 + C3×0.15 + C4×0.20 + C5×0.15 + C6×0.10
 
 ---
 
-## II. Kết quả Đánh giá — Toàn bộ Skills (v1.2 · 2026-04-26)
+## II. Kết quả Đánh giá — Toàn bộ Skills (v2.0 · 2026-05-01)
 
 > Ghi chú: `product-marketing-context` là file Ngữ cảnh, không phải skill. Tất cả skill hiện nằm tại `skills/[category]/[name]/SKILL.md`.
+> 🤖 **Auto-validate**: Chạy `bash scripts/validate-skills.sh` để kiểm tra tự động.
 
+### 📋 Nền tảng & Chiến lược
 | Skill | C1 | C2 | C3 | C4 | C5 | C6 | **Tổng** | Trạng thái |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| `conversion-optimization` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
-| `copywriting` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
-| `analytics` | 5 | 5 | 5 | 5 | 4 | 5 | **4.85** | 🟢 Tốt |
-| `customer-research` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
-| `competitor-analysis` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
-| `ab-testing` | 5 | 5 | 5 | 5 | 4 | 5 | **4.85** | 🟢 Tốt |
-| `paid-ads` | 5 | 5 | 5 | 5 | 4 | 5 | **4.85** | 🟢 Tốt |
-| `pricing-strategy` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
-| `marketing-psychology` | 5 | 5 | 4 | 5 | 5 | 4 | **4.75** | 🟢 Tốt |
-| `email-marketing` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
-| `launch-strategy` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
-| `seo` | 5 | 4 | 4 | 4 | 5 | 4 | **4.30** | 🟢 Tốt |
-| `churn-prevention` | 5 | 4 | 4 | 4 | 4 | 4 | **4.15** | 🟢 Tốt |
-| `referral-program` | 5 | 4 | 4 | 4 | 4 | 4 | **4.15** | 🟢 Tốt |
-| `brand-building` | 5 | 4 | 4 | 4 | 4 | 4 | **4.15** | 🟢 Tốt |
-| `influencer-marketing` | 5 | 4 | 4 | 4 | 4 | 4 | **4.15** | 🟢 Tốt |
-| `content-marketing` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
-| `social-media` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
 | `business-skill-creator` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
 | `marketing-strategy` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
-| `tiktok-shop-strategy` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
-| `zalo-marketing` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
-| `livestream-selling` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
-| `koc-marketing` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
-| `ecommerce-marketplace` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `launch-strategy` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `pricing-strategy` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+| `competitor-analysis` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+| `brand-building` | 5 | 4 | 4 | 4 | 4 | 4 | **4.15** | 🟢 Tốt |
+| `marcom-planning` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+
+### ✍️ Nội dung & Kênh
+| Skill | C1 | C2 | C3 | C4 | C5 | C6 | **Tổng** | Trạng thái |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `copywriting` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `content-marketing` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `social-media` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `influencer-marketing` | 5 | 4 | 4 | 4 | 4 | 4 | **4.15** | 🟢 Tốt |
 | `viral-content` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `tiktok-shop-strategy` 🇻🇳 | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `livestream-selling` 🇻🇳 | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `koc-marketing` 🇻🇳 | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+
+### 📢 Kênh & Quảng cáo
+| Skill | C1 | C2 | C3 | C4 | C5 | C6 | **Tổng** | Trạng thái |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `paid-ads` | 5 | 5 | 5 | 5 | 4 | 5 | **4.85** | 🟢 Tốt |
+| `seo` | 5 | 4 | 4 | 4 | 5 | 4 | **4.30** | 🟢 Tốt |
+| `email-marketing` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `zalo-marketing` 🇻🇳 | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `zalo-oa-strategy` 🇻🇳 | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `ecommerce-marketplace` 🇻🇳 | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+
+### 🔬 Nghiên cứu & Tăng trưởng
+| Skill | C1 | C2 | C3 | C4 | C5 | C6 | **Tổng** | Trạng thái |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `customer-research` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+| `analytics` | 5 | 5 | 5 | 5 | 4 | 5 | **4.85** | 🟢 Tốt |
+| `ab-testing` | 5 | 5 | 5 | 5 | 4 | 5 | **4.85** | 🟢 Tốt |
+| `conversion-optimization` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `marketing-psychology` | 5 | 5 | 4 | 5 | 5 | 4 | **4.75** | 🟢 Tốt |
+| `churn-prevention` | 5 | 4 | 4 | 4 | 4 | 4 | **4.15** | 🟢 Tốt |
+| `referral-program` | 5 | 4 | 4 | 4 | 4 | 4 | **4.15** | 🟢 Tốt |
+
+### ⚙️ Vận hành
+| Skill | C1 | C2 | C3 | C4 | C5 | C6 | **Tổng** | Trạng thái |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `customer-support-framework` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `sop-designer` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `workflow-automation` | 5 | 5 | 4 | 5 | 4 | 4 | **4.60** | 🟢 Tốt |
+| `project-management` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `meeting-efficiency` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `periodic-reporting` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+
+### 💰 Tài chính · 📦 Sản phẩm · 👥 Nhân sự · 🤝 Bán hàng · ⚖️ Pháp lý · 🧠 Tư duy
+| Skill | C1 | C2 | C3 | C4 | C5 | C6 | **Tổng** | Trạng thái |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `unit-economics` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+| `financial-planning` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `product-discovery` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+| `prd-writing` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `recruitment-onboarding` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `cv-screening` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+| `crm-sales-strategy` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+| `lead-scoring` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+| `compliance-checklists` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `strategic-decision-making` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+| `first-principles-thinking` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
 
 ---
 
 ## III. Phân tích — Trạng thái Hệ thống
 
-Hiện tại tất cả 26 skills đều đã đạt mức **5.0 (Xuất sắc)** hoặc tiệm cận tuyệt đối. Hệ thống đã sẵn sàng cho các workflow phức tạp.
+Hiện tại **42 skills** (tổng cộng) đều đạt mức 🟢 Tốt. Toàn bộ skills mới (Ops, Finance, Product, HR, Sales, Legal, Mindset) đã được tích hợp đầy đủ vào hệ thống Orchestration.
 
 ---
 
@@ -146,6 +187,7 @@ Hiện tại tất cả 26 skills đều đã đạt mức **5.0 (Xuất sắc)*
 
 | Ngày | Version | Tổng Skills | Điểm TB | Skills 🟢 | Skills 🟡 | Skills 🔴 | Ghi chú |
 |---|---|:---:|:---:|:---:|:---:|:---:|---|
+| 2026-05-01 | v2.0 | 42 | **4.78** | 42 | 0 | 0 | Mở rộng lớn: +16 skills (Ops/Finance/Product/HR/Sales/Legal/Mindset) + Zalo OA + Script auto-validate |
 | 2026-04-29 | v1.3 | 26 | **4.88** | 26 | 0 | 0 | Thêm viral-content và tối ưu template chuẩn mới |
 | 2026-04-26 | v1.2 | 20 | **4.75** | 20 | 0 | 0 | Tối ưu toàn bộ thư viện lên chuẩn 5.0 |
 | 2026-04-26 | v1.1 | 20 | **4.35** | 17 | 2 | 1 | Tối ưu social-media.md lên 5.0 |
@@ -164,6 +206,23 @@ Hiện tại tất cả 26 skills đều đã đạt mức **5.0 (Xuất sắc)*
 - **Hàng quý**: Đánh giá lại toàn bộ skills, cập nhật bảng mục II.
 - **Sau mỗi lần thêm 5+ skills**: Chạy audit để đảm bảo đồng đều chất lượng.
 - Cập nhật "Lịch sử Đánh giá" (mục IV) sau mỗi lần audit.
+
+### 🤖 Sử dụng Validation Script (Tự động)
+```bash
+# Chạy toàn bộ
+bash scripts/validate-skills.sh
+
+# Kiểm tra chỉ 1 skill
+bash scripts/validate-skills.sh 2>&1 | grep "skill-name"
+```
+
+Script kiểm tra tự động 6 điểm:
+1. Frontmatter hợp lệ (`name`, `description`, `version`)
+2. Đầy đủ sections bắt buộc (`<identity>`, `<context>`, `<mission>`, `<rules>`, `<output_format>`)
+3. Có khai báo `**Inputs**` và `**Outputs**` trong `<context>`
+4. Đủ tối thiểu 3 Rules
+5. Có thư mục `references/` và `evals/`
+6. File đủ dài (>1500 bytes)
 
 ### Cách sử dụng với AI
 Khi muốn đánh giá một skill qua AI, prompt:

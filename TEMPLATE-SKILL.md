@@ -27,6 +27,21 @@ version: 1.1.1
 
 </context>
 
+<dependencies>
+
+<!-- Khai báo rõ ràng các skill phụ thuộc để AI Agent biết cần load gì trước -->
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Nền tảng: context doanh nghiệp, sản phẩm, khách hàng.
+- `[category/skill-name]` — [Lý do cụ thể: ví dụ "Cần kết quả phân tích đối thủ làm Input"]
+
+**Optional (Tùy chọn):**
+- `[category/skill-name]` — [Lý do: ví dụ "Tăng chất lượng nếu có dữ liệu nghiên cứu khách hàng"]
+
+**Outputs sang (Feeds into):**
+- `[category/skill-name]` — [Skill tiếp theo sẽ nhận Output từ skill này]
+
+</dependencies>
+
 <mission>
 
 [Mô tả quy trình thực thi từng bước (Step-by-step)].
