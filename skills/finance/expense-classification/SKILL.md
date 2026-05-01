@@ -41,29 +41,37 @@ SME thường mất nhiều giờ mỗi tháng để nhập liệu và phân lo�
 
 <mission>
 
-1. **[Bước 1: Thiết lập Danh mục (Chart of Accounts)]**: Xác định các nhóm chi phí chính mà doanh nghiệp muốn theo dõi.
-2. **[Bước 2: Phân tích Nội dung (Parsing)]**: AI đọc nội dung giao dịch để tìm từ khóa và ngữ cảnh (Ví dụ: "Facebook Ads" -> Marketing, "Lương T3" -> Nhân sự).
-3. **[Bước 3: Gán nhãn Tự động (Labeling)]**: Phân loại từng dòng giao dịch vào nhóm tương ứng.
-4. **[Bước 4: Xử lý ngoại lệ]**: Góm các giao dịch AI không chắc chắn vào nhóm "Uncategorized" để người dùng kiểm tra lại.
-5. **[Bước 5: Tổng hợp Báo cáo]**: Tính toán tổng chi phí theo từng nhóm và đưa ra nhận xét về sự biến động.
+1. **[Bước 1: Chỉnh lý & Làm sạch Dữ liệu]**: Nhận diện và loại bỏ các giao dịch nội bộ (Internal transfers) để tránh tính trùng chi phí.
+2. **[Bước 2: Phân loại theo Chart of Accounts (COA)]**: Sử dụng `references/expense-mapping.md` để gán nhãn chính xác: COGS, Marketing, Ops, Nhân sự, Thuế...
+3. **[Bước 3: Phát hiện Bất thường (Anomaly Detection)]**: Tự động cảnh báo các khoản chi vượt định mức (> 30% so với trung bình) hoặc các nội dung giao dịch lạ.
+4. **[Bước 4: Đối soát & Kiểm tra Thuế (Tax Check)]**: AI gắn cờ các khoản chi có rủi ro không được khấu trừ thuế (Ví dụ: Chi tiếp khách quá định mức, thiếu hóa đơn hợp lệ).
+5. **[Bước 5: So sánh Benchmark]**: So sánh cơ cấu chi phí hiện tại với mức trung bình ngành để xác định xem doanh nghiệp đang chi tiêu "khỏe" hay "yếu".
+6. **[Bước 6: Kiến nghị Tối ưu Chi phí]**: Đề xuất 3 hành động cụ thể để cắt giảm lãng phí hoặc chuyển đổi sang các giải pháp rẻ hơn.
 
 </mission>
 
 <rules>
 
-- **Rule 1**: **Accuracy over Speed**: Nếu không chắc chắn, hãy để vào mục "Cần kiểm tra lại".
-- **Rule 2**: Tuân thủ nguyên tắc nhất quán (Cùng một loại chi phí phải luôn được gán vào cùng một nhóm).
-- **Rule 3**: Luôn giữ số liệu gốc (Amount) nguyên vẹn, không làm tròn quá mức.
-- **Rule 4**: Cảnh báo nếu phát hiện các khoản chi phí bất thường (Anomalies) có giá trị quá lớn so với trung bình.
+- **Rule 1**: **Conservative Labeling**: Nếu nội dung giao dịch mơ hồ, tuyệt đối không được đoán mò. Phải đưa vào nhóm "Cần xác minh" và giải thích lý do.
+- **Rule 2**: **Benchmark Alignment**: Luôn tham chiếu định mức chi phí lý tưởng (Ví dụ: Marketing nên ở mức 10-20% doanh thu) để đưa ra nhận xét.
+- **Rule 3**: **Tax Awareness**: Luôn nhắc nhở người dùng về việc thu thập hóa đơn đỏ (VAT) cho các khoản chi lớn.
+- **Rule 4**: Sử dụng các biểu đồ thanh Markdown (▓▓▓░░) để biểu thị tỉ trọng chi phí một cách trực quan.
 
 </rules>
 
 <output_format>
 
-1. **[Section 1: Tóm tắt Chi phí]**: Tổng chi tiêu trong kỳ và so sánh với kỳ trước.
-2. **[Section 2: Bảng chi phí đã phân loại]**: Bảng gồm: Ngày | Nội dung | Nhóm | Số tiền.
-3. **[Section 3: Cơ cấu chi tiêu]**: Tỉ lệ % của từng nhóm (Ví dụ: Marketing chiếm 40%).
-4. **[Section 4: Lưu ý & Cảnh báo]**: Các giao dịch cần người dùng phê duyệt thủ công.
+1. **[Section 1: Dashboard Tài chính Nhanh]**:
+   - Tổng chi tiêu: `[Số tiền]`
+   - Chỉ số sức khỏe: `[Xanh/Vàng/Đỏ]`
+   - Top 3 nhóm chi phí chiếm tỉ trọng lớn nhất.
+2. **[Section 2: Cơ cấu Chi phí (Visualized)]**: Bảng tỉ trọng kèm biểu đồ thanh Markdown.
+3. **[Section 3: Danh sách Giao dịch Bất thường]**: Các khoản chi cần kiểm tra lại ngay lập tức.
+4. **[Section 4: Góc nhìn CFO: Kiến nghị Tối ưu]**: 
+   - 1 điểm cần cắt giảm ngay.
+   - 1 cơ hội đầu tư thêm để tăng trưởng.
+   - Lưu ý về hóa đơn & chứng từ thuế.
+5. **[Section 5: Next Action]**: Gợi ý skill `cashflow-forecasting` để dự báo dòng tiền dựa trên dữ liệu chi phí này.
 
 </output_format>
 
