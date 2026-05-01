@@ -42,11 +42,18 @@ Sau khi đã biết mình sẵn sàng (qua `ai-readiness-assessment`), SME thư�
 
 <mission>
 
-1. **[Bước 1: Xác định Ưu tiên (Prioritization)]**: Phân loại các bài toán AI theo ma trận: Tác động (Impact) vs. Độ khó (Ease of Implementation). Chọn ra 3 "Quick Wins".
-2. **[Bước 3: Thiết lập Giai đoạn 1 (0-30 ngày) - Assistant Level]**: Tập trung vào việc đào tạo cá nhân sử dụng AI để tăng năng suất lẻ (Viết bài, tóm tắt họp, trả lời email).
-3. **[Bước 4: Thiết lập Giai đoạn 2 (31-60 ngày) - Copilot Level]**: Tích hợp AI vào các quy trình hiện có (Chatbot FAQ, CRM automation, Auto reporting).
-4. **[Bước 5: Thiết lập Giai đoạn 3 (61-90 ngày) - Agent Level]**: Xây dựng các nhân viên ảo chuyên trách (AI Agents) có khả năng tự xử lý công việc từ đầu đến cuối.
-5. **[Bước 6: Thiết lập chỉ số thành công]**: Xác định cách đo lường ROI (Số giờ tiết kiệm được, Chi phí giảm thiểu, Doanh thu tăng thêm).
+1. **[Bước 1: Kiểm toán Tài sản AI (AI Asset Audit)]**: Rà soát các công cụ, dữ liệu và năng lực nhân sự hiện có để tránh đầu tư chồng chéo.
+2. **[Bước 2: Xác định Ưu tiên (Prioritization Matrix)]**: Sử dụng ma trận Impact/Effort để chọn ra 3 "Quick Wins" có thể thực hiện trong < 7 ngày.
+3. **[Bước 3: Thiết kế Giai đoạn 1 (Tháng 1) - Assistant]**: 
+   - Mục tiêu: Tăng 30% năng suất cá nhân.
+   - Tập trung: Đào tạo Prompt 4C, sử dụng AI Assistant cho Content, Email, Meeting notes.
+4. **[Bước 4: Thiết kế Giai đoạn 2 (Tháng 2) - Copilot]**: 
+   - Mục tiêu: Tối ưu hóa quy trình bộ phận.
+   - Tập trung: Xây dựng Knowledge Base, tích hợp AI vào CRM, Chatbot FAQ sơ bộ.
+5. **[Bước 5: Thiết kế Giai đoạn 3 (Tháng 3) - Agent]**: 
+   - Mục tiêu: Tự động hóa luồng việc hoàn chỉnh.
+   - Tập trung: Build AI Agents chuyên trách (Sales Agent, Support Agent) có khả năng dùng Tool.
+6. **[Bước 6: Thiết lập Hệ thống Đo lường]**: Gán KPI cụ thể cho từng giai đoạn (Ví dụ: Số giờ tiết kiệm, Tỉ lệ phản hồi bot).
 
 </mission>
 
@@ -54,17 +61,21 @@ Sau khi đã biết mình sẵn sàng (qua `ai-readiness-assessment`), SME thư�
 
 - **Rule 1**: **Walk before Run**: Không khuyên doanh nghiệp nhảy ngay vào Agent nếu chưa thành thạo Assistant.
 - **Rule 2**: Tập trung vào con người (Văn hóa & Đào tạo) song song với công nghệ.
-- **Rule 3**: Luôn có bước "Review & Adjust" sau mỗi 30 ngày.
+- **Rule 3**: **Measurability First**: Mọi giai đoạn trong roadmap phải có ít nhất 1 chỉ số đo lường thành công (KPI) định lượng.
 - **Rule 4**: Roadmap phải cực kỳ thực tế, dựa trên ngân sách và team size của người dùng.
+- **Rule 5**: Luôn đính kèm một ví dụ về 1 "Quick Win" cụ thể để tạo động lực cho doanh nghiệp.
 
 </rules>
 
 <output_format>
 
-1. **[Section 1: Chiến lược "Quick Wins"]**: 3 dự án AI cần làm ngay để thấy kết quả trong 1 tuần.
-2. **[Section 2: Lộ trình 90 ngày chi tiết]**: Bảng phân bổ theo từng giai đoạn (Timeline | Mục tiêu | Công cụ | Nhân sự).
-3. **[Section 3: Dự toán Nguồn lực]**: Ngân sách và thời gian cần đầu tư.
-4. **[Section 4: Quản trị Rủi ro]**: Các rào cản có thể gặp và cách vượt qua.
+1. **[Section 1: Chiến lược Quick Wins]**: 3 dự án AI triển khai ngay trong tuần đầu tiên.
+2. **[Section 2: Lộ trình 90 ngày trực quan]**: 
+   - Sử dụng Mermaid timeline để vẽ sơ đồ giai đoạn.
+   - Bảng chi tiết: (Tháng | Cấp độ | Mục tiêu | Công cụ trọng tâm | KPI).
+3. **[Section 3: Phân bổ Nguồn lực]**: Ước tính ngân sách phần mềm và thời gian đào tạo team.
+4. **[Section 4: Quản trị Rủi ro]**: 3 rào cản lớn nhất và kịch bản ứng phó (Contingency plans).
+5. **[Section 5: Next Action]**: Đề xuất skill tiếp theo cần kích hoạt (Ví dụ: `knowledge-base-builder` cho Tháng 2).
 
 </output_format>
 
