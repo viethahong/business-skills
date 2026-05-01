@@ -43,36 +43,38 @@ SME thường thất bại vì "cạn tiền" (liquidity crisis) dù vẫn có l
 
 <mission>
 
-1. **[Bước 1: Thiết lập Điểm khởi đầu]**: Xác định số dư tiền mặt khả dụng tại thời điểm hiện tại.
-2. **[Bước 2: Dự báo Dòng tiền vào (Inflow)]**:
-   - Doanh thu dự kiến (có tính đến tỷ lệ chốt).
-   - Công nợ khách hàng thanh toán (có tính đến độ trễ).
-3. **[Bước 3: Dự báo Dòng tiền ra (Outflow)]**:
-   - Chi phí cố định (Lương, MB, Điện nước).
-   - Chi phí biến đổi (Nhập hàng, Marketing).
-   - Công nợ phải trả nhà cung cấp.
-4. **[Bước 4: Phân tích Kịch bản (Scenarios)]**:
-   - Kịch bản Cơ sở (Base case).
-   - Kịch bản Xấu nhất (Worst case - Doanh thu giảm 30%, khách nợ tiền).
-5. **[Bước 5: Cảnh báo & Giải pháp]**: Xác định thời điểm dòng tiền âm và đề xuất giải pháp (Vay vốn, Đẩy mạnh sales, Hoãn chi).
+1. **[Bước 1: Chốt Số dư Đầu kỳ]**: Xác định lượng tiền mặt thực tế tại quỹ và các tài khoản ngân hàng.
+2. **[Bước 2: Dự báo Dòng tiền vào (Inflow Projection)]**:
+   - Doanh thu theo chu kỳ thanh toán thực tế (không phải lúc xuất hóa đơn).
+   - Tốc độ thu hồi công nợ (Days Sales Outstanding - DSO).
+3. **[Bước 3: Dự báo Dòng tiền ra (Outflow Projection)]**:
+   - Phân loại chi phí cố định (Burn rate) và chi phí biến đổi.
+   - Ưu tiên các khoản chi bắt buộc (Lương, Thuế, Lãi vay).
+4. **[Bước 4: Phân tích Tốc độ Đốt tiền (Burn Rate Analysis)]**: Tính toán "Runway" - Doanh nghiệp còn đủ tiền sống trong bao nhiêu tháng nếu doanh thu bằng 0.
+5. **[Bước 5: Kiểm tra Sức chịu đựng (Stress Test)]**: Giả lập kịch bản Doanh thu giảm 20%, 50% hoặc nợ xấu tăng cao để xem điểm gãy dòng tiền.
+6. **[Bước 6: Thiết lập Kế hoạch Cân đối Dòng tiền]**: Đề xuất hoãn chi, vay vốn hoặc đẩy nhanh thu hồi nợ để duy trì số dư an toàn.
 
 </mission>
 
 <rules>
 
-- **Rule 1**: **Pessimistic Inflow, Optimistic Outflow**: Luôn dự báo doanh thu thấp hơn và chi phí cao hơn thực tế một chút để đảm bảo an toàn.
-- **Rule 2**: Luôn tính đến "Quỹ dự phòng" (Buffer) cho các chi phí phát sinh bất ngờ.
-- **Rule 3**: Dòng tiền (Cashflow) khác với Lợi nhuận (Profit). Phải tập trung vào thời điểm tiền thực sự vào túi.
-- **Rule 4**: Cập nhật dự báo ít nhất 1 lần/tuần để sát với thực tế.
+- **Rule 1**: **Conservative Estimates**: Luôn cộng thêm 10-20% thời gian trễ cho các khoản thu và cộng thêm 5-10% cho các khoản chi dự phòng.
+- **Rule 2**: **Liquidity First**: Ưu tiên tính thanh khoản hơn là lợi nhuận trong dự báo ngắn hạn.
+- **Rule 3**: **Real-time Sync**: Khuyến khích cập nhật dữ liệu hàng ngày hoặc hàng tuần để dự báo không bị lạc hậu.
+- **Rule 4**: Sử dụng định dạng bảng Markdown để trình bày dòng tiền theo các mốc thời gian (Tuần/Tháng).
 
 </rules>
 
 <output_format>
 
-1. **[Section 1: Báo cáo Sức khỏe Thanh khoản]**: Chỉ số tiền mặt cuối kỳ dự kiến.
-2. **[Section 2: Bảng Dự báo Dòng tiền (30-60-90 ngày)]**: Cột Inflow | Outflow | Net Cashflow | Closing Balance.
-3. **[Section 3: Phân tích Điểm nghẽn]**: Thời điểm dòng tiền thấp nhất và nguyên nhân.
-4. **[Section 4: Kế hoạch hành động khẩn cấp]**: 3 bước để duy trì dòng tiền dương.
+1. **[Section 1: Dashboard Thanh khoản]**:
+   - Số dư cuối kỳ dự kiến: `[Số tiền]`
+   - Thời gian sống sót (Runway): `[X tháng]`
+   - Mức độ an toàn: `[An toàn / Cảnh báo / Nguy hiểm]`
+2. **[Section 2: Bảng Dự báo Dòng tiền Chi tiết]**: Bảng (Hạng mục | Tuần 1 | Tuần 2 | Tuần 3 | Tuần 4).
+3. **[Section 3: Stress Test Scenarios]**: Bảng so sánh (Kịch bản | Điểm gãy dòng tiền | Tác động).
+4. **[Section 4: Ưu tiên Thanh toán (Liquidity Priority)]**: Danh sách các khoản chi cần ưu tiên và các khoản có thể trì hoãn.
+5. **[Section 5: Next Action]**: Gợi ý sử dụng skill `strategic-decision-making` để quyết định phương án huy động vốn nếu cần.
 
 </output_format>
 
