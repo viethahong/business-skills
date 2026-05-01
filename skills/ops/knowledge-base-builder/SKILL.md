@@ -42,31 +42,33 @@ SME thường bị "mất mát" tri thức khi nhân viên nghỉ việc, hoặc
 
 <mission>
 
-1. **[Bước 1: Kiểm toán Tri thức (Audit)]**: Liệt kê các nhóm thông tin cần số hóa: Chính sách nhân sự, Quy trình bán hàng, Tài liệu kỹ thuật, Case studies.
-2. **[Bước 2: Phân loại & Gán nhãn (Taxonomy)]**: Thiết lập hệ thống thư mục và tags logic để dễ tìm kiếm.
-3. **[Bước 3: Chuẩn hóa dữ liệu (Preprocessing)]**:
-   - Chuyển đổi các tài liệu sang định dạng Markdown hoặc cấu trúc QA.
-   - Chia nhỏ tài liệu (Chunking) để AI dễ dàng truy xuất chính xác đoạn nội dung cần thiết.
-4. **[Bước 4: Thiết lập Hệ thống Truy vấn (Search/RAG)]**: Hướng dẫn cài đặt vào các tool như Notion AI hoặc Dify để nhân viên có thể "chat" với tài liệu.
-5. **[Bước 5: Duy trì & Cập nhật]**: Thiết lập quy trình để đảm bảo thông tin cũ được loại bỏ và thông tin mới được nạp vào định kỳ.
+1. **[Bước 1: Kiểm toán & Phân loại Tri thức (Audit)]**: Rà soát dữ liệu thô và phân loại vào các Pillars chính: Vận hành, Sản phẩm, Nhân sự, Khách hàng.
+2. **[Bước 2: Thiết lập Cấu trúc Cây (Taxonomy)]**: Xây dựng sơ đồ phân cấp thông tin (Hierarchy) để đảm bảo không có sự chồng chéo.
+3. **[Bước 3: Chuẩn hóa RAG-ready (Preprocessing)]**: 
+   - Áp dụng kỹ thuật trong `references/chunking-strategy.md` để chia nhỏ tài liệu.
+   - Chuyển đổi bảng biểu và hình ảnh sang định dạng mô tả văn bản (Textual description) để AI có thể hiểu.
+4. **[Bước 4: Làm giàu Metadata (Enrichment)]**: Gán nhãn cho từng đoạn nội dung: `[Bộ phận]`, `[Độ bảo mật]`, `[Ngày cập nhật]`, `[Từ khóa chính]`.
+5. **[Bước 5: Thiết lập Hệ thống Truy vấn & Phân quyền]**: Hướng dẫn đưa dữ liệu vào các công cụ RAG (Dify/Notion) và thiết lập quyền truy cập cho từng nhóm nhân sự.
+6. **[Bước 6: Vòng lặp Kiểm định (Verification Loop)]**: Đặt câu hỏi thử nghiệm để kiểm tra xem AI có trích xuất đúng nguồn tài liệu không.
 
 </mission>
 
 <rules>
 
-- **Rule 1**: **Single Source of Truth**: Đảm bảo mỗi thông tin chỉ có một bản chính thống nhất.
-- **Rule 2**: Bảo mật thông tin (Phân quyền rõ ràng ai được xem tài liệu nào).
-- **Rule 3**: **Searchability First**: Ưu tiên cấu trúc mà AI và con người đều có thể tìm thấy trong <30 giây.
-- **Rule 4**: Khuyến khích văn hóa "Viết ra trước khi làm" để làm giàu kho tri thức.
+- **Rule 1**: **Context Preservation**: Khi chia nhỏ tài liệu (Chunking), luôn phải giữ lại tiêu đề chính hoặc bối cảnh của đoạn đó để AI không bị nhầm lẫn.
+- **Rule 2**: **Source Attribution**: Mọi câu trả lời của AI dựa trên kho tri thức phải có link hoặc chỉ dẫn về tài liệu gốc.
+- **Rule 3**: **Clean Data Only**: Tuyệt đối không nạp các tài liệu nháp, tài liệu cũ hoặc các trao đổi rời rạc không mang tính quy chuẩn.
+- **Rule 4**: Sử dụng cấu trúc thư mục rõ ràng và mã hóa màu sắc (nếu có thể) trong phần mô tả sơ đồ.
 
 </rules>
 
 <output_format>
 
-1. **[Section 1: Sơ đồ Cấu trúc Kho Tri thức]**: Cấu trúc cây thư mục đề xuất.
-2. **[Section 2: Danh sách ưu tiên số hóa]**: Các tài liệu cần chuẩn bị ngay.
-3. **[Section 3: Hướng dẫn chuẩn hóa Markdown]**: Mẫu format tài liệu để AI hiểu tốt nhất.
-4. **[Section 4: Lộ trình triển khai hệ thống]**: Các bước cài đặt tool và đào tạo nhân viên sử dụng.
+1. **[Section 1: Sơ đồ Cây Tri thức (Mindmap style)]**: Phân cấp các thư mục và loại tài liệu.
+2. **[Section 2: Bảng Chỉ mục Tài liệu (Metadata Table)]**: Danh sách tài liệu kèm các nhãn (Tags) tương ứng.
+3. **[Section 3: Phân tích Khoảng trống Tri thức (Knowledge Gap)]**: Nhận diện những phần công ty đang thiếu tài liệu (Ví dụ: "Thiếu SOP xử lý khủng hoảng").
+4. **[Section 4: Mẫu chuẩn hóa Markdown]**: Code block chứa mẫu một tài liệu đã được tối ưu cho AI.
+5. **[Section 5: Next Action]**: Gợi ý skill `training-content-creator` để biến kho tri thức này thành các bài giảng tự động.
 
 </output_format>
 
