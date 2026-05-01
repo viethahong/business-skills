@@ -43,31 +43,36 @@ SME thường bị "nghẽn" ở khâu sản xuất nội dung: bài viết lẻ
 
 <mission>
 
-1. **[Bước 1: Thiết lập "Phôi" nội dung]**: Xác định các góc nhìn (Angles) và phong cách (Styles) sẽ sử dụng.
-2. **[Bước 2: Ý tưởng hóa (Ideation)]**: Sử dụng AI để brainstorm 30 tiêu đề/chủ đề phụ từ 1 chủ đề gốc.
-3. **[Bước 3: Sản xuất hàng loạt (Batching)]**:
-   - Sử dụng Framework 4C để viết prompt sản xuất bài viết theo từng nhóm chủ đề.
-   - Áp dụng kỹ thuật "1 input -> Multi outputs" (Ví dụ: 1 Video script -> 1 Blog post + 3 Facebook posts + 1 Email).
-4. **[Bước 4: Kiểm soát chất lượng (QC)]**: Checklist kiểm tra tính nhất quán về giọng văn (Tone of Voice) và thông điệp.
-5. **[Bước 5: Đóng gói & Phân phối]**: Sắp xếp vào Content Calendar và chuẩn bị file export để đăng tải.
+1. **[Bước 1: Thiết lập Pillar & Big Idea]**: Xác định chủ đề cốt lõi (Pillar) và thông điệp chính (The One Thing) xuyên suốt chiến dịch.
+2. **[Bước 2: Ma trận Đa góc nhìn (Multi-Angle Matrix)]**: Từ 1 chủ đề, AI tự động tạo ra 6 góc nhìn:
+   - **How-to**: Hướng dẫn chi tiết. | **Mistake**: Các lỗi thường gặp.
+   - **Myth**: Phá bỏ quan niệm sai lầm. | **Future**: Dự báo xu hướng.
+   - **Case Study**: Câu chuyện thực tế. | **Opinion**: Góc nhìn cá nhân/tranh biện.
+3. **[Bước 3: Sản xuất hàng loạt & Repurpose]**: 
+   - Sử dụng Framework 4C để viết bài cho đa kênh (Facebook, LinkedIn, TikTok script, Email).
+   - Tối ưu hóa định dạng riêng cho từng nền tảng (Hashtags, Emojis, Độ dài).
+4. **[Bước 4: Thiết kế Visual Briefs]**: Tạo 3 phương án câu lệnh (Image Prompts) cho Midjourney/DALL-E cho mỗi bài viết.
+5. **[Bước 5: Lập Content Calendar]**: Sắp xếp 10-30 bài viết vào lịch trình đăng tải logic (Ví dụ: Thứ 2 dạy kiến thức, Thứ 6 kể chuyện).
+6. **[Bước 6: Human-Audit]**: Checklist để người dùng chèn trải nghiệm cá nhân (Personal stories) vào 20% nội dung AI.
 
 </mission>
 
 <rules>
 
-- **Rule 1**: **Quantity with Quality**: Không vì số lượng mà bỏ qua giá trị hữu ích cho khách hàng.
-- **Rule 2**: Tránh trùng lặp 100% nội dung giữa các bài viết; mỗi bài phải có một góc nhìn hoặc ví dụ khác nhau.
-- **Rule 3**: **Human-in-the-loop**: AI làm 80%, con người phải duyệt và edit 20% cuối cùng để thêm cảm xúc và trải nghiệm thực tế.
-- **Rule 4**: Luôn có lời kêu gọi hành động (CTA) rõ ràng trong mỗi phần nội dung.
+- **Rule 1**: **Platform-Specific Formatting**: Không dùng chung một format cho mọi kênh. (Ví dụ: Facebook dùng emoji thân thiện, LinkedIn dùng bullet points chuyên nghiệp).
+- **Rule 2**: **Hook-Driven**: Mỗi bài viết phải có ít nhất 3 phương án tiêu đề/câu mở đầu (Hooks) để test hiệu quả.
+- **Rule 3**: **Active Repurposing**: Luôn tìm cách biến 1 nội dung dài thành nhiều nội dung ngắn (Micro-content) để tối đa hóa điểm chạm.
+- **Rule 4**: Sử dụng cấu trúc bảng cho Content Calendar để người dùng dễ dàng quản lý và phân công công việc.
 
 </rules>
 
 <output_format>
 
-1. **[Section 1: Content Strategy Map]**: Sơ đồ phân bổ nội dung theo phễu (Awareness, Consideration, Conversion).
-2. **[Section 2: Bảng Content Calendar]**: Danh sách 10-30 bài viết kèm tiêu đề, kênh, và tóm tắt nội dung.
-3. **[Section 3: Bản thảo chi tiết]**: Code blocks chứa nội dung bài viết mẫu.
-4. **[Section 4: Hướng dẫn Prompting]**: Các câu lệnh (Prompts) cụ thể để người dùng có thể tự chạy lại quy trình này.
+1. **[Section 1: Ma trận Nội dung 30 ngày]**: Bảng (Ngày | Kênh | Góc nhìn | Tiêu đề | CTA).
+2. **[Section 2: Bản thảo Nội dung Mẫu]**: 3-5 bài viết mẫu hoàn chỉnh cho các nhóm góc nhìn khác nhau.
+3. **[Section 3: Thư viện Visual Prompts]**: Danh sách các câu lệnh tạo ảnh AI tương ứng với từng bài.
+4. **[Section 4: Checklist Chỉnh sửa (20% Human)]**: Các vị trí cần người dùng chèn thêm ảnh thật, video thật hoặc câu chuyện thực tế.
+5. **[Section 5: Next Action]**: Gợi ý skill `sentiment-analysis` để đo lường phản hồi sau khi đăng bài.
 
 </output_format>
 
