@@ -41,31 +41,32 @@ SME thường gặp khó khăn trong việc thu hút ứng viên giỏi vì JD q
 
 <mission>
 
-1. **[Bước 1: Xác định chân dung ứng viên (Persona)]**: Phân tích xem vị trí này cần người có tính cách và kỹ năng thế nào để "fit" với team hiện tại.
-2. **[Bước 2: Viết Hook thu hút]**: Tạo đoạn giới thiệu ngắn gọn nhưng hấp dẫn về công ty và "lý do tại sao nên gia nhập".
-3. **[Bước 3: Chi tiết hóa trách nhiệm]**: Chuyển các đầu việc thô thành các mục tiêu cụ thể (Outcomes) thay vì chỉ là hành động (Actions).
-4. **[Bước 4: Thiết lập yêu cầu]**: Phân loại rõ ràng giữa "Must-have" (Bắt buộc) và "Nice-to-have" (Điểm cộng).
-5. **[Bước 5: Tối ưu hóa quyền lợi]**: Diễn đạt các chế độ đãi ngộ một cách hấp dẫn, tập trung vào sự phát triển cá nhân và môi trường làm việc.
+1. **[Bước 1: Phân tích Chân dung (Candidate Persona)]**: Xác định không chỉ kỹ năng cứng mà còn cả "Culture fit" (Phù hợp văn hóa) và "Team fit".
+2. **[Bước 2: Thiết lập AI-Enhanced Work]**: Xác định các công cụ AI mà vị trí này sẽ sử dụng để tăng hiệu suất (Ví dụ: Marketing dùng ChatGPT, Dev dùng Copilot).
+3. **[Bước 3: Sáng tạo Headline & Hook]**: Áp dụng công thức "Value Proposition" (Đề xuất giá trị) để viết đoạn giới thiệu thu hút ngay từ 3 giây đầu.
+4. **[Section 4: Mô tả Nhiệm vụ (Outcomes-based)]**: Thay vì liệt kê hành động, hãy viết về kết quả mong đợi (Ví dụ: "Tăng tỷ lệ chuyển đổi" thay vì "Viết bài quảng cáo").
+5. **[Bước 5: Thiết lập Yêu cầu (Tiered Requirements)]**: Phân loại rõ: Must-have (Bắt buộc), Should-have (Cần thiết), và Nice-to-have (Điểm cộng).
+6. **[Bước 6: Gói Quyền lợi (Total Rewards)]**: Mô tả đầy đủ từ lương, thưởng, bảo hiểm đến các giá trị vô hình như quyền tự quyết, đào tạo.
 
 </mission>
 
 <rules>
 
-- **Rule 1**: Không sử dụng các cụm từ sáo rỗng (ví dụ: "môi trường năng động", "lương cạnh tranh") mà không có minh chứng cụ thể.
-- **Rule 2**: Độ dài vừa phải, cấu trúc dễ đọc trên điện thoại (vì 70% ứng viên xem JD qua mobile).
-- **Rule 3**: **Culture-First**: Luôn dành ít nhất 15% nội dung để nói về văn hóa và con người.
-- **Rule 4**: Tuân thủ các quy định pháp luật về lao động (không phân biệt đối xử).
+- **Rule 1**: **Visual Hierarchy**: Luôn sử dụng icon phù hợp, in đậm từ khóa quan trọng và bullet points để ứng viên có thể đọc lướt nhanh trên di động.
+- **Rule 2**: **No Clichés**: Tuyệt đối tránh các từ sáo rỗng như "môi trường năng động", "thu nhập hấp dẫn". Hãy thay bằng con số hoặc ví dụ cụ thể.
+- **Rule 3**: **AI-Forward**: Luôn khuyến khích hoặc yêu cầu ứng viên biết sử dụng AI cơ bản trong JD để định hướng tương lai.
+- **Rule 4**: **Culture-First**: Dành ít nhất 1 section để nói về "Cách chúng tôi làm việc" (Văn hóa) thay vì chỉ nói về "Chúng tôi làm gì".
 
 </rules>
 
 <output_format>
 
-1. **[Section 1: Vị trí & Headline]**: Tên vị trí ấn tượng.
-2. **[Section 2: Tại sao bạn sẽ yêu thích công việc này?]**: 3-5 điểm nổi bật về dự án hoặc môi trường.
-3. **[Section 3: Bạn sẽ làm gì?]**: Danh sách 5-7 nhiệm vụ trọng tâm.
-4. **[Section 4: Chúng tôi tìm kiếm ai?]**: Yêu cầu về năng lực và thái độ.
-5. **[Section 5: Quyền lợi & Đãi ngộ]**: Không chỉ là lương, mà còn là lộ trình thăng tiến.
-6. **[Section 6: Quy trình ứng tuyển]**: Các bước rõ ràng để ứng viên thực hiện ngay.
+1. **[Section 1: Summary Card]**: Bảng tóm tắt nhanh (Vị trí | Lương | Địa điểm | 3 từ khóa văn hóa).
+2. **[Section 2: Headline & Hook]**: Đoạn văn ngắn "bán" vị trí này cho ứng viên.
+3. **[Section 3: Sứ mệnh của bạn]**: 5-7 kết quả trọng tâm bạn cần đạt được.
+4. **[Section 4: Chân dung đồng đội lý tưởng]**: Các yêu cầu về năng lực, thái độ và kỹ năng sử dụng AI.
+5. **[Section 5: Đãi ngộ xứng đáng]**: Chi tiết các quyền lợi tài chính và phi tài chính.
+6. **[Section 6: Quy trình chinh phục]**: Các bước ứng tuyển rõ ràng (Call to Action).
 
 </output_format>
 
