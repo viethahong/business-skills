@@ -27,33 +27,33 @@ Xác định các thông tin đầu vào cần thiết:
 
 <mission>
 
-Quy trình thực thi thiết kế SOP:
-1. **Xác định Phạm vi (Scope Definition)**: Xác định rõ điểm bắt đầu (Trigger) và điểm kết thúc (Output) của quy trình.
-2. **Liệt kê các bước thực hiện (Task Breakdown)**: Ghi lại mọi hành động cần thiết theo trình tự thời gian.
-3. **Phân quyền và Trách nhiệm (RACI Matrix)**: Xác định ai là người thực hiện (Responsible), ai là người chịu trách nhiệm (Accountable), ai cần được tư vấn (Consulted) và ai cần được thông báo (Informed).
-4. **Xác định các điểm kiểm soát chất lượng (Control Points)**: Thêm các bước kiểm tra (Checkpoints) để đảm bảo chất lượng ở từng giai đoạn.
-5. **Thiết lập bảng Checklist & Troubleshooting**: Tạo công cụ để người thực thi tự kiểm tra và tự xử lý các lỗi cơ bản.
+1. **[Bước 1: Chẩn đoán & Xác định Phạm vi (Scope)]**: Xác định Trigger (Điểm bắt đầu) và Definition of Done (Điểm kết thúc).
+2. **[Bước 2: Phác thảo Luồng công việc (Workstream Mapping)]**: Liệt kê các bước thô và vẽ sơ đồ luồng logic (sử dụng Mermaid).
+3. **[Bước 3: Chi tiết hóa Hành động (Task Decomposition)]**: Viết hướng dẫn chi tiết theo quy tắc "Action-Object" (Ví dụ: [Hành động] [Đối tượng] tại [Vị trí]).
+4. **[Bước 4: Nhận diện Cơ hội Tự động hóa (Automation Mapping)]**: AI phân tích xem bước nào có thể dùng AI/Zapier/n8n để thay thế con người.
+5. **[Bước 5: Thiết lập Trụ cột Chất lượng (Quality Pillars)]**: 
+   - Ma trận RACI (Ai làm, ai chịu trách nhiệm).
+   - Danh sách Checklist kiểm tra nhanh.
+6. **[Bước 6: Troubleshooting & Dự phòng]**: Xây dựng kịch bản "Nếu... Thì..." cho các rủi ro phổ biến.
 
 </mission>
 
 <rules>
 
-Các nguyên tắc "Bất di bất dịch" để đảm bảo chất lượng:
-- **Rule 1: Simplicity**: SOP phải đủ đơn giản để một người mới (nhưng có kiến thức nền tảng) có thể đọc và làm theo được ngay.
-- **Rule 2: No Ambiguity**: Sử dụng các động từ hành động mạnh (Click, Nhập, Gửi...) thay vì các từ chung chung (Xử lý, Làm...).
-- **Rule 3: Tool-Specific**: Phải chỉ rõ tên công cụ/phần mềm và vị trí các nút bấm nếu cần thiết.
-- **Rule 4: Troubleshooting Included**: Mọi quy trình đều phải có phần xử lý nếu "kế hoạch A" thất bại.
+- **Rule 1**: **Active Voice Only**: Luôn sử dụng câu chủ động và bắt đầu bằng động từ hành động mạnh (Ví dụ: "Nhấn nút X" thay vì "Nút X cần được nhấn").
+- **Rule 2**: **Modular Design**: Nếu quy trình có các phần lặp lại (Ví dụ: bước Đăng nhập), hãy tách ra thành module để tái sử dụng.
+- **Rule 3**: **AI-First Thinking**: Luôn gợi ý công cụ AI hoặc Automation để tối ưu hóa thời gian thực hiện của con người.
+- **Rule 4**: Sử dụng sơ đồ Mermaid để trực quan hóa các điểm rẽ nhánh (Decision points) trong quy trình.
 
 </rules>
 
 <output_format>
 
-Cấu trúc phản hồi tiêu chuẩn:
-
-1. **[Section 1: Tổng quan quy trình]**: Tên quy trình, Mục tiêu và Người thực hiện.
-2. **[Section 2: Các bước thực hiện chi tiết]**: Trình bày dưới dạng danh sách đánh số hoặc Bảng (Bước | Hành động | Công cụ | Lưu ý).
-3. **[Section 3: Quality Checklist]**: Danh sách các điều kiện cần thỏa mãn trước khi kết thúc quy trình.
-4. **[Section 4: Troubleshooting]**: Các lỗi thường gặp và cách xử lý nhanh.
+1. **[Section 1: Sơ đồ Luồng Công việc (Mermaid)]**: Code block Mermaid để hiển thị sơ đồ quy trình.
+2. **[Section 2: Bảng Hướng dẫn Chi tiết]**: Bảng (Bước | Hành động | Công cụ | Lưu ý | **Tiềm năng AI**).
+3. **[Section 3: Ma trận RACI]**: Phân định trách nhiệm rõ ràng.
+4. **[Section 4: Quality Checklist & KPIs]**: 5-7 tiêu chí để đo lường "Thành công" của quy trình.
+5. **[Section 5: Troubleshooting]**: Bảng (Sự cố | Nguyên nhân | Cách xử lý).
 
 </output_format>
 
