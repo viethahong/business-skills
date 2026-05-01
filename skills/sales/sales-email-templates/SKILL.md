@@ -41,32 +41,39 @@ SME thường mất khách hàng vì không biết cách viết email thu hút h
 
 <mission>
 
-1. **[Bước 1: Xác định Góc tiếp cận (Angle)]**: Chọn framework phù hợp (Ví dụ: BAB - Before/After/Bridge cho email giải pháp).
-2. **[Bước 2: Viết Tiêu đề (Subject Line)]**: Tạo 3 phương án tiêu đề có tỉ lệ mở (Open rate) cao, kích thích sự tò mò hoặc đánh đúng vào lợi ích.
-3. **[Bước 3: Biên soạn Nội dung]**:
-   - Cá nhân hóa đoạn mở đầu.
-   - Trình bày giải pháp ngắn gọn, tập trung vào kết quả (Results).
-   - Đưa ra bằng chứng xã hội (Social proof) hoặc lời cam kết.
-4. **[Bước 4: Thiết lập Lời kêu gọi hành động (CTA)]**: Một CTA duy nhất, rõ ràng và dễ thực hiện (Ví dụ: "Bạn có rảnh 10p chiều mai không?").
-5. **[Bước 5: Thiết kế Chuỗi Follow-up]**: Xây dựng 3 email tiếp theo với các giá trị bổ sung để bám đuổi mà không gây khó chịu.
+1. **[Bước 1: Phân tích Lead & Angle]**: Xác định Role người nhận (Gatekeeper hay Decision Maker) và chọn framework (AIDA, PAS, BAB).
+2. **[Bước 2: Thiết lập Bản đồ Biến số (Variable Mapping)]**: Xác định các điểm cần cá nhân hóa: `{{Tên}}`, `{{Công ty}}`, `{{Nỗi đau cụ thể}}`, `{{Thành tựu gần đây}}`.
+3. **[Bước 3: Sáng tạo Tiêu đề (Subject Line Suite)]**: Tạo 3 tiêu đề theo 3 hướng: Tò mò, Lợi ích, và Khẩn cấp.
+4. **[Bước 4: Biên soạn Nội dung Email chính (The Hero Email)]**: 
+   - Viết đoạn mở đầu "Pattern Interrupt" (Gây chú ý ngay).
+   - Đưa ra giải pháp kèm 1 bằng chứng số liệu (Social Proof).
+   - Thiết kế CTA "Low-friction" (Dễ đồng ý).
+5. **[Bước 5: Thiết kế Chuỗi Follow-up (The Sequence)]**: 
+   - Email 2: Tặng thêm tài liệu giá trị (Value-add).
+   - Email 3: Giải quyết các rào cản (Overcoming objections).
+   - Email 4: Break-up email (Lời chào tạm biệt lịch sự).
+6. **[Bước 6: Tối ưu hóa kỹ thuật]**: Kiểm tra lỗi chính tả, từ khóa spam và cấu trúc mobile-ready.
 
 </mission>
 
 <rules>
 
-- **Rule 1**: **One Email, One Goal**: Mỗi email chỉ nên tập trung vào một mục tiêu duy nhất.
-- **Rule 2**: Tránh các từ khóa dễ bị đánh dấu Spam (Ví dụ: "Miễn phí ngay", "Kiếm tiền nhanh").
-- **Rule 3**: **Mobile-friendly**: Viết ngắn gọn, các câu không quá 15 từ để dễ đọc trên điện thoại.
-- **Rule 4**: Luôn kiểm tra tính cá nhân hóa (Tên, Tên công ty) trước khi gửi.
+- **Rule 1**: **Value-Added Follow-up**: Tuyệt đối không dùng cụm từ "Tôi chỉ muốn kiểm tra xem..." (Just checking in). Mỗi email follow-up phải mang lại một giá trị mới (Tip, Case study, Quà tặng).
+- **Rule 2**: **Plain Text Preference**: Ưu tiên phong cách email văn bản thuần túy (Plain text) để tạo cảm giác cá nhân và tránh tab "Promotions" (Quảng cáo).
+- **Rule 3**: **The 3-Second Rule**: Đoạn đầu tiên phải đủ hấp dẫn để khách hàng không xóa mail trong 3 giây đầu.
+- **Rule 4**: **Subject Line Scoring**: AI phải tự chấm điểm (1-10) cho các tiêu đề đề xuất dựa trên khả năng kích thích tỷ lệ mở.
 
 </rules>
 
 <output_format>
 
-1. **[Section 1: Chiến lược Email Sequence]**: Mục tiêu của từng email trong chuỗi.
-2. **[Section 2: Chi tiết các Mẫu Email]**: Mỗi mẫu gồm: Tiêu đề | Nội dung | Ghi chú cá nhân hóa.
-3. **[Section 3: Lịch gửi đề xuất]**: Gửi vào thứ mấy, mấy giờ để đạt hiệu quả cao nhất.
-4. **[Section 4: Chỉ số theo dõi]**: Cách đo lường Open rate và Reply rate.
+1. **[Section 1: Chiến lược Chuỗi Outreach]**: Tổng quan mục tiêu của chuỗi 3-4 email.
+2. **[Section 2: Thư viện Tiêu đề (Scored)]**: Danh sách tiêu đề kèm điểm số và lý do chấm điểm.
+3. **[Section 3: Nội dung Chi tiết Email Sequence]**: 
+   - Code block cho từng Email.
+   - Hướng dẫn điền thông tin vào các biến `{{...}}`.
+4. **[Section 4: Lịch gửi & Tần suất]**: Đề xuất khoảng cách giữa các email (Ví dụ: Ngày 1, Ngày 3, Ngày 7).
+5. **[Section 5: Kịch bản Xử lý Phản hồi]**: Cách trả lời nếu khách hàng nói "Bận", "Không quan tâm" hoặc "Giá cao".
 
 </output_format>
 
