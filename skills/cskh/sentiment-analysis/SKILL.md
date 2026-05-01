@@ -42,31 +42,34 @@ SME thường bỏ lỡ các dấu hiệu "nguy hiểm" (khách hàng bực bộ
 
 <mission>
 
-1. **[Bước 1: Thu thập & Làm sạch dữ liệu]**: Lọc bỏ các nội dung rác, quảng cáo chéo, hoặc các câu quá ngắn không mang ý nghĩa cảm xúc.
-2. **[Bước 2: Phân loại Cảm xúc (Classification)]**:
-   - Gán nhãn: Positive (Tích cực), Negative (Tiêu cực), Neutral (Trung lập).
-   - Đặc biệt chú ý nhóm **Urgent Negative** (Tiêu cực khẩn cấp) cần xử lý ngay.
-3. **[Bước 3: Trích xuất Chủ đề (Topic Modeling)]**: Xác định xem khách hàng đang khen/chê về điều gì: Giá cả, Chất lượng sản phẩm, Tốc độ giao hàng, hay Thái độ nhân viên?
-4. **[Bước 4: Phát hiện Xu hướng (Trend Detection)]**: So sánh cảm xúc tuần này/tháng này với trước đó để thấy sự thay đổi.
-5. **[Bước 5: Đề xuất hành động]**: Kịch bản xử lý khủng hoảng cho nhóm tiêu cực và cách lan tỏa nhóm tích cực.
+1. **[Bước 1: Làm sạch & Lọc nhiễu]**: Loại bỏ spam, quảng cáo chéo và các nội dung không liên quan đến sản phẩm/dịch vụ.
+2. **[Bước 2: Phân tích Sắc thái & Ngữ cảnh (Nuance)]**: Sử dụng `references/sentiment-dictionary.md` để nhận diện từ lóng, icon và đặc biệt là các lời mỉa mai (Sarcasm) trong tiếng Việt.
+3. **[Bước 3: Chấm điểm Cường độ (Intensity Scoring)]**: Gán mức độ từ 1-5 cho các cảm xúc (Ví dụ: -5 là cực kỳ phẫn nộ, +5 là cực kỳ hài lòng).
+4. **[Bước 4: Phân nhóm Vấn đề (Issue Clustering)]**: Gom các feedback tiêu cực vào các "túi" nguyên nhân: Giá, Chất lượng, Giao hàng, Thái độ.
+5. **[Bước 5: Dự thảo Phản hồi (Draft Responses)]**: AI gợi ý kịch bản trả lời mẫu cho từng nhóm cảm xúc (Xoa dịu khách giận, cảm ơn khách vui).
+6. **[Bước 6: Tổng hợp Insights Chiến lược]**: Đưa ra các kiến nghị "Sửa đổi ngay" để giảm tỷ lệ rời bỏ (Churn rate).
 
 </mission>
 
 <rules>
 
-- **Rule 1**: Hiểu ngôn ngữ mạng và từ lóng (Slang) của thị trường Việt Nam (Ví dụ: "cháy" có thể là khen đẹp, không phải hỏa hoạn).
-- **Rule 2**: Không bỏ qua các ý kiến trung lập (Neutral) vì đây thường là nơi chứa các gợi ý cải tiến sản phẩm thực tế nhất.
-- **Rule 3**: **Root Cause First**: Luôn tìm ra nguyên nhân gốc rễ (Lý do tại sao khách buồn/vui).
-- **Rule 4**: Đảm bảo tính bảo mật khi xử lý feedback cá nhân.
+- **Rule 1**: **Nuance Sensitivity**: Luôn kiểm tra các cặp từ đối lập hoặc icon để phát hiện mỉa mai (Ví dụ: "Shop làm ăn uy tín quá 👍" trong bối cảnh giao sai hàng).
+- **Rule 2**: **Priority First**: Luôn đẩy các case có điểm cường độ tiêu cực cao (-4, -5) lên đầu danh sách xử lý.
+- **Rule 3**: **Action-Oriented**: Không chỉ phân tích "Khách nói gì", mà phải trả lời được "Chúng ta nên làm gì tiếp theo".
+- **Rule 4**: Sử dụng các biểu đồ thanh Markdown để hiển thị "Bản đồ nhiệt" (Heatmap) của các vấn đề.
 
 </rules>
 
 <output_format>
 
-1. **[Section 1: Sentiment Dashboard]**: Biểu đồ phần trăm (dạng text) về các sắc thái cảm xúc.
-2. **[Section 2: Top 3 Pain Points & Gain Points]**: Những điều khách hàng hài lòng nhất và khó chịu nhất.
-3. **[Section 3: Danh sách khách hàng "Cần cấp cứu"]**: Các case tiêu cực nặng cần nhân sự vào xử lý ngay.
-4. **[Section 4: Kiến nghị cải tiến]**: Đề xuất cụ thể cho bộ phận Sản phẩm/Vận hành.
+1. **[Section 1: Sentiment Dashboard (Heatmap)]**:
+   - Tích cực: `[▓▓▓▓▓▓░░░░] 60%`
+   - Trung lập: `[▓▓░░░░░░░░] 20%`
+   - Tiêu cực: `[▓▓░░░░░░░░] 20%`
+2. **[Section 2: Ma trận Vấn đề & Cường độ]**: Bảng (Vấn đề | Số lượng | Cường độ trung bình | Trạng thái).
+3. **[Section 3: Top 3 Case "Cấp cứu"]**: Trích dẫn trực tiếp các bình luận tiêu cực nhất kèm ID khách hàng.
+4. **[Section 4: Kịch bản Phản hồi Đề xuất]**: Các mẫu tin nhắn phản hồi nhanh cho từng nhóm.
+5. **[Section 5: Next Action]**: Đề xuất skill `crm-rfm-analysis` để đối chiếu cảm xúc với hành vi mua hàng thực tế.
 
 </output_format>
 
