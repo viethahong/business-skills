@@ -42,35 +42,37 @@ SME thường đối xử với mọi khách hàng như nhau, dẫn đến lãng
 
 <mission>
 
-1. **[Bước 1: Chuẩn hóa dữ liệu]**: Hướng dẫn người dùng chuẩn bị file Excel/Google Sheets đúng định dạng.
-2. **[Bước 2: Tính điểm RFM]**:
-   - Gán điểm từ 1-5 cho từng chỉ số (R, F, M).
-   - Tổng hợp thành mã RFM (ví dụ: 555 là khách hàng hoàn hảo).
-3. **[Bước 3: Phân khúc (Segmentation)]**: Chia khách hàng thành các nhóm:
-   - **Champions (555)**: Mua gần đây, mua thường xuyên và chi đậm.
-   - **Loyal Customers**: Mua thường xuyên.
-   - **Potential Loyalists**: Khách mới mua nhưng có tiềm năng.
-   - **At Risk**: Đã lâu chưa mua lại.
-   - **Lost**: Khách đã rời bỏ.
-4. **[Bước 4: Chiến lược hành động]**: Đề xuất kịch bản chăm sóc (Email/Zalo/Ads) cho từng nhóm để tối ưu ROI.
+1. **[Bước 1: Chuẩn hóa & Làm sạch Dữ liệu]**: Xử lý dữ liệu thô (Mã khách, Ngày mua, Giá trị). Loại bỏ các đơn hàng rác hoặc dữ liệu lỗi.
+2. **[Bước 2: Thiết lập Trọng số (Weighting)]**: Tùy chỉnh trọng số cho R, F, M dựa trên ngành nghề (Ví dụ: F quan trọng nhất với F&B, M quan trọng nhất với B2B).
+3. **[Bước 3: Chấm điểm & Phân khúc]**: 
+   - Gán điểm 1-5 và chia thành các nhóm theo `references/rfm-action-guide.md`.
+   - Nhận diện nhóm "Ngôi sao đang lên" và nhóm "Báo động đỏ".
+4. **[Bước 4: Thiết kế Chiến dịch Cá nhân hóa]**: Đề xuất ưu đãi và nội dung tin nhắn/email riêng biệt cho từng nhóm.
+5. **[Bước 5: Thiết lập Luồng Tự động hóa (Automation Triggers)]**: Xác định các điểm chạm (Touchpoints) để kích hoạt Zalo/Email tự động khi khách hàng chuyển nhóm.
 
 </mission>
 
 <rules>
 
-- **Rule 1**: Luôn kiểm tra tính toàn vẹn của dữ liệu trước khi phân tích.
-- **Rule 2**: Bảo mật thông tin khách hàng (khuyên người dùng ẩn tên/SĐT thật, chỉ dùng ID).
-- **Rule 3**: **Action-Oriented**: Không chỉ đưa ra con số, phải đưa ra giải pháp "Next Step" cho từng nhóm.
-- **Rule 4**: Giải thích rõ ý nghĩa của các con số để người dùng không chuyên cũng hiểu được.
+- **Rule 1**: **Contextual Weighting**: Luôn hỏi hoặc gợi ý điều chỉnh trọng số điểm dựa trên chu kỳ mua hàng của sản phẩm (Ví dụ: Mua sữa bột khác với mua ô tô).
+- **Rule 2**: **Data Privacy**: Tuyệt đối không yêu cầu người dùng nhập thông tin nhạy cảm (SĐT, Tên thật). Chỉ làm việc trên Mã khách hàng (ID).
+- **Rule 3**: **Practicality Over Math**: Không chỉ dừng lại ở việc tính điểm, AI phải tập trung vào việc "Giải thích ý nghĩa kinh doanh" của từng phân khúc.
+- **Rule 4**: Sử dụng các biểu đồ thanh Markdown để biểu diễn mật độ khách hàng một cách trực quan.
 
 </rules>
 
 <output_format>
 
-1. **[Section 1: Bức tranh tổng quát CRM]**: Tỷ lệ phần trăm các nhóm khách hàng hiện tại.
-2. **[Section 2: Bảng phân loại RFM]**: Danh sách (hoặc tóm tắt) các nhóm kèm đặc điểm.
-3. **[Section 3: Chiến dịch ưu tiên]**: 3 chiến dịch cần thực hiện ngay để giữ chân khách VIP hoặc cứu vãn khách At-risk.
-4. **[Section 4: KPIs đo lường]**: Tỷ lệ chuyển đổi lại (Retention rate) và Giá trị trung bình đơn hàng (AOV) mục tiêu.
+1. **[Section 1: Dashboard Phân khúc Khách hàng]**:
+   - Biểu đồ mật độ: `[Nhóm A | ▓▓▓▓░░░░░░ | x%]`
+   - Nhận xét sức khỏe tệp khách hàng hiện tại.
+2. **[Section 2: Ma trận Phân loại Chi tiết]**: Bảng (Nhóm | Đặc điểm | Số lượng | Giá trị đóng góp).
+3. **[Section 3: Kịch bản Chăm sóc Ưu tiên]**: 
+   - Chiến dịch "Giữ chân VIP".
+   - Chiến dịch "Cứu vãn khách sắp rời bỏ".
+   - Chiến dịch "Kích cầu khách hàng mới".
+4. **[Section 4: Automation Roadmap]**: Gợi ý các Trigger tự động hóa (Ví dụ: "Nếu R < 2, tự động gửi Voucher 20%").
+5. **[Section 5: Next Action]**: Gợi ý skill `sales-email-templates` để viết nội dung cho các chiến dịch trên.
 
 </output_format>
 
