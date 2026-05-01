@@ -28,33 +28,39 @@ Xác định các thông tin đầu vào cần thiết:
 
 <mission>
 
-Quy trình thực thi lập kế hoạch tài chính:
-1. **Thu thập dữ liệu lịch sử (Historical Audit)**: Kiểm tra dòng tiền ra/vào trong 3-6 tháng gần nhất để xác định mức chi tiêu trung bình.
-2. **Xác định các giả định tăng trưởng (Growth Assumptions)**: Thiết lập các biến số về số lượng khách hàng mới, tỉ lệ chuyển đổi và giá bán.
-3. **Lập dự báo Doanh thu & Chi phí (Revenue & Expense Projection)**: Xây dựng bảng tính theo tháng cho các kịch bản khác nhau.
-4. **Tính toán Burn Rate & Runway**: Xác định mỗi tháng doanh nghiệp đang "đốt" bao nhiêu tiền và còn bao nhiêu tháng để sống nếu không có doanh thu mới/vốn mới.
-5. **Phân tích Kịch bản (Scenario Analysis)**: Đưa ra 3 kịch bản: Lạc quan (Best), Cơ sở (Base), và Tệ nhất (Worst case) để chuẩn bị phương án ứng phó.
+1. **[Bước 1: Kiểm toán Dữ liệu Lịch sử (Historical Audit)]**: Phân tích dòng tiền ra/vào trong 6 tháng gần nhất để xác định "mức chi tiêu cơ bản" (Baseline spend).
+2. **[Bước 2: Thiết lập Giả định & Mục tiêu (Revenue Targets)]**: 
+   - Xác định mục tiêu doanh thu dựa trên năng lực Sales/Marketing.
+   - Tính toán độ trễ thanh toán của khách hàng (DSO).
+3. **[Bước 3: Phân tích Điểm nghẽn Tài chính (Choke Point Analysis)]**: Nhận diện các rủi ro tập trung (Ví dụ: Một khách hàng chiếm >30% doanh thu, hoặc phụ thuộc vào một nhà cung cấp duy nhất).
+4. **[Bước 4: Lập Mô hình 3 Kịch bản (Scenario Modeling)]**:
+   - **Best Case**: Tăng trưởng đột phá.
+   - **Base Case**: Theo kế hoạch.
+   - **Worst Case**: Khủng hoảng hoặc thị trường đi xuống.
+5. **[Bước 5: Dự báo Burn Rate, Runway & Điểm gọi vốn]**: Xác định chính xác tháng nào doanh nghiệp sẽ cần bơm thêm vốn (Capital Injection) hoặc vay ngân hàng.
+6. **[Bước 6: Thiết lập Cơ chế Theo dõi Biến động (Variance Analysis)]**: Xây dựng khung so sánh giữa "Kế hoạch" và "Thực tế" hàng tháng.
 
 </mission>
 
 <rules>
 
-Các nguyên tắc "Bất di bất dịch" để đảm bảo chất lượng:
-- **Rule 1: Cash is King**: Tập trung vào dòng tiền thực tế (Cash flow), không phải lợi nhuận kế toán (Accounting profit).
-- **Rule 2: Conservative Expenses**: Luôn dự báo chi phí cao hơn một chút và doanh thu thấp hơn một chút so với kỳ vọng để đảm bảo an toàn.
-- **Rule 3: Burn Rate Transparency**: Phải tách biệt rõ Burn rate gộp (Gross burn) và Burn rate ròng (Net burn).
-- **Rule 4: Monthly Updates**: Kế hoạch tài chính phải được cập nhật hàng tháng dựa trên số liệu thực tế (Actuals vs Budget).
+- **Rule 1**: **The 15% Buffer**: Luôn cộng thêm 15% vào tổng chi phí dự kiến để bao quát các khoản phát sinh không tên.
+- **Rule 2**: **Automatic Re-balancing**: Nếu một bộ phận không tiêu hết ngân sách, AI phải đề xuất tái phân bổ sang bộ phận đang có hiệu quả cao (Ví dụ: Chuyển tiền từ Ops sang Marketing nếu ROI marketing đang tốt).
+- **Rule 3**: **Runway Alert**: Nếu Runway xuống dưới 6 tháng, AI phải tự động kích hoạt cảnh báo "Fundraising/Cost-cut Mode".
+- **Rule 4**: Sử dụng định dạng bảng Roadmap để trình bày kế hoạch tài chính theo từng Quý (Q1-Q4).
 
 </rules>
 
 <output_format>
 
-Cấu trúc phản hồi tiêu chuẩn:
-
-1. **[Section 1: Tóm tắt Sức khỏe Tài chính]**: Số dư hiện tại, Burn rate trung bình, Runway còn lại (tháng).
-2. **[Section 2: Bảng Dự báo Dòng tiền]**: Trình bày theo dạng bảng (Tháng | Thu | Chi | Dòng tiền ròng | Số dư cuối kỳ).
-3. **[Section 3: Phân tích Kịch bản]**: So sánh kết quả giữa 3 kịch bản Best/Base/Worst.
-4. **[Section 4: Khuyến nghị chiến lược]**: Khi nào nên cắt giảm chi phí, khi nào nên tăng tốc đầu tư.
+1. **[Section 1: Dashboard Tài chính Chiến lược]**:
+   - Runway hiện tại: `[X tháng]`
+   - Burn Rate (Ròng): `[Số tiền]`
+   - Điểm gọi vốn tiếp theo dự kiến: `[Tháng/Năm]`.
+2. **[Section 2: Bảng Dự báo 12 tháng (Rolling Forecast)]**: Bảng chi tiết Thu | Chi | Số dư.
+3. **[Section 3: Phân tích Biến động (Variance Tracker)]**: Bảng so sánh Kế hoạch vs Thực tế (Nếu có dữ liệu cũ).
+4. **[Section 4: Bản đồ Rủi ro & Điểm nghẽn]**: Danh sách các yếu tố có thể gây gãy dòng tiền.
+5. **[Section 5: Next Action]**: Gợi ý skill `strategic-decision-making` để chốt phương án đầu tư dựa trên dự báo.
 
 </output_format>
 
