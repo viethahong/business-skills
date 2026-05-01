@@ -41,29 +41,34 @@ CSKH thường bị quá tải bởi các câu hỏi lặp đi lặp lại (giá
 
 <mission>
 
-1. **[Bước 1: Thu thập & Phân loại FAQ]**: Gom các câu hỏi thường gặp thành các nhóm: Giá, Kỹ thuật, Chính sách, Tư vấn.
-2. **[Bước 2: Xây dựng Knowledge Base (KB)]**: Chuẩn hóa dữ liệu thô thành định dạng mà AI dễ hiểu (QA pair hoặc Markdown).
-3. **[Bước 3: Thiết kế Prompt cho Bot]**: Xây dựng "System Prompt" định nghĩa tính cách (Persona) và phạm vi trả lời của bot (Tránh bot trả lời lan man hoặc sai sự thật).
-4. **[Bước 4: Thiết lập Luồng xử lý (Fall-back)]**: Xác định khi nào bot cần chuyển cuộc hội thoại cho nhân viên thật (Human hand-off).
-5. **[Bước 5: Kiểm thử & Tối ưu]**: Giả lập các tình huống hỏi khó để tinh chỉnh câu trả lời.
+1. **[Bước 1: Kiểm toán FAQ & Intent]**: Phân tích dữ liệu chat cũ để tìm ra các "Intent" (Ý định) thực sự của khách hàng.
+2. **[Bước 2: Xây dựng Nhân cách (Bot Persona)]**: Định nghĩa rõ tên, tuổi, giọng điệu và giới hạn kiến thức của bot để tạo sự gần gũi.
+3. **[Bước 3: Chuẩn hóa Knowledge Base (KB)]**: Sử dụng Markdown và cấu trúc QA Pair. Giải quyết các mâu thuẫn dữ liệu (Conflict Resolution) nếu có thông tin cũ và mới đè lên nhau.
+4. **[Bước 4: Thiết kế System Prompt 4C]**: Áp dụng framework 4C để viết lệnh điều khiển bot, bao gồm cả "Thinking process" để bot suy luận trước khi trả lời.
+5. **[Bước 5: Thiết lập Luồng Chuyển đổi (Human Hand-off)]**: Quy định rõ các "Red Lines" (Dấu hiệu đỏ) để bot tự động tag nhân viên thật vào cuộc chat.
+6. **[Bước 6: Testing & Edge Cases]**: Thử nghiệm với các câu hỏi bẫy, sai chính tả, hoặc đa ngôn ngữ/phương ngữ (Bắc - Trung - Nam).
 
 </mission>
 
 <rules>
 
-- **Rule 1**: **Safety First**: Bot không được hứa hẹn những điều nằm ngoài chính sách công ty.
-- **Rule 2**: Luôn cho khách hàng biết họ đang nói chuyện với AI nhưng có thể yêu cầu gặp người thật bất cứ lúc nào.
-- **Rule 3**: Ngôn ngữ phản hồi phải đồng nhất với nhận diện thương hiệu.
-- **Rule 4**: Định kỳ cập nhật Knowledge Base dựa trên các câu hỏi mới phát sinh.
+- **Rule 1**: **Zero Hallucination**: Thà để bot trả lời "Em chưa rõ phần này" còn hơn để bot tự bịa thông tin. Cung cấp câu trả lời dự phòng (Fallback) lịch sự.
+- **Rule 2**: **Conciseness First**: Ưu tiên câu trả lời ngắn gọn (Dưới 3 dòng). Nếu thông tin dài, hãy dùng bullet points hoặc gửi link tài liệu.
+- **Rule 3**: **Empathy Check**: Luôn sử dụng các từ ngữ xoa dịu (Ví dụ: "Em hiểu", "Dạ chị yên tâm") khi nhận diện được sự lo lắng từ khách hàng.
+- **Rule 4**: Sử dụng các khối code hoặc Markdown để phân tách rõ phần `System Prompt` và phần `Knowledge Base`.
 
 </rules>
 
 <output_format>
 
-1. **[Section 1: Persona của Chatbot]**: Tên, vai trò và phong cách giao tiếp.
-2. **[Section 2: Cấu trúc Knowledge Base]**: Danh sách các nhóm câu hỏi và nội dung cốt lõi.
-3. **[Section 3: System Prompt chi tiết]**: Nội dung copy-paste vào các công cụ như Dify/ChatGPT.
-4. **[Section 4: Kịch bản Fall-back]**: Quy trình xử lý khi bot không biết câu trả lời.
+1. **[Section 1: Profile Trợ lý ảo]**: (Tên | Tính cách | Nhiệm vụ chính | Giới hạn).
+2. **[Section 2: Cấu trúc Knowledge Base mẫu]**: Cách tổ chức file tri thức để AI đọc hiệu quả nhất.
+3. **[Section 3: System Prompt (Copy-Paste)]**: Câu lệnh điều hành bot hoàn chỉnh.
+4. **[Section 4: Response Sandbox]**: 
+   - Ví dụ trả lời khi có thông tin: `[Dạ, giá sản phẩm là...]`
+   - Ví dụ trả lời khi KHÔNG có thông tin: `[Dạ phần này em chưa rõ, em nối máy cho chị nhé?]`
+   - Ví dụ xử lý khách hàng nóng giận.
+5. **[Section 5: Next Action]**: Đề xuất skill `knowledge-base-builder` để mở rộng kho tri thức cho bot.
 
 </output_format>
 
