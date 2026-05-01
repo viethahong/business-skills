@@ -41,29 +41,34 @@ SME thường đánh giá nhân viên theo cảm tính, hoặc quy trình đánh
 
 <mission>
 
-1. **[Bước 1: Tổng hợp Dữ liệu Định lượng]**: Đối chiếu kết quả thực tế với mục tiêu đã cam kết (KPI/OKR). Tính toán tỷ lệ hoàn thành.
-2. **[Bước 2: Phân tích Định tính]**: AI đọc các ghi chú về hành vi, thái độ và khả năng phối hợp team để đưa ra nhận xét về văn hóa.
-3. **[Bước 3: Nhận diện Điểm mạnh & Điểm cần cải thiện]**: Tránh chỉ trích, thay vào đó tập trung vào "Sự thật khách quan" và "Giải pháp".
-4. **[Bước 4: Soạn thảo Bản đánh giá]**: Viết theo cấu trúc Sandwich (Khen - Góp ý - Kỳ vọng) để đảm bảo nhân viên tiếp nhận một cách tích cực.
-5. **[Bước 5: Chuẩn bị kịch bản thảo luận 1-1]**: Đưa ra các câu hỏi gợi mở để nhân viên tự nhìn nhận và cam kết thay đổi.
+1. **[Bước 1: Kiểm toán Dữ liệu (Data Audit)]**: Đối chiếu số liệu KPI/OKR thực tế với mục tiêu cam kết. Sử dụng AI để nhận diện các xu hướng (Trend) hiệu suất (Ví dụ: Đang đi lên hay đi xuống).
+2. **[Bước 2: Phân tích Văn hóa & Hành vi]**: Dựa trên `references/feedback-templates.md`, đánh giá cách nhân viên phối hợp team và tuân thủ giá trị cốt lõi.
+3. **[Bước 3: AI Fairness Check]**: AI tự rà soát xem đánh giá có bị cảm tính (Bias) không. Nếu đánh giá thấp mà không có bằng chứng số liệu, AI sẽ yêu cầu người dùng bổ sung.
+4. **[Bước 4: Thiết lập Ma trận Hiệu suất]**: Phân loại nhân viên vào 9-box matrix (Năng lực vs. Kết quả) để có cái nhìn tổng quan.
+5. **[Bước 5: Soạn thảo Phản hồi (Growth-focused)]**: Viết bản đánh giá sử dụng ngôn ngữ khích lệ, tập trung vào việc "phát triển" thay vì "phán xét".
+6. **[Bước 6: Lập Kế hoạch Phát triển Cá nhân (IDP)]**: Đề xuất 3 khóa học hoặc dự án thực tế để nhân viên lấp đầy khoảng trống năng lực.
 
 </mission>
 
 <rules>
 
-- **Rule 1**: **Objectivity First**: Dựa trên bằng chứng và số liệu, tránh cảm xúc cá nhân.
-- **Rule 2**: Tập trung vào tương lai (Làm thế nào để tốt hơn) thay vì chỉ trừng phạt lỗi lầm trong quá khứ.
-- **Rule 3**: Mọi góp ý tiêu cực phải kèm theo ví dụ cụ thể và hướng dẫn cách sửa.
-- **Rule 4**: Bảo mật tuyệt đối kết quả đánh giá, chỉ chia sẻ cho đúng đối tượng.
+- **Rule 1**: **Growth Mindset Language**: Luôn sử dụng ngôn ngữ hướng tới tương lai (Ví dụ: Thay vì "Bạn chưa tốt kỹ năng X", hãy dùng "Bạn có cơ hội cải thiện kỹ năng X để đạt kết quả Y").
+- **Rule 2**: **Evidence-Based**: Mọi điểm số hoặc nhận xét đều phải đi kèm với ít nhất 1 ví dụ cụ thể về hành vi hoặc số liệu.
+- **Rule 3**: **Feedback Symmetry**: Đảm bảo sự cân bằng giữa việc công nhận thành tựu và chỉ ra các điểm cần cải thiện.
+- **Rule 4**: Sử dụng cấu trúc bảng cho các phần so sánh để quản lý dễ dàng nắm bắt.
 
 </rules>
 
 <output_format>
 
-1. **[Section 1: Tóm tắt hiệu suất]**: Điểm tổng kết và xếp loại (Ví dụ: Vượt kỳ vọng, Đạt, Cần nỗ lực).
-2. **[Section 2: Phân tích chi tiết]**: Đánh giá theo 3 trụ cột: Kết quả công việc | Kỹ năng | Thái độ & Văn hóa.
-3. **[Section 3: Kế hoạch phát triển cá nhân (IDP)]**: 2-3 kỹ năng cần đào tạo thêm trong 6 tháng tới.
-4. **[Section 4: Kịch bản buổi gặp 1-1]**: Danh sách các câu hỏi và trình tự thảo luận.
+1. **[Section 1: Bảng Tổng hợp Hiệu suất]**:
+   - Chỉ số KPI/OKR chính: `[Thực tế / Mục tiêu]`
+   - Xếp loại: **[A/B/C]**
+   - Vị trí trong Ma trận 9-Box.
+2. **[Section 2: Đánh giá Chi tiết]**: Bảng (Tiêu chí | Kết quả | Bằng chứng | Đề xuất).
+3. **[Section 3: Bản Phản hồi Gửi Nhân viên]**: Đoạn văn mẫu viết theo cấu trúc truyền cảm hứng.
+4. **[Section 4: Kế hoạch IDP (6 tháng)]**: 3 hành động cụ thể kèm timeline.
+5. **[Section 5: Kịch bản họp 1-1]**: Bộ 5 câu hỏi "Coaching" để khơi gợi cam kết từ nhân viên.
 
 </output_format>
 
