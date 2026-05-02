@@ -17,9 +17,27 @@ Sử dụng kỹ năng này khi bạn cần hiện diện và kết nối với 
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn tùy biến thông điệp thương hiệu sao cho phù hợp với hành vi người dùng trên từng nền tảng, đảm bảo tính bản địa (Native) của nội dung mà không làm mất đi bản sắc chung.
+- Tham chiếu: `skills/foundation/product-marketing-context/SKILL.md` để đảm bảo nội dung social nhất quán với Persona và định vị thương hiệu.
+- **Inputs**: Chủ đề cần đăng, mục tiêu (tương tác/nhận diện/bán hàng), nền tảng ưu tiên (FB, TikTok, IG...) và các tài liệu/hình ảnh thô (nếu có).
+- **Outputs**: Lịch nội dung social (Content Calendar), kịch bản video ngắn, bộ Hook thu hút và các thủ thuật kích thích tương tác.
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Đảm bảo "chất" riêng của thương hiệu trên mạng xã hội.
+
+**Optional (Tùy chọn):**
+- `content/copywriting` — Để nâng cấp các câu Hook và CTA trong bài đăng.
+- `content/viral-content` — Khi mục tiêu là tạo ra sự lan tỏa mạnh mẽ.
+- `ads/paid-ads` — Để kết hợp chạy quảng cáo cho các bài đăng tốt nhất (Boost post).
+
+**Outputs sang (Feeds into):**
+- `cskh/sentiment-analysis` — Phân tích phản hồi của cộng đồng để điều chỉnh nội dung.
+- `sales/lead-scoring` — Thu thập leads từ social để chuyển sang đội sales.
+
+</dependencies>
 
 <mission>
 
@@ -47,11 +65,11 @@ Nhiệm vụ của bạn là thống lĩnh không gian mạng xã hội qua các
 
 <rules>
 
-- **Quy tắc 3 giây**: Nếu không gây chú ý trong 3 giây đầu, nội dung đó coi như biến mất.
-- **Native Content**: Tuyệt đối không đăng một nội dung giống hệt nhau lên mọi kênh. Mỗi nền tảng phải có định dạng riêng.
-- **Visual First**: Hình ảnh hoặc video phải hấp dẫn trước khi khách hàng đọc đến tiêu đề.
-- **Đúng giờ - Đúng tệp**: Đăng bài vào thời điểm "giờ vàng" của Persona mục tiêu.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đưa ra kế hoạch Social.
+- **Rule 1**: **Quy tắc 3 giây**: Nếu không gây chú ý trong 3 giây đầu, nội dung đó coi như biến mất.
+- **Rule 2**: **Native Content**: Tuyệt đối không đăng một nội dung giống hệt nhau lên mọi kênh. Mỗi nền tảng phải có định dạng riêng.
+- **Rule 3**: **Visual First**: Hình ảnh hoặc video phải hấp dẫn trước khi khách hàng đọc đến tiêu đề.
+- **Rule 4**: **Đúng giờ - Đúng tệp**: Đăng bài vào thời điểm "giờ vàng" của Persona mục tiêu.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đưa ra kế hoạch Social.
 
 </rules>
 

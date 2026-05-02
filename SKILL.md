@@ -60,6 +60,9 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 ## 📋 Nền tảng (foundation/)
 - product-marketing-context
 - business-skill-creator
+- prompt-engineering-4c
+- ai-readiness-assessment
+- ai-implementation-roadmap
 
 ## 🎯 Chiến lược (strategy/)
 - marketing-strategy
@@ -83,6 +86,7 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 - livestream-selling
 - koc-marketing
 - viral-content
+- content-factory
 
 ## 📢 Kênh & Quảng cáo (ads/)
 - paid-ads
@@ -99,16 +103,19 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 - referral-program
 
 ## ⚙️ Vận hành (ops/)
-- customer-support-framework
+- customer-support
 - sop-designer
 - workflow-automation
 - project-management
 - meeting-efficiency
 - periodic-reporting
+- knowledge-base-builder
 
 ## 💰 Tài chính (finance/)
 - unit-economics
 - financial-planning
+- cashflow-forecasting
+- expense-classification
 
 ## 📦 Sản phẩm (product/)
 - product-discovery
@@ -117,10 +124,15 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 ## 👥 Nhân sự (hr/)
 - recruitment-onboarding
 - cv-screening
+- jd-writing
+- performance-review
+- training-content-creator
 
 ## 🤝 Bán hàng (sales/)
 - crm-sales-strategy
 - lead-scoring
+- crm-rfm-analysis
+- sales-email-templates
 
 ## 🧠 Tư duy (mindset/)
 - first-principles-thinking
@@ -128,5 +140,9 @@ Bạn đang làm việc trong một hệ thống modular business skills. Bạn 
 
 ## ⚖️ Pháp lý (legal/)
 - compliance-checklists
+
+## 🎧 Chăm sóc khách hàng (cskh/)
+- sentiment-analysis
+- chatbot-faq-builder
 
 </related_skills>

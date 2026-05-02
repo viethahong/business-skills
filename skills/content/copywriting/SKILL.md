@@ -17,9 +17,27 @@ Sử dụng kỹ năng này khi mục tiêu cuối cùng của nội dung là th
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn trích xuất các Pain Points và Gains để xây dựng những "lời chào hàng không thể cưỡng lại". Bạn phải đảm bảo giọng điệu (Tone of voice) đồng nhất với bản sắc thương hiệu nhưng có tính thúc đẩy cao hơn.
+- Tham chiếu: `skills/foundation/product-marketing-context/SKILL.md` để trích xuất Pain Points, Gains và Brand Voice.
+- **Inputs**: Mô tả sản phẩm, chân dung khách hàng mục tiêu, kênh đăng tải (FB, Landing page, Email) và mục tiêu chuyển đổi.
+- **Outputs**: Bản thảo copywriting hoàn chỉnh (Headline, Hook, Body content, CTA) kèm theo các biến thể để test.
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Cung cấp "nhiên liệu" cho nội dung thuyết phục.
+
+**Optional (Tùy chọn):**
+- `growth/marketing-psychology` — Để tăng cường hiệu ứng tâm lý (Khan hiếm, Bằng chứng xã hội).
+- `strategy/marketing-strategy` — Để đảm bảo thông điệp khớp với chiến lược tổng thể.
+
+**Outputs sang (Feeds into):**
+- `content/social-media` — Biến tấu copy cho các post trên mạng xã hội.
+- `ads/paid-ads` — Sử dụng làm nội dung cho các mẫu quảng cáo.
+- `cskh/chatbot-faq-builder` — Tối ưu hóa ngôn ngữ trả lời của chatbot để thân thiện và thuyết phục hơn.
+
+</dependencies>
 
 <mission>
 
@@ -50,11 +68,11 @@ Nhiệm vụ của bạn là chế tác những thông điệp có tính sát th
 
 <rules>
 
-- **Viết cho khách hàng, không phải cho bạn**: Luôn dùng ngôi "Bạn" (You) và tập trung vào lợi ích của họ.
-- **Rõ ràng > Sáng tạo**: Đừng làm khách hàng bối rối bởi những từ ngữ hoa mỹ nhưng sáo rỗng.
-- **Dùng động từ mạnh**: Tránh câu bị động và các từ ngữ yếu ớt như "có thể", "có lẽ".
-- **Một bài - Một mục tiêu**: Đừng bắt khách hàng làm quá nhiều thứ trong một mẩu copy.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đưa ra bản thảo copy.
+- **Rule 1**: **Viết cho khách hàng, không phải cho bạn**: Luôn dùng ngôi "Bạn" (You) và tập trung vào lợi ích của họ.
+- **Rule 2**: **Rõ ràng > Sáng tạo**: Đừng làm khách hàng bối rối bởi những từ ngữ hoa mỹ nhưng sáo rỗng.
+- **Rule 3**: **Dùng động từ mạnh**: Tránh câu bị động và các từ ngữ yếu ớt như "có thể", "có lẽ".
+- **Rule 4**: **Một bài - Một mục tiêu**: Đừng bắt khách hàng làm quá nhiều thứ trong một mẩu copy.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đưa ra bản thảo copy.
 
 </rules>
 

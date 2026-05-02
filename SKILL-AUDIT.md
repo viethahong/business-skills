@@ -101,7 +101,7 @@ Tổng = C1×0.15 + C2×0.25 + C3×0.15 + C4×0.20 + C5×0.15 + C6×0.10
 
 ---
 
-## II. Kết quả Đánh giá — Toàn bộ Skills (v2.0 · 2026-05-01)
+## II. Kết quả Đánh giá — Toàn bộ Skills (v2.1 · 2026-05-03)
 
 > Ghi chú: `product-marketing-context` là file Ngữ cảnh, không phải skill. Tất cả skill hiện nằm tại `skills/[category]/[name]/SKILL.md`.
 > 🤖 **Auto-validate**: Chạy `bash scripts/validate-skills.sh` để kiểm tra tự động.
@@ -110,6 +110,9 @@ Tổng = C1×0.15 + C2×0.25 + C3×0.15 + C4×0.20 + C5×0.15 + C6×0.10
 | Skill | C1 | C2 | C3 | C4 | C5 | C6 | **Tổng** | Trạng thái |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | `business-skill-creator` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `prompt-engineering-4c` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `ai-readiness-assessment` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+| `ai-implementation-roadmap` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
 | `marketing-strategy` | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
 | `launch-strategy` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
 | `pricing-strategy` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
@@ -128,6 +131,7 @@ Tổng = C1×0.15 + C2×0.25 + C3×0.15 + C4×0.20 + C5×0.15 + C6×0.10
 | `tiktok-shop-strategy` 🇻🇳 | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
 | `livestream-selling` 🇻🇳 | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
 | `koc-marketing` 🇻🇳 | 5 | 5 | 5 | 5 | 5 | 5 | **5.00** | 🟢 Tốt |
+| `content-factory` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
 
 ### 📢 Kênh & Quảng cáo
 | Skill | C1 | C2 | C3 | C4 | C5 | C6 | **Tổng** | Trạng thái |
@@ -153,33 +157,47 @@ Tổng = C1×0.15 + C2×0.25 + C3×0.15 + C4×0.20 + C5×0.15 + C6×0.10
 ### ⚙️ Vận hành
 | Skill | C1 | C2 | C3 | C4 | C5 | C6 | **Tổng** | Trạng thái |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| `customer-support-framework` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `customer-support` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
 | `sop-designer` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
 | `workflow-automation` | 5 | 5 | 4 | 5 | 4 | 4 | **4.60** | 🟢 Tốt |
 | `project-management` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
 | `meeting-efficiency` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
 | `periodic-reporting` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+| `knowledge-base-builder` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
 
 ### 💰 Tài chính · 📦 Sản phẩm · 👥 Nhân sự · 🤝 Bán hàng · ⚖️ Pháp lý · 🧠 Tư duy
 | Skill | C1 | C2 | C3 | C4 | C5 | C6 | **Tổng** | Trạng thái |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | `unit-economics` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
 | `financial-planning` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `cashflow-forecasting` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+| `expense-classification` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
 | `product-discovery` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
 | `prd-writing` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
 | `recruitment-onboarding` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
 | `cv-screening` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+| `jd-writing` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `performance-review` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `training-content-creator` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
 | `crm-sales-strategy` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
 | `lead-scoring` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+| `crm-rfm-analysis` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+| `sales-email-templates` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
 | `compliance-checklists` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
 | `strategic-decision-making` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
 | `first-principles-thinking` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
+
+### 🎧 Chăm sóc khách hàng (CSKH)
+| Skill | C1 | C2 | C3 | C4 | C5 | C6 | **Tổng** | Trạng thái |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `sentiment-analysis` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `chatbot-faq-builder` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
 
 ---
 
 ## III. Phân tích — Trạng thái Hệ thống
 
-Hiện tại **42 skills** (tổng cộng) đều đạt mức 🟢 Tốt. Toàn bộ skills mới (Ops, Finance, Product, HR, Sales, Legal, Mindset) đã được tích hợp đầy đủ vào hệ thống Orchestration.
+Hiện tại **60 skills** (tổng cộng) đều đạt mức 🟢 Tốt. Toàn bộ skills mới đã được tích hợp đầy đủ vào hệ thống Orchestration.
 
 ---
 
@@ -187,6 +205,7 @@ Hiện tại **42 skills** (tổng cộng) đều đạt mức 🟢 Tốt. Toàn
 
 | Ngày | Version | Tổng Skills | Điểm TB | Skills 🟢 | Skills 🟡 | Skills 🔴 | Ghi chú |
 |---|---|:---:|:---:|:---:|:---:|:---:|---|
+| 2026-05-03 | v2.1 | 60 | **4.79** | 60 | 0 | 0 | Đồng bộ hóa toàn bộ 60 skills thực tế vào tài liệu. Thêm category CSKH. |
 | 2026-05-01 | v2.0 | 42 | **4.78** | 42 | 0 | 0 | Mở rộng lớn: +16 skills (Ops/Finance/Product/HR/Sales/Legal/Mindset) + Zalo OA + Script auto-validate |
 | 2026-04-29 | v1.3 | 26 | **4.88** | 26 | 0 | 0 | Thêm viral-content và tối ưu template chuẩn mới |
 | 2026-04-26 | v1.2 | 20 | **4.75** | 20 | 0 | 0 | Tối ưu toàn bộ thư viện lên chuẩn 5.0 |

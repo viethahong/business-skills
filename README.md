@@ -1,7 +1,7 @@
 # 🚀 Business Skills Library
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Skills Count](https://img.shields.io/badge/Skills-35%2B-blue)](./SKILL.md)
+[![Skills Count](https://img.shields.io/badge/Skills-60%2B-blue)](./SKILL.md)
 [![Made in Vietnam](https://img.shields.io/badge/Made%20in-Việt%20Nam%20🇻🇳-red)](https://workflow.ai.vn)
 [![Compatible](https://img.shields.io/badge/Works%20with-Claude%20%7C%20GPT%20%7C%20Dify%20%7C%20n8n-purple)](./AGENTS.md)
 
@@ -45,7 +45,8 @@ business-skills/
 │   ├── research/                # 🔬 Nghiên cứu & Phân tích
 │   ├── content/                 # ✍️ Nội dung & Sáng tạo
 │   ├── ads/                     # 📢 Kênh & Quảng cáo (Zalo OA, TikTok Shop, Shopee, Paid Ads, SEO)
-│   └── growth/                  # 🚀 Tối ưu & Tăng trưởng
+│   ├── growth/                  # 🚀 Tối ưu & Tăng trưởng
+│   ├── cskh/                    # 🎧 Chăm sóc khách hàng (Sentiment, Chatbot FAQ)
 │
 └── examples/                    # Các ví dụ và case study thực tế
     ├── BEFORE-AFTER.md          # So sánh hiệu quả trước và sau khi dùng skill

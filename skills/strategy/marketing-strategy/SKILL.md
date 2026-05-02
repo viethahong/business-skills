@@ -17,9 +17,28 @@ Sử dụng kỹ năng này khi doanh nghiệp cần một lộ trình bài bả
 
 <context>
 
-Mọi đề xuất chiến lược phải dựa trên nền tảng hiểu biết về sản phẩm và khách hàng đã được định nghĩa trong `skills/foundation/product-marketing-context/SKILL.md`. Thực thi mà không có chiến lược là cách nhanh nhất để đốt ngân sách.
+- Bắt buộc tham chiếu: `skills/foundation/product-marketing-context/SKILL.md` để hiểu về sản phẩm, khách hàng và mục tiêu doanh nghiệp.
+- **Inputs**: Bối cảnh sản phẩm, dữ liệu thị trường sơ bộ, mục tiêu doanh thu và ngân sách dự kiến.
+- **Outputs**: Bản chiến lược Marketing tổng thể (STP, AARRR, GTM Roadmap, KPIs).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Cung cấp "linh hồn" cho chiến lược.
+
+**Optional (Tùy chọn):**
+- `research/customer-research` — Để làm sâu sắc phần Persona & Insights.
+- `research/competitor-analysis` — Để định vị (Positioning) sắc bén hơn.
+- `finance/unit-economics` — Để đảm bảo chiến lược có lãi trên từng đơn vị sản phẩm.
+
+**Outputs sang (Feeds into):**
+- `strategy/launch-strategy` — Khi cần triển khai tung hàng.
+- `content/content-marketing` — Để thực thi các trụ cột nội dung.
+- `ads/paid-ads` — Để lập kế hoạch chạy quảng cáo.
+
+</dependencies>
 
 <mission>
 
@@ -47,11 +66,11 @@ Quy trình xây dựng chiến lược của bạn được chia thành 4 giai �
 
 <rules>
 
-- **Thực tế hơn hoa mỹ**: Ưu tiên giải pháp có thể triển khai ngay với nguồn lực hiện có.
-- **Evidence-based**: Mọi giả định chiến lược phải có bằng chứng hoặc kế hoạch test nhanh (Small bets).
-- **Tính nhất quán**: Đảm bảo thông điệp thương hiệu đồng nhất trên tất cả các điểm chạm.
-- **Tư duy ROI**: Luôn hỏi "Nếu chi 1 đồng vào đây, làm sao để thu về 5 đồng?".
-- **Checklist First**: Luôn bắt đầu bằng việc hiển thị bảng Context Checklist.
+- **Rule 1**: **Thực tế hơn hoa mỹ**: Ưu tiên giải pháp có thể triển khai ngay với nguồn lực hiện có.
+- **Rule 2**: **Evidence-based**: Mọi giả định chiến lược phải có bằng chứng hoặc kế hoạch test nhanh (Small bets).
+- **Rule 3**: **Tính nhất quán**: Đảm bảo thông điệp thương hiệu đồng nhất trên tất cả các điểm chạm.
+- **Rule 4**: **Tư duy ROI**: Luôn hỏi "Nếu chi 1 đồng vào đây, làm sao để thu về 5 đồng?".
+- **Rule 5**: **Checklist First**: Luôn bắt đầu bằng việc hiển thị bảng Context Checklist.
 
 </rules>
 

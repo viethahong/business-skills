@@ -24,7 +24,7 @@ Trong thực tế, một bài toán kinh doanh không bao giờ đứng đơn l�
 - **Agentic Logic**: Dùng `copywriting` để viết nội dung gốc, sau đó dùng `social-media` để biến tấu nội dung đó cho đa kênh.
 
 ### Bước 4: Vận hành & Bán hàng (Execution Squad)
-- **Skill dùng**: `crm-sales-strategy` ➔ `sop-designer` ➔ `customer-support-framework`
+- **Skill dùng**: `crm-sales-strategy` ➔ `sop-designer` ➔ `customer-support`
 - **Kết quả**: Xây dựng phễu bán hàng và quy trình chăm sóc khách hàng để biến người quan tâm thành người mua hàng.
 - **Agentic Logic**: Dùng `crm-sales-strategy` để thiết kế pipeline, sau đó dùng `sop-designer` để viết quy trình cho nhân viên sale thực thi.
 
