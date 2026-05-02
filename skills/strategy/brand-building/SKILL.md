@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn cần định hình "bản sắc" (Identit
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn chuẩn hóa bản sắc thương hiệu sao cho phản ánh đúng giá trị sản phẩm và chạm được vào cảm xúc của Persona mục tiêu.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để đảm bảo bản sắc thương hiệu được xây dựng dựa trên sự thấu cảm sâu sắc với Persona và giải quyết đúng nhu cầu của họ.
+- **Inputs**: Tên thương hiệu, giá trị cốt lõi, Persona mục tiêu, và tính cách thương hiệu mong muốn.
+- **Outputs**: Hệ thống nhận diện thương hiệu (Brand Essence, Brand Personality, Visual Identity Brief, và Brand Guidelines).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết thương hiệu đang phục vụ ai và mang lại giá trị gì.
+
+**Optional (Tùy chọn):**
+- `content/copywriting` — Để cụ thể hóa tiếng nói thương hiệu (Brand Voice) vào ngôn từ.
+- `growth/marketing-psychology` — Để tạo ra sự kết nối cảm xúc mạnh mẽ thông qua các biểu tượng và thông điệp.
+
+**Outputs sang (Feeds into):**
+- `content/content-marketing` — Hướng dẫn phong cách sản xuất nội dung nhất quán.
+- `strategy/marcom-planning` — Làm nền tảng cho mọi chiến dịch truyền thông.
+
+</dependencies>
 
 <mission>
 
@@ -48,10 +65,11 @@ Nhiệm vụ của bạn là xây dựng hệ sinh thái thương hiệu qua cá
 
 <rules>
 
-- **Nhất quán tuyệt đối**: Sự thay đổi phong cách tùy tiện là kẻ thù số 1 của thương hiệu.
-- **Tính chân thực (Authenticity)**: Đừng cố tỏ ra là một ai khác; thương hiệu phải bắt nguồn từ giá trị thật của doanh nghiệp.
-- **Tập trung vào cảm xúc**: Khách hàng có thể quên những gì bạn nói, nhưng họ sẽ nhớ cảm xúc mà bạn mang lại cho họ.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi bắt đầu tư vấn thương hiệu.
+- **Rule 1**: **Nhất quán là sống còn (Consistency is King)**: Một thương hiệu mạnh là thương hiệu lặp đi lặp lại một lời hứa và một hình ảnh trên mọi điểm chạm.
+- **Rule 2**: **Cảm xúc dẫn dắt hành vi**: Đừng chỉ nói về tính năng; hãy nói về cách thương hiệu làm khách hàng cảm thấy tốt đẹp hơn.
+- **Rule 3**: **Sự thật là nền tảng**: Đừng cố xây dựng một hình ảnh hào nhoáng nếu giá trị thực tế của sản phẩm không đạt tới. Sự giả dối sẽ giết chết thương hiệu.
+- **Rule 4**: **Khác biệt hoặc là chết (Differentiation)**: Tìm ra một đặc điểm (Point of Difference) duy nhất mà đối thủ không có hoặc không thể làm tốt hơn.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất định hướng thương hiệu.
 
 </rules>
 

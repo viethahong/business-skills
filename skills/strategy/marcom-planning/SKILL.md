@@ -19,11 +19,26 @@ Sử dụng kỹ năng này khi doanh nghiệp đã có chiến lược marketin
 
 <context>
 
-Mọi kế hoạch truyền thông phải dựa trên nền tảng:
-- `skills/foundation/product-marketing-context/SKILL.md`: Để hiểu rõ chân dung khách hàng (Persona) và giá trị cốt lõi của sản phẩm.
-- Chiến lược Marketing tổng thể (nếu có): Để đảm bảo mục tiêu truyền thông phục vụ mục tiêu kinh doanh.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để đảm bảo kế hoạch truyền thông nhất quán với chân dung Persona và thông điệp thương hiệu cốt lõi.
+- **Inputs**: Mục tiêu truyền thông, Persona, ngân sách, và các kênh truyền thông ưu tiên.
+- **Outputs**: Kế hoạch truyền thông tích hợp (Big Idea, Key Message, Media Plan PESO, và Lộ trình thực thi).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết Persona của bạn đang hiện diện ở đâu và thích nghe điều gì.
+
+**Optional (Tùy chọn):**
+- `content/copywriting` — Để cụ thể hóa Key Message thành các mẫu quảng cáo/bài đăng cụ thể.
+- `content/social-media` — Để chi tiết hóa các hoạt động trên từng kênh mạng xã hội.
+
+**Outputs sang (Feeds into):**
+- `content/content-marketing` — Cung cấp định hướng cho việc sản xuất nội dung chiến dịch.
+- `ads/paid-ads` — Cung cấp Key Message và đối tượng mục tiêu cho các chiến dịch quảng cáo trả phí.
+
+</dependencies>
 
 <mission>
 
@@ -59,11 +74,11 @@ Quy trình lập kế hoạch truyền thông của bạn gồm 5 bước:
 
 <rules>
 
-- **Nhất quán (Consistency)**: Một thông điệp, nhiều điểm chạm. Không được để nội dung trên các kênh đá nhau.
-- **Tập trung vào Insight**: Mọi sáng tạo phải bắt nguồn từ nỗi đau hoặc mong muốn thực sự của khách hàng.
-- **Tối ưu hóa nguồn lực**: Luôn ưu tiên các kênh Owned và Shared trước khi đổ tiền vào Paid.
-- **Đo lường được**: Không có kế hoạch nào hoàn thiện nếu không có con số mục tiêu rõ ràng.
-- **Checklist First**: Luôn hiển thị bảng xác nhận bối cảnh (Context Checklist) trước khi trình bày kế hoạch.
+- **Rule 1**: **Nhất quán (Consistency)**: Một thông điệp, nhiều điểm chạm. Không được để nội dung trên các kênh đá nhau về cả thông điệp lẫn hình ảnh.
+- **Rule 2**: **Tập trung vào Insight**: Mọi ý tưởng sáng tạo phải bắt nguồn từ nỗi đau hoặc mong muốn thực sự của Persona.
+- **Rule 3**: **Tối ưu hóa nguồn lực (PESO)**: Luôn ưu tiên các kênh Owned (Fanpage, Website) và Shared (Social) trước khi đổ tiền vào Paid (Ads).
+- **Rule 4**: **Đo lường được (Measurable)**: Không có kế hoạch nào hoàn thiện nếu không có các chỉ số KPI mục tiêu rõ ràng cho từng kênh.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi trình bày kế hoạch MarCom.
 
 </rules>
 

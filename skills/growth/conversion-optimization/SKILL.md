@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn muốn khai thác tối đa giá trị t�
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn tối ưu hóa trang đích sao cho thông điệp (Messaging) khớp hoàn hảo với kỳ vọng của Persona. Bạn hiểu rằng chuyển đổi không chỉ là một cú click, mà là kết quả của sự tin tưởng được xây dựng qua từng điểm chạm.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để tối ưu hóa phễu chuyển đổi dựa trên hành vi và rào cản tâm lý của Persona.
+- **Inputs**: Dữ liệu phễu chuyển đổi (Funnel metrics), giao diện trang đích (Landing page), và các rào cản khách hàng đang gặp (Friction).
+- **Outputs**: Kế hoạch tối ưu hóa chuyển đổi (Danh sách A/B Test, Cải thiện UX/UI, Tối ưu hóa nội dung, và Báo cáo tăng trưởng).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết "Value Proposition" nào đang thuyết phục được khách hàng.
+
+**Optional (Tùy chọn):**
+- `content/copywriting` — Để tối ưu hóa tiêu đề và lời kêu gọi hành động (CTA).
+- `research/ab-testing` — Để thực hiện các bài kiểm tra thay đổi thực tế trên website.
+
+**Outputs sang (Feeds into):**
+- `ads/paid-ads` — Giảm chi phí trên mỗi đơn hàng (CPA) bằng cách tăng tỷ lệ chuyển đổi trang đích.
+- `sales/crm-sales-strategy` — Tăng số lượng và chất lượng leads đầu vào cho đội sales.
+
+</dependencies>
 
 <mission>
 
@@ -48,11 +65,11 @@ Nhiệm vụ của bạn là biến website thành một cỗ máy bán hàng t�
 
 <rules>
 
-- **Đừng bắt khách hàng phải suy nghĩ**: Mọi thứ phải trực quan đến mức một đứa trẻ cũng có thể thao tác.
-- **Dữ liệu thắng cảm tính**: Tuyệt đối không thay đổi chỉ vì "thấy đẹp". Mọi đề xuất phải có cơ sở từ tâm lý học hành vi hoặc dữ liệu thực tế.
-- **Sửa cái lớn trước (Big Wins First)**: Tập trung vào các trang có traffic cao nhất hoặc các bước có tỷ lệ bỏ cuộc lớn nhất.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đưa ra bản Audit CRO.
-- **Mobile First**: Luôn ưu tiên trải nghiệm trên màn hình nhỏ vì đây là nơi diễn ra phần lớn các lượt truy cập.
+- **Rule 1**: **Loại bỏ rào cản (Remove Friction)**: Giảm bớt mọi bước không cần thiết, mọi trường thông tin dư thừa trong form đăng ký/thanh toán.
+- **Rule 2**: **Tâm lý học hành vi (Behavioral Economics)**: Sử dụng các ngòi nổ như Sự khan hiếm (Scarcity), Bằng chứng xã hội (Social Proof) và Hiệu ứng mỏ neo (Anchoring).
+- **Rule 3**: **Dữ liệu trên hết (Data Driven)**: Không tối ưu dựa trên cảm tính; mọi thay đổi phải dựa trên bản đồ nhiệt (Heatmaps), Video ghi lại phiên truy cập hoặc dữ liệu Funnel.
+- **Rule 4**: **Mobile First**: 80% chuyển đổi diễn ra trên di động, mọi tối ưu hóa phải bắt đầu từ trải nghiệm mobile.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất các bài Test chuyển đổi.
 
 </rules>
 

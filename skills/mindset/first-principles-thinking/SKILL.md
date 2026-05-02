@@ -23,13 +23,26 @@ Skill này **không phải** để đưa ra kết luận nhanh. Nó là công c�
 
 <context>
 
-Trước khi bắt đầu, bạn cần xác định:
-- **Vấn đề cụ thể**: Quy trình nào? Sản phẩm nào? Chi phí nào đang bị thổi phồng?
-- **Giả định đang tồn tại**: Người dùng hoặc công ty đang tin vào điều gì là "tất nhiên"?
-- **Mục tiêu cuối cùng**: Tối ưu chi phí? Rút ngắn thời gian? Phá vỡ rào cản gia nhập thị trường?
-- Tham chiếu `skills/foundation/product-marketing-context/SKILL.md` để hiểu ngữ cảnh kinh doanh của người dùng.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để hiểu ngữ cảnh kinh doanh, từ đó bóc tách các giả định sai lầm đang tồn tại trong ngành hoặc nội bộ doanh nghiệp.
+- **Inputs**: Vấn đề phức tạp cần giải quyết, các giả định hiện có và mục tiêu cuối cùng (Tối ưu chi phí/thời gian/quy trình).
+- **Outputs**: Bản bóc tách nguyên lý gốc (Problem Deconstruction, Idiot Index, và Kế hoạch hành động theo Algorithm 5 bước).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết bối cảnh thị trường mà bạn đang muốn "phá vỡ".
+
+**Optional (Tùy chọn):**
+- `strategy/marketing-strategy` — Để áp dụng tư duy nguyên tử vào việc tìm kiếm các ngách thị trường chưa được khai phá.
+- `strategy/pricing-strategy` — Sử dụng Idiot Index để định hình lại cấu trúc giá dựa trên giá trị thực.
+
+**Outputs sang (Feeds into):**
+- `ops/workflow-automation` — Tự động hóa các quy trình đã được tinh gọn đến mức tối giản.
+- `finance/unit-economics` — Kiểm soát và tối ưu hóa chi phí từ gốc rễ.
+
+</dependencies>
 
 <mission>
 
@@ -64,12 +77,12 @@ Quy trình tư vấn theo **The Algorithm (Thuật toán 5 bước của Musk)**
 
 <rules>
 
-- **Không chấp nhận "vì mọi người làm vậy"**: Mọi giả định đều phải được kiểm chứng bằng logic hoặc dữ liệu.
-- **Thứ tự bất biến**: Không được phép nhảy thẳng sang Bước 3 (tối ưu) hay Bước 5 (tự động hóa) mà bỏ qua các bước trước.
-- **Tên người chịu trách nhiệm**: Mọi yêu cầu/ràng buộc phải được gắn với một người cụ thể — không chấp nhận "bộ phận X yêu cầu".
-- **Idiot Index phải được tính**: Khi tư vấn về chi phí, phải tính toán chỉ số này trước khi đề xuất giải pháp.
-- **Checklist First**: Luôn hiển thị Algorithm Checklist trước khi đưa ra khuyến nghị cuối cùng.
-- **Mission over comfort**: Sứ mệnh quan trọng hơn sự dễ chịu. Nếu giải pháp "đúng" nhưng "khó", vẫn phải đề xuất.
+- **Rule 1**: **Không chấp nhận "vì mọi người làm vậy"**: Mọi giả định đều phải được kiểm chứng bằng logic hoặc dữ liệu nguyên tử.
+- **Rule 2**: **Thứ tự bất biến**: Không được phép nhảy thẳng sang Bước 3 (tối ưu) hay Bước 5 (tự động hóa) mà bỏ qua các bước trước (Delete).
+- **Rule 3**: **Tên người chịu trách nhiệm**: Mọi yêu cầu/ràng buộc phải được gắn với một người cụ thể — không chấp nhận "bộ phận X yêu cầu".
+- **Rule 4**: **Idiot Index phải được tính**: Khi tư vấn về chi phí, phải tính toán chỉ số này trước khi đề xuất giải pháp.
+- **Rule 5**: **Checklist First**: Luôn hiển thị Algorithm Checklist trước khi đưa ra khuyến nghị cuối cùng.
+- **Rule 6**: **Mission over comfort**: Sứ mệnh quan trọng hơn sự dễ chịu. Nếu giải pháp "đúng" nhưng "khó", vẫn phải đề xuất.
 
 </rules>
 

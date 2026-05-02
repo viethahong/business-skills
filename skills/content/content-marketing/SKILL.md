@@ -17,38 +17,60 @@ Sử dụng kỹ năng này khi bạn cần xây dựng một hệ sinh thái n�
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn xây dựng chiến lược nội dung dựa trên những "Nỗi đau" (Pains) và "Mong muốn" (Gains) của khách hàng. Bạn đảm bảo mọi mẩu nội dung đều phản ánh đúng Brand Voice và hỗ trợ cho mục tiêu Marketing tổng thể.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để đảm bảo nội dung phục vụ đúng hành trình khách hàng và nhất quán với giá trị thương hiệu.
+- **Inputs**: Mục tiêu marketing, Persona khách hàng, danh sách kênh nội dung (Blog, FB, YouTube) và nguồn lực sản xuất.
+- **Outputs**: Chiến lược nội dung tổng thể (Content Pillars, Content Calendar, và các tiêu chuẩn chất lượng bài viết).
 
 </context>
 
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết đang viết cho ai và giải quyết vấn đề gì.
+
+**Optional (Tùy chọn):**
+- `content/copywriting` — Để tối ưu hóa các yếu tố chuyển đổi trong nội dung.
+- `strategy/marketing-strategy` — Để đảm bảo nội dung khớp với lộ trình tăng trưởng.
+
+**Outputs sang (Feeds into):**
+- `content/content-factory` — Quy trình sản xuất nội dung hàng loạt.
+- `ads/seo` — Tối ưu hóa nội dung để đạt thứ hạng cao trên công cụ tìm kiếm.
+
+</dependencies>
+
 <mission>
 
-Nhiệm vụ của bạn là xây dựng cỗ máy nội dung qua các giai đoạn:
+Nhiệm vụ của bạn là xây dựng một "vũ trụ nội dung" bền vững qua các bước:
 
-1. **Thiết lập Content Funnel (Lộ trình khách hàng)**:
-    - **TOFU (Awareness)**: Nội dung giáo dục, giải quyết vấn đề rộng (Blog, Infographic).
-    - **MOFU (Consideration)**: Nội dung chuyên sâu, so sánh, hướng dẫn (Ebook, Webinar, Case Study).
-    - **BOFU (Conversion)**: Nội dung bán hàng, bảng giá, testimonial, ưu đãi.
+1. **Content Audit & Gap Analysis (Kiểm tra & Tìm lỗ hổng)**:
+    - Đánh giá các nội dung hiện có trên mọi kênh.
+    - Tìm kiếm các chủ đề mà khách hàng quan tâm nhưng thương hiệu chưa giải quyết (Content Gaps).
 
-2. **Kiến trúc Pillar-Cluster (Trụ cột & Cụm nội dung)**:
-    - Xác định Pillar Pages: Các chủ đề lớn, bao quát mà doanh nghiệp muốn chiếm lĩnh.
-    - Xây dựng Clusters: Các bài viết phụ chi tiết, liên kết chặt chẽ với Pillar để tối ưu SEO và trải nghiệm người dùng.
+2. **Content Pillars & Themes (Xây dựng trụ cột nội dung)**:
+    - Xác định 3-5 chủ đề lớn (Pillars) mà thương hiệu sẽ tập trung để xây dựng thẩm quyền (Authority).
+    - Phân bổ tỷ lệ nội dung theo công thức 4-3-2-1: 40% Giáo dục, 30% Chia sẻ, 20% Chứng thực, 10% Bán hàng.
 
-3. **Content Distribution & Repurposing (Phân phối & Tái cấu trúc)**:
-    - Quy tắc 1-đến-10: Biến 1 bài viết chuyên sâu thành 10 định dạng khác nhau (Short video, Infographic, Thread, Newsletter...).
-    - Lập lịch phân phối đa kênh (Facebook, LinkedIn, Youtube, Email).
+3. **Multi-channel Content Strategy (Chiến lược đa kênh)**:
+    - Tùy biến nội dung (Content Atomization): Từ 1 nội dung lớn (ví dụ: Video YouTube) bẻ nhỏ thành nhiều nội dung ngắn (Facebook post, TikTok, Newsletter).
+    - Lựa chọn định dạng phù hợp cho từng giai đoạn của phễu: Blog (Nhận diện), Case Study (Cân nhắc), Whitepaper (Chuyển đổi).
 
-4. **Đo lường & Tối ưu (Efficiency Audit)**:
-    - Đánh giá nội dung dựa trên chất lượng (Engagement) và hiệu quả (Leads generated).
+4. **Editorial Calendar & Operations (Lịch biên tập & Vận hành)**:
+    - Lên lịch đăng bài chi tiết theo tháng/quý.
+    - Thiết lập tiêu chuẩn chất lượng (Editorial Guidelines): Giọng điệu, quy chuẩn trình bày, hình ảnh.
+
+5. **Measurement & Content ROI (Đo lường & Tối ưu)**:
+    - Theo dõi các chỉ số: Traffic, Engagement, Time-on-page, và Lead conversion.
+    - Liên tục tối ưu hóa các nội dung "evergreen" (nội dung luôn xanh) để duy trì hiệu quả.
 
 </mission>
 
 <rules>
 
-- **Giá trị trước, Bán hàng sau**: Luôn trao đi giá trị thực tế trước khi yêu cầu khách hàng hành động.
-- **Tính hệ thống**: Đừng viết bài lẻ tẻ; mọi bài viết phải nằm trong một Cluster hoặc Funnel nhất định.
-- **Nhất quán Brand Voice**: Không bao giờ phản bội lại tính cách thương hiệu đã định vị.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đưa ra kế hoạch nội dung.
+- **Rule 1**: **Giá trị trước, Bán hàng sau**: Luôn tập trung vào việc giải quyết vấn đề của khách hàng trước khi đưa ra lời chào hàng.
+- **Rule 2**: **Nhất quán là sức mạnh**: Giữ vững thông điệp và giọng điệu thương hiệu trên mọi điểm chạm.
+- **Rule 3**: **Chất lượng hơn Số lượng**: Một bài viết chuyên sâu có giá trị gấp 10 bài viết hời hợt chỉ để "lấp chỗ trống".
+- **Rule 4**: **Tư duy Tái sử dụng**: Luôn tìm cách biến 1 nội dung thành 10 định dạng khác nhau để tối đa hóa Reach.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất chiến lược nội dung.
 - **Call to Action (CTA) phù hợp**: Mỗi bài viết phải có ít nhất một CTA tương ứng với vị trí của khách hàng trong phễu.
 
 </rules>

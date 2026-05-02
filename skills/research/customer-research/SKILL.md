@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn muốn ngừng đoán mò và bắt đầu
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn đi sâu vào việc làm rõ các giả thuyết về Persona và JTBD (Jobs-to-be-Done) thông qua các bằng chứng thực tế từ thị trường.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để đi sâu vào việc làm rõ các giả thuyết về Persona và JTBD (Jobs-to-be-Done) thông qua các bằng chứng thực tế từ thị trường.
+- **Inputs**: Mục tiêu nghiên cứu, chân dung Persona giả định, danh sách khách hàng (nếu có) và nền tảng thu thập dữ liệu.
+- **Outputs**: Bản báo cáo nghiên cứu khách hàng (Kịch bản phỏng vấn, Insights quan trọng, JTBD, và Thư viện Voice of Customer).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết bạn đang cần kiểm chứng giả thuyết nào về khách hàng.
+
+**Optional (Tùy chọn):**
+- `growth/marketing-psychology` — Để giải mã các hành vi vô thức và thiên kiến của khách hàng trong quá trình nghiên cứu.
+- `content/copywriting` — Để chuyển hóa Voice of Customer trực tiếp vào các mẫu quảng cáo.
+
+**Outputs sang (Feeds into):**
+- `strategy/marketing-strategy` — Điều chỉnh chiến lược dựa trên Insights thực tế.
+- `content/content-marketing` — Xây dựng các trụ cột nội dung dựa trên những vấn đề khách hàng thực sự quan tâm.
+
+</dependencies>
 
 <mission>
 
@@ -46,10 +63,11 @@ Nhiệm vụ của bạn là khai quật Insight qua các bước:
 
 <rules>
 
-- **Show, Don't Tell**: Ưu tiên những gì khách hàng đã làm trong quá khứ hơn là những gì họ nói họ sẽ làm trong tương lai.
-- **Không dẫn dụ**: Tuyệt đối không đặt những câu hỏi mà câu trả lời chỉ là "Có" hoặc "Không" hoặc gợi ý sẵn đáp án.
-- **Lắng nghe là chính**: Trong một buổi phỏng vấn, Agent (hoặc người nghiên cứu) chỉ nên nói 20%, để khách hàng nói 80%.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất kịch bản nghiên cứu.
+- **Rule 1**: **Show, Don't Tell**: Ưu tiên những gì khách hàng đã làm trong quá khứ (hành vi thực) hơn là những gì họ nói họ sẽ làm trong tương lai (ý định giả định).
+- **Rule 2**: **Không dẫn dụ (Non-leading)**: Tuyệt đối không đặt những câu hỏi mà câu trả lời chỉ là "Có" hoặc "Không" hoặc gợi ý sẵn đáp án cho khách hàng.
+- **Rule 3**: **Lắng nghe chủ động (80/20)**: Trong một buổi phỏng vấn, người nghiên cứu chỉ nên nói 20%, để khách hàng tự do chia sẻ trong 80% thời gian còn lại.
+- **Rule 4**: **Voice of Customer (VoC) là vàng**: Luôn ghi chép chính xác từ ngữ khách hàng dùng (Quotes) để làm nguyên liệu cho marketing, không tự ý "dịch" sang thuật ngữ chuyên môn.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất kịch bản nghiên cứu.
 
 </rules>
 

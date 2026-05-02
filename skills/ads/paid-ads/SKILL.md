@@ -17,41 +17,58 @@ Sử dụng kỹ năng này khi bạn muốn "mua" sự chú ý của khách hà
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn thiết lập các chiến dịch quảng cáo bám sát hành trình khách hàng, từ việc tạo nhận thức (Awareness) đến việc đeo bám (Retargeting) để chốt đơn.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để xây dựng thông điệp quảng cáo (Messaging) và chọn tệp đối tượng (Targeting) chuẩn xác.
+- **Inputs**: Ngân sách quảng cáo, nền tảng ưu tiên (FB, Google, TikTok...), mục tiêu chiến dịch (Lead, Sales, Traffic), và các mẫu creative thô.
+- **Outputs**: Kế hoạch chạy quảng cáo (Media Plan), cấu trúc nhóm quảng cáo, các mẫu copy ads và kịch bản A/B test.
 
 </context>
 
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết "Pain points" nào cần xoáy sâu trong quảng cáo.
+
+**Optional (Tùy chọn):**
+- `content/copywriting` — Để viết các mẫu headline và body copy "sát thương" cao.
+- `research/analytics` — Để phân tích dữ liệu hiệu quả và tối ưu hóa tệp đối tượng.
+
+**Outputs sang (Feeds into):**
+- `growth/conversion-optimization` — Tối ưu hóa trang đích (Landing page) để không lãng phí tiền quảng cáo.
+- `finance/unit-economics` — Kiểm soát chỉ số CAC (Cost Per Acquisition) trong ngưỡng cho phép.
+
+</dependencies>
+
 <mission>
 
-Nhiệm vụ của bạn là tối ưu hóa hiệu suất quảng cáo qua các bước:
+Nhiệm vụ của bạn là tối ưu hóa hiệu quả chi tiêu quảng cáo qua các bước:
 
-1. **Thiết lập Cấu trúc Chiến dịch (Campaign Architecture)**:
-    - **TOF (Top of Funnel)**: Tiếp cận khách hàng mới, tập trung vào Broad targeting và Creative hấp dẫn.
-    - **MOF (Middle of Funnel)**: Tiếp cận những người đã tương tác, dùng nội dung giáo dục/social proof.
-    - **BOF (Bottom of Funnel)**: Đeo bám khách hàng đã vào giỏ hàng nhưng chưa mua (Retargeting) với lời chào hàng mạnh mẽ.
+1. **Strategic Selection (Lựa chọn kênh & Mục tiêu)**:
+    - Xác định kênh phù hợp nhất với Persona: Facebook (Social), Google (Search), TikTok (Entertainment), hoặc LinkedIn (B2B).
+    - Chọn mục tiêu chiến dịch: Awareness, Traffic, Leads, hay Conversions.
 
-2. **Sản xuất Creative & Ad Copy (Nội dung Sáng tạo)**:
-    - Thiết kế "Thumb-stopping creatives": Hình ảnh/Video gây chú ý ngay lập tức.
-    - Viết Ad Copy theo các ngòi nổ tâm lý (Fearing of Missing Out, Social Proof, Authority).
-    - Tạo ra ít nhất 3-5 biến thể nội dung để thuật toán tự động tối ưu.
+2. **Audience Research & Targeting (Nghiên cứu đối tượng)**:
+    - Xây dựng các tệp đối tượng: Sở thích/Hành vi (Interest/Behavior), Đối tượng tương đồng (Lookalike), và Tiếp thị lại (Retargeting).
 
-3. **Tối ưu hóa & Scaling (Mở rộng ngân sách)**:
-    - Audit định kỳ: Loại bỏ các nhóm quảng cáo kém hiệu quả, dồn tiền cho "Winning Ads".
-    - Quy tắc Scale 20%: Tăng ngân sách dần dần để không làm "loạn" máy học (Learning phase).
-    - Kiểm soát CPA (Cost Per Acquisition) để đảm bảo lợi nhuận.
+3. **Creative & Messaging (Sáng tạo & Thông điệp)**:
+    - Chế tác bộ Messaging bám sát "Pain points" và "Gains".
+    - Thiết kế cấu trúc Ad sets và Ads với các biến thể Headline và Visual khác nhau.
 
-4. **Tracking & Attribution (Đo lường & Ghi nhận)**:
-    - Thiết lập Pixel, Conversion API và các công cụ tracking để đo lường chính xác nguồn khách hàng.
+4. **Tracking & Funnel Setup (Thiết lập đo lường)**:
+    - Đảm bảo các mã theo dõi (Pixel, API chuyển đổi) hoạt động chuẩn xác để đo lường ROI.
+
+5. **Monitoring & Optimization (Giám sát & Tối ưu)**:
+    - Phân tích chỉ số: CTR, CPC, CPM và quan trọng nhất là CPL/CPA.
+    - Điều chỉnh ngân sách, tắt bỏ các nhóm quảng cáo kém hiệu quả và scale các nhóm "winner".
 
 </mission>
 
 <rules>
 
-- **Dữ liệu nói lên tất cả**: Đừng tranh cãi về việc ảnh nào đẹp hơn, hãy để tỷ lệ Click (CTR) và Chuyển đổi (CR) trả lời.
-- **Creative First**: Targeting có thể sai, nhưng nếu Creative xuất sắc, thuật toán sẽ tự tìm đúng người.
-- **Luôn có Retargeting**: Bỏ qua Retargeting là bỏ qua 70% doanh thu tiềm năng.
-- **Landing Page là bắt buộc**: Tuyệt đối không chạy ads về trang chủ chung chung; phải chạy về trang đích tối ưu chuyển đổi.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất cấu trúc chiến dịch.
+- **Rule 1**: **Tư duy ROI/ROAS**: Không bao giờ tiêu tiền quảng cáo mà không có mục tiêu đo lường rõ ràng (CPM, CPC là phụ, CPL và CPA là chính).
+- **Rule 2**: **Creative là số 1**: Trên các nền tảng hiện đại (Facebook, TikTok), nội dung sáng tạo (Hình ảnh/Video) quyết định 70% thành công của chiến dịch.
+- **Rule 3**: **Kiểm thử liên tục (A/B Testing)**: Luôn chạy thử nghiệm các mẫu creative, headline và tệp đối tượng khác nhau để tìm ra "winner".
+- **Rule 4**: **Phễu hóa quảng cáo**: Chia chiến dịch theo các giai đoạn Nhận diện -> Quan tâm -> Chuyển đổi thay vì chỉ chạy bán hàng trực tiếp.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất kế hoạch Paid Ads.
 
 </rules>
 

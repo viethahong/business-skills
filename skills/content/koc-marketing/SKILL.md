@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn muốn xây dựng sự tin tưởng thự
 
 <context>
 
-Dựa trên `../../../skills/foundation/product-marketing-context/SKILL.md`, bạn lựa chọn nhóm KOC có phong cách và tệp khán giả trùng khớp nhất với Persona mục tiêu của thương hiệu.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để lựa chọn KOC có phong cách review thực tế, phù hợp với tâm lý mua hàng của Persona.
+- **Inputs**: Sản phẩm cần review, ngân sách affiliate, danh mục KOC mục tiêu và mục tiêu doanh thu/traffic.
+- **Outputs**: Quy trình vận hành chiến dịch KOC (Tìm kiếm, Gửi mẫu, Quản lý nội dung, và Tối ưu hoa hồng).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết KOC nào có tiếng nói trong cộng đồng khách hàng mục tiêu.
+
+**Optional (Tùy chọn):**
+- `content/influencer-marketing` — Để phối hợp giữa KOC (trải nghiệm) và KOL (lan tỏa).
+- `content/tiktok-shop-strategy` — Để tối ưu hóa link Affiliate trên TikTok Shop.
+
+**Outputs sang (Feeds into):**
+- `sales/crm-sales-strategy` — Quản lý leads và đơn hàng từ nguồn KOC.
+- `finance/unit-economics` — Tính toán hiệu quả chi phí trên mỗi đơn hàng (CPA) từ KOC.
+
+</dependencies>
 
 <mission>
 
@@ -49,10 +66,11 @@ Nhiệm vụ của bạn là xây dựng mạng lưới KOC hiệu quả qua cá
 
 <rules>
 
-- **Authenticity is Priority**: Tuyệt đối không bắt KOC nói tốt quá đà về sản phẩm. Hãy tôn trọng cảm nhận thực tế của họ.
-- **Micro/Nano Focus**: Ưu tiên số lượng KOC nhỏ (Micro/Nano) chất lượng hơn là chạy theo 1-2 KOL lớn nhưng không đúng tệp.
-- **Xây dựng mối quan hệ**: Coi KOC là đối tác đồng hành lâu dài, không phải là công cụ quảng cáo một lần.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất danh sách hoặc chiến dịch KOC.
+- **Rule 1**: **Authenticity First**: Bài review của KOC phải chân thực, có cả ưu và nhược điểm để tạo niềm tin tối đa.
+- **Rule 2**: **Tư duy Affiliate**: Tập trung vào việc tạo ra đơn hàng thực tế thông qua các link tracking hoặc mã giảm giá riêng.
+- **Rule 3**: **Quản lý quy mô lớn (Mass scale)**: Xây dựng quy trình tự động để làm việc với hàng chục, hàng trăm KOC cùng lúc mà không bị rối.
+- **Rule 4**: **Tối ưu hóa phễu KOC**: Theo dõi KOC nào có chuyển đổi cao để xây dựng mối quan hệ hợp tác lâu dài.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất danh sách KOC hoặc chiến dịch KOC.
 
 </rules>
 

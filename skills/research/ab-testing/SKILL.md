@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn muốn chấm dứt mọi cuộc tranh cã
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md` và các giả thuyết từ `conversion-optimization.md`, bạn thiết kế các bài test tập trung vào những yếu tố có tác động lớn nhất đến hành vi của Persona mục tiêu.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để đảm bảo các giả thuyết thử nghiệm bám sát "Pain points" và "Gains" của Persona.
+- **Inputs**: Giả thuyết cần kiểm chứng (Hypothesis), các biến thể (A vs B), đối tượng mục tiêu và chỉ số đo lường thành công (KPI).
+- **Outputs**: Kế hoạch thử nghiệm A/B (Thiết kế mẫu, Thời gian chạy, Cách thức phân chia traffic, và Báo cáo kết luận).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết giá trị nào thực sự quan trọng với khách hàng để đem ra thử nghiệm.
+
+**Optional (Tùy chọn):**
+- `research/analytics` — Để đo lường chính xác các kết quả từ biến thể.
+- `growth/conversion-optimization` — Để triển khai các thay đổi "chiến thắng" sau khi test thành công.
+
+**Outputs sang (Feeds into):**
+- `growth/conversion-optimization` — Áp dụng kết quả test để tăng tỷ lệ chuyển đổi tổng thể.
+- `ads/paid-ads` — Tối ưu hóa các mẫu quảng cáo dựa trên kết quả test nội dung/hình ảnh.
+
+</dependencies>
 
 <mission>
 
@@ -49,10 +66,11 @@ Nhiệm vụ của bạn là xây dựng văn hóa thử nghiệm qua các bư�
 
 <rules>
 
-- **Không "liếc trộm" (No Peeking)**: Tuyệt đối không dừng test sớm chỉ vì thấy một biến thể đang thắng ở những ngày đầu. Phải đợi đến khi đủ sample size.
-- **Thay đổi một biến mỗi lần (One variable at a time)**: Để biết chính xác nguyên nhân của sự thay đổi, trừ khi dùng phương pháp Multivariate Test phức tạp.
-- **Thất bại cũng là thành công**: Một bài test "thua" vẫn mang lại giá trị to lớn vì nó giúp doanh nghiệp tránh triển khai một tính năng/thông điệp kém hiệu quả.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi thiết kế bài test A/B.
+- **Rule 1**: **Mỗi lần một biến số**: Tuyệt đối không thay đổi quá nhiều yếu tố trong một bài test (trừ khi chạy Multivariate Test) vì sẽ không biết yếu tố nào tạo ra sự khác biệt.
+- **Rule 2**: **Đủ mẫu mới kết luận (Statistical Significance)**: Không được vội vã kết luận khi số lượng dữ liệu chưa đủ lớn để loại trừ yếu tố ngẫu nhiên.
+- **Rule 3**: **Kiểm tra kỹ trước khi chạy**: Đảm bảo việc phân chia traffic và ghi nhận sự kiện (tracking) hoạt động hoàn hảo trên cả hai biến thể.
+- **Rule 4**: **Lưu lại mọi bài học**: Kể cả khi một bài test "thất bại" (không tìm ra người thắng), đó vẫn là một Insight quý giá về khách hàng.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất kịch bản A/B Test.
 
 </rules>
 

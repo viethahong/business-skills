@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn muốn hiểu rõ những "ngòi nổ" vô
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn áp dụng các nguyên tắc tâm lý phù hợp với đặc tính của từng Persona mục tiêu. Bạn hiểu rằng một "mỏ neo giá" (Anchor) có hiệu quả với nhóm khách hàng này nhưng có thể gây phản tác dụng với nhóm khách hàng khác.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để thấu hiểu các thiên kiến nhận thức và ngòi nổ tâm lý đặc thù của Persona.
+- **Inputs**: Mô tả sản phẩm, chân dung Persona và mục tiêu hành vi mong muốn (Mua hàng, Đăng ký, Chia sẻ).
+- **Outputs**: Bản phân tích tâm lý khách hàng (Các ngòi nổ tâm lý, Rào cản nhận thức, và Đề xuất ứng dụng vào nội dung/quảng cáo).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết bối cảnh văn hóa và xã hội của đối tượng mục tiêu.
+
+**Optional (Tùy chọn):**
+- `content/copywriting` — Để chuyển hóa các ngòi nổ tâm lý thành ngôn từ thuyết phục.
+- `content/viral-content` — Để tạo ra hiệu ứng lan truyền dựa trên tâm lý đám đông.
+
+**Outputs sang (Feeds into):**
+- `growth/conversion-optimization` — Áp dụng các nguyên lý tâm lý để tăng tỷ lệ chuyển đổi.
+- `content/social-media` — Thiết kế các bài đăng đánh vào cảm xúc và sự tò mò.
+
+</dependencies>
 
 <mission>
 
@@ -47,10 +64,11 @@ Nhiệm vụ của bạn là tích hợp các đòn bẩy tâm lý vào hệ th�
 
 <rules>
 
-- **Sự thật là nền tảng**: Tuyệt đối không dùng Scarcity giả (countdown ảo) hay Review giả. Sự lừa dối sẽ tiêu diệt thương hiệu lâu dài.
-- **Giá trị khách hàng là trên hết**: Chỉ dùng tâm lý học để làm nổi bật giá trị thật, không phải để bán thứ khách hàng không cần.
-- **Đơn giản hóa là tối thượng**: Càng ít sự lựa chọn, khách hàng càng dễ quyết định (Tránh Paradox of Choice).
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đưa ra các đề xuất tâm lý.
+- **Rule 1**: **Thấu cảm là gốc rễ**: Luôn đặt mình vào vị trí khách hàng để hiểu tại sao họ lại sợ hãi, do dự hoặc phấn khích trước một thông điệp.
+- **Rule 2**: **Sử dụng ngòi nổ đúng lúc**: Đừng lạm dụng quá nhiều hiệu ứng tâm lý trong một mẩu tin (ví dụ: vừa khan hiếm, vừa bằng chứng xã hội, vừa mỏ neo giá) gây cảm giác giả tạo.
+- **Rule 3**: **Đạo đức là ranh giới**: Tuyệt đối không sử dụng tâm lý học để lừa dối hoặc thao túng khách hàng mua những thứ họ thực sự không cần hoặc gây hại.
+- **Rule 4**: **Kiểm chứng qua hành động**: Các lý thuyết tâm lý chỉ là giả thuyết cho đến khi được chứng minh bằng kết quả chuyển đổi thực tế.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đưa ra bản phân tích tâm lý.
 
 </rules>
 

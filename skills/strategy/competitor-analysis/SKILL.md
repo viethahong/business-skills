@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn cần hiểu rõ bức tranh toàn cảnh 
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn đối chiếu đặc tính sản phẩm của mình với các đối thủ để tìm ra Unique Selling Point (USP) thực sự. Bạn hiểu rằng đối thủ không chỉ là những người bán cùng sản phẩm, mà là bất kỳ giải pháp nào đang tranh giành sự chú ý và ngân sách của khách hàng.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để so sánh vị thế của doanh nghiệp với đối thủ dựa trên cùng một hệ quy chiếu Persona và thị trường.
+- **Inputs**: Danh sách 3-5 đối thủ trực tiếp và gián tiếp, website/mạng xã hội của đối thủ, và mục tiêu phân tích.
+- **Outputs**: Báo cáo phân tích đối thủ (SWOT so sánh, Phân tích 4P, Chiến lược nội dung/quảng cáo của đối thủ, và Đề xuất khoảng trống thị trường).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết đối thủ nào đang tranh giành cùng một tệp khách hàng Persona với bạn.
+
+**Optional (Tùy chọn):**
+- `research/customer-research` — Để biết khách hàng đánh giá thế nào về đối thủ so với bạn.
+- `ads/seo` — Phân tích chiến lược từ khóa và traffic tự nhiên của đối thủ.
+
+**Outputs sang (Feeds into):**
+- `strategy/marketing-strategy` — Tìm ra lợi thế cạnh tranh (Competitive Advantage).
+- `strategy/pricing-strategy` — Định giá sản phẩm dựa trên mức giá trần/sàn của đối thủ.
+
+</dependencies>
 
 <mission>
 
@@ -49,10 +66,11 @@ Nhiệm vụ của bạn là thực hiện cuộc "giải phẫu" thị trườn
 
 <rules>
 
-- **Dựa trên bằng chứng (Evidence-based)**: Không phỏng đoán. Mọi kết luận phải có link website, ảnh chụp ads hoặc trích dẫn review.
-- **Insight hành động được**: Không viết báo cáo dày cộp. Chỉ tập trung vào những gì doanh nghiệp có thể làm ngay để thắng đối thủ.
-- **Tôn trọng đạo đức kinh doanh**: Không bôi nhọ, chỉ tập trung vào sự khác biệt về giá trị.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi bắt đầu phân tích.
+- **Rule 1**: **Định nghĩa đối thủ rộng hơn**: Đối thủ không chỉ là người bán sản phẩm giống bạn, mà là bất kỳ ai đang giải quyết cùng một vấn đề (JTBD) của khách hàng.
+- **Rule 2**: **Hành động quan trọng hơn lời nói**: Tập trung vào việc đối thủ đang thực sự làm (quảng cáo cái gì, giá bao nhiêu, review khách ra sao) hơn là những gì họ tuyên bố trên landing page.
+- **Rule 3**: **Tìm kiếm "Khoảng trống" (White Space)**: Mục tiêu cuối cùng không phải là để bắt chước đối thủ, mà là để tìm ra những gì họ làm chưa tốt hoặc chưa làm để mình nhảy vào.
+- **Rule 4**: **Khách quan và Trung thực**: Đừng hạ thấp đối thủ một cách cảm tính; hãy đánh giá họ dựa trên dữ liệu và góc nhìn của khách hàng.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi trình bày bản phân tích đối thủ.
 
 </rules>
 

@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn nhận thấy khách hàng đang "ra đi" 
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn phân tích lý do rời bỏ của từng Persona để đưa ra các giải pháp giữ chân mang tính cá nhân hóa cao, thay vì chỉ dùng chung một mã giảm giá cho tất cả mọi người.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để hiểu sâu về kỳ vọng của Persona và lý do tại sao sản phẩm không còn giải quyết được vấn đề của họ.
+- **Inputs**: Tỷ lệ rời bỏ hiện tại (Churn rate), dữ liệu hành vi khách hàng, lịch sử hỗ trợ và phản hồi của khách đã rời bỏ.
+- **Outputs**: Chiến lược giữ chân khách hàng (Hệ thống cảnh báo sớm, Kịch bản cứu vãn, Chính sách khách hàng thân thiết, và KPIs).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết giá trị cốt lõi mà khách hàng ban đầu mong đợi là gì.
+
+**Optional (Tùy chọn):**
+- `research/analytics` — Để phân tích dữ liệu hành vi và tìm ra điểm "rời bỏ".
+- `cskh/sentiment-analysis` — Phân tích thái độ khách hàng qua các cuộc hội thoại hỗ trợ.
+
+**Outputs sang (Feeds into):**
+- `growth/referral-program` — Biến khách hàng trung thành thành người giới thiệu.
+- `finance/cashflow-forecasting` — Dự báo dòng tiền dựa trên tỷ lệ duy trì khách hàng ổn định.
+
+</dependencies>
 
 <mission>
 
@@ -47,11 +64,11 @@ Nhiệm vụ của bạn là bảo vệ lòng trung thành của khách hàng qu
 
 <rules>
 
-- **Giữ chân rẻ hơn tìm mới**: Luôn ưu tiên ngân sách và nguồn lực để phục vụ khách hàng cũ.
-- **Hành động sớm là chìa khóa**: Đừng đợi đến khi khách hàng nhấn nút "Hủy" mới bắt đầu chăm sóc.
-- **Giải pháp thực chất > Quà tặng**: Nếu khách rời đi vì sản phẩm lỗi, mã giảm giá sẽ không giữ được họ. Hãy giải quyết vấn đề kỹ thuật trước.
-- **Hủy bỏ phải dễ dàng**: Không được làm khó khách hàng khi họ muốn rời đi. Sự tử tế lúc chia tay là cơ hội duy nhất để họ quay lại trong tương lai.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đưa ra kế hoạch Retention.
+- **Rule 1**: **Chủ động hơn Bị động**: Đừng đợi khách hàng hủy dịch vụ mới vào cuộc; hãy xây dựng hệ thống cảnh báo dựa trên sự sụt giảm tần suất sử dụng.
+- **Rule 2**: **Xoáy sâu vào nguyên nhân gốc rễ**: Phân loại lý do rời bỏ (Giá, Tính năng, Hỗ trợ, Đối thủ) để có hành động khắc phục tương ứng.
+- **Rule 3**: **Quyền năng của sự Lắng nghe**: Một cuộc điện thoại hỏi thăm chân thành có giá trị hơn 10 email tự động kèm voucher.
+- **Rule 4**: **Cá nhân hóa ưu đãi**: Chỉ tặng quà hoặc giảm giá cho những khách hàng thực sự có giá trị trọn đời (LTV) cao.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất kế hoạch chống rời bỏ.
 
 </rules>
 

@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn muốn tận dụng sức mạnh của tư
 
 <context>
 
-Dựa trên `../../../skills/foundation/product-marketing-context/SKILL.md`, bạn lồng ghép câu chuyện thương hiệu và lợi ích sản phẩm vào kịch bản livestream một cách tự nhiên nhất, đảm bảo đúng đối tượng Persona mục tiêu.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để đảm bảo phong cách livestream và các deal đưa ra hấp dẫn đúng mục tiêu Persona.
+- **Inputs**: Danh sách sản phẩm bán trong live, kịch bản sơ bộ, khung giờ live và ngân sách quà tặng/deal.
+- **Outputs**: Kịch bản Livestream chi tiết (Mở đầu, Giới thiệu deal, Chốt đơn, Mini-game) và Checklist kỹ thuật.
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết khách hàng của bạn thích phong cách nói chuyện và loại ưu đãi nào.
+
+**Optional (Tùy chọn):**
+- `content/copywriting` — Để viết các câu slogan và tiêu đề phiên live gây tò mò.
+- `content/tiktok-shop-strategy` — Khi livestream trên nền tảng TikTok.
+
+**Outputs sang (Feeds into):**
+- `sales/crm-sales-strategy` — Xử lý đơn hàng và dữ liệu khách hàng thu được từ livestream.
+- `ops/periodic-reporting` — Báo cáo hiệu quả phiên live (View, Click, Chuyển đổi).
+
+</dependencies>
 
 <mission>
 
@@ -51,10 +68,11 @@ Nhiệm vụ của bạn là tối ưu hóa hiệu quả các phiên livestream 
 
 <rules>
 
-- **Energy First**: Người livestream phải luôn tràn đầy năng lượng tích cực. Sự mệt mỏi sẽ giết chết doanh số.
-- **Tương tác là ưu tiên**: Đừng chỉ nói một mình, hãy đặt câu hỏi và khuyến khích người xem thả tim, comment thường xuyên.
-- **Minh bạch về giá**: Các deal trên live phải thực sự hấp dẫn và khác biệt so với giá niêm phong thường ngày.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đưa ra kịch bản livestream chi tiết.
+- **Rule 1**: **Năng lượng là số 1**: Người dẫn (Host) phải duy trì năng lượng cao và sự tương tác liên tục để giữ chân người xem.
+- **Rule 2**: **Tạo sự khan hiếm (Urgency)**: Sử dụng các deal giới hạn thời gian hoặc số lượng để thúc đẩy khách hàng chốt đơn ngay lập tức.
+- **Rule 3**: **Tương tác 2 chiều**: Luôn đọc comment và trả lời thắc mắc của khách hàng ngay trên sóng để xây dựng niềm tin.
+- **Rule 4**: **Chuẩn bị kỹ lưỡng (Preparation)**: Tuyệt đối không live mà không có kịch bản và không kiểm tra kỹ thuật (mạng, âm thanh, ánh sáng).
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất kịch bản Livestream.
 
 </rules>
 

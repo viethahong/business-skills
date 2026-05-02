@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn cần thiết lập hoặc tối ưu hóa 
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn đối chiếu mức sẵn sàng chi trả (Willingness to Pay) của Persona với định vị thương hiệu để xây dựng cấu trúc gói giá (Packaging) và mô hình doanh thu (Revenue Model) bền vững.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để đối chiếu mức sẵn sàng chi trả (Willingness to Pay) của Persona với định vị thương hiệu và giá trị thực tế mang lại.
+- **Inputs**: Cơ cấu chi phí, mức giá đối thủ, giá trị mang lại cho khách hàng, và mục tiêu lợi nhuận.
+- **Outputs**: Chiến lược định giá (Cấu trúc gói giá, Tâm lý định giá, Mô hình doanh thu, và Kế hoạch thay đổi giá).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết Persona của bạn coi trọng điều gì để định giá dựa trên giá trị (Value-based Pricing).
+
+**Optional (Tùy chọn):**
+- `strategy/competitor-analysis` — Để hiểu bối cảnh giá cả trong ngành.
+- `growth/marketing-psychology` — Để áp dụng các hiệu ứng tâm lý như Anchoring, Decoy hay Charm Pricing.
+
+**Outputs sang (Feeds into):**
+- `finance/unit-economics` — Kiểm soát và tối ưu hóa biên lợi nhuận.
+- `growth/conversion-optimization` — Thiết kế trang giá (Pricing Page) để tối ưu tỷ lệ chuyển đổi.
+
+</dependencies>
 
 <mission>
 
@@ -47,11 +64,11 @@ Nhiệm vụ của bạn là thiết kế hệ thống giá thông minh qua các
 
 <rules>
 
-- **Value over Cost**: Tuyệt đối không định giá chỉ dựa trên chi phí sản xuất.
-- **Dễ hiểu là ưu tiên**: Nếu khách hàng mất quá 10 giây để hiểu các gói giá, cấu trúc đó đã thất bại.
-- **Thử nghiệm liên tục**: Giá cả không bao giờ là cố định, phải được test định kỳ.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đưa ra đề xuất giá.
-- **ROI Driven**: Mọi mức giá phải giải trình được bằng lợi ích kinh tế mang lại cho khách hàng.
+- **Rule 1**: **Giá trị trên hết (Value over Cost)**: Tuyệt đối không định giá chỉ dựa trên chi phí sản xuất; hãy định giá dựa trên lợi ích khách hàng nhận được.
+- **Rule 2**: **Đơn giản là tối thượng**: Nếu khách hàng mất quá 10 giây để hiểu các gói giá, cấu trúc đó đã thất bại.
+- **Rule 3**: **Thử nghiệm và Tối ưu**: Giá cả không bao giờ là cố định; phải được kiểm tra định kỳ để tìm ra mức giá tối ưu nhất cho cả khách và doanh nghiệp.
+- **Rule 4**: **ROI Driven**: Mọi mức giá đều phải được giải trình bằng các lợi ích kinh tế (Tiết kiệm thời gian, Tăng doanh thu, Giảm rủi ro) mang lại cho khách hàng.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất chiến lược định giá.
 
 </rules>
 

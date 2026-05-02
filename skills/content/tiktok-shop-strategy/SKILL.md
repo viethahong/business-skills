@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn cần một lộ trình toàn diện để
 
 <context>
 
-Dựa trên `../../../skills/foundation/product-marketing-context/SKILL.md`, bạn đồng bộ hóa danh mục sản phẩm, chính sách giá và thông điệp thương hiệu lên nền tảng TikTok Shop, đảm bảo tính nhất quán với các kênh bán hàng khác.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để tối ưu hóa gian hàng và nội dung video phù hợp với hành vi mua sắm "giải trí" của Persona TikTok.
+- **Inputs**: Danh mục sản phẩm, ngân sách TikTok Ads, năng lực sản xuất video và mục tiêu doanh số tháng.
+- **Outputs**: Kế hoạch vận hành TikTok Shop (Tối ưu sản phẩm, Lịch video, Chiến dịch Affiliate, và Kế hoạch Livestream).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để hiểu ngôn ngữ và gu thẩm mỹ của Gen Z/Alpha trên TikTok.
+
+**Optional (Tùy chọn):**
+- `content/copywriting` — Để viết kịch bản video ngắn thu hút.
+- `content/livestream-selling` — Để vận hành các phiên live bán hàng trên TikTok.
+
+**Outputs sang (Feeds into):**
+- `finance/unit-economics` — Kiểm soát biên lợi nhuận sau khi trừ phí sàn TikTok và chi hoa hồng KOC.
+- `ops/periodic-reporting` — Theo dõi chỉ số tăng trưởng của gian hàng (GMS, AOV, CR).
+
+</dependencies>
 
 <mission>
 
@@ -49,10 +66,11 @@ Nhiệm vụ của bạn là xây dựng cỗ máy bán hàng TikTok Shop qua c�
 
 <rules>
 
-- **Content is King, Context is Queen**: Tuyệt đối không đăng video bán hàng khô khan. Video phải có tính giải trí hoặc mang lại giá trị kiến thức trước khi bán hàng.
-- **Affiliate First**: Tận dụng tối đa sức mạnh của cộng đồng KOC để phủ sóng sản phẩm nhanh nhất với chi phí biến đổi (Performance-based).
-- **Fast Response**: TikTok Shop ưu tiên các shop có tốc độ phản hồi và xử lý đơn hàng nhanh.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đưa ra kế hoạch vận hành shop.
+- **Rule 1**: **Nội dung là vua (Shoppertainment)**: Tuyệt đối không đăng video chỉ để bán hàng khô khan; phải lồng ghép yếu tố giải trí hoặc giáo dục.
+- **Rule 2**: **Tốc độ phản hồi (Customer Service)**: Phải phản hồi chat và xử lý đơn hàng cực nhanh để duy trì điểm sức khỏe cửa hàng ở mức cao.
+- **Rule 3**: **Tận dụng sức mạnh Affiliate**: Luôn có chiến lược làm việc với KOC/KOL để họ kéo traffic và doanh thu về shop thay vì chỉ tự mình làm.
+- **Rule 4**: **Data-driven Optimization**: Theo dõi sát sao dữ liệu từ TikTok Shop Academy để điều chỉnh sản phẩm chủ lực và ngân sách quảng cáo.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất kế hoạch TikTok Shop.
 
 </rules>
 

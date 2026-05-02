@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn muốn khai thác nền tảng nhắn tin 
 
 <context>
 
-Dựa trên `../../../skills/foundation/product-marketing-context/SKILL.md`, bạn tích hợp Zalo vào phễu marketing tổng thể của doanh nghiệp, đặc biệt là trong giai đoạn Chăm sóc (Retention) và Chuyển đổi (Decision).
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để tích hợp Zalo vào phễu marketing tổng thể, đặc biệt là giai đoạn Retention và Decision.
+- **Inputs**: Thông tin Zalo OA (nếu có), mục tiêu kênh (CSKH/Bán hàng), tệp số điện thoại khách hàng (nếu có) và ngân sách Zalo Ads.
+- **Outputs**: Kế hoạch Zalo Marketing (Setup OA, Kịch bản Broadcast, Chiến dịch Zalo Ads, và Quy trình CSKH qua Zalo).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết Persona có thói quen dùng Zalo như thế nào.
+
+**Optional (Tùy chọn):**
+- `content/copywriting` — Để viết các mẫu tin nhắn broadcast ngắn gọn, thuyết phục.
+- `ads/zalo-oa-strategy` — Để tối ưu hóa cấu trúc Official Account.
+
+**Outputs sang (Feeds into):**
+- `cskh/sentiment-analysis` — Lắng nghe phản hồi khách hàng qua Zalo.
+- `sales/crm-sales-strategy` — Quản lý khách hàng tiềm năng thu được từ Zalo Ads.
+
+</dependencies>
 
 <mission>
 
@@ -48,10 +65,10 @@ Nhiệm vụ của bạn là tối ưu hóa sự hiện diện của thương hi
 
 <rules>
 
-- **Anti-Spam First**: Tuyệt đối không gửi tin nhắn quá thường xuyên gây phiền hà cho khách hàng. Chất lượng tin nhắn quan trọng hơn số lượng.
-- **Cá nhân hóa là chìa khóa**: Luôn cố gắng xưng hô và đưa ra các đề xuất phù hợp với từng nhóm khách hàng đã phân loại.
-- **Tương tác 2 chiều**: Zalo là kênh nhắn tin, hãy khuyến khích khách hàng phản hồi và tương tác thay vì chỉ phát tin một chiều.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất chiến dịch Zalo Marketing.
+- **Rule 1**: **Anti-Spam First**: Tuyệt đối không gửi tin nhắn quá thường xuyên gây phiền hà cho khách hàng. Chất lượng tin nhắn quan trọng hơn số lượng.
+- **Rule 2**: **Cá nhân hóa là khóa**: Luôn cố gắng xưng hô và đưa ra các đề xuất phù hợp với từng nhóm khách hàng đã phân loại.
+- **Rule 3**: **Tương tác 2 chiều**: Zalo là kênh nhắn tin, hãy khuyến khích khách hàng phản hồi và tương tác thay vì chỉ phát tin một chiều.
+- **Rule 4**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất chiến dịch Zalo Marketing.
 
 </rules>
 

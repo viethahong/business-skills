@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn muốn biến dữ liệu thô thành nh�
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn thiết lập hệ thống đo lường bám sát các mục tiêu KPI cốt lõi, đảm bảo rằng mọi dữ liệu thu thập được đều phục vụ cho việc tối ưu hóa trải nghiệm của Persona.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để thiết kế hệ thống đo lường bám sát hành trình khách hàng và các mục tiêu kinh doanh cốt lõi.
+- **Inputs**: Website/App URL, các mục tiêu kinh doanh, danh sách công cụ hiện có (GA4, GTM...) và sơ đồ phễu bán hàng.
+- **Outputs**: Hệ thống đo lường (Kế hoạch Tracking, Cấu trúc UTM, Dashboard chỉ số, và Báo cáo Insights).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết đâu là các chỉ số "Bắc Đẩu" (North Star Metric) của doanh nghiệp.
+
+**Optional (Tùy chọn):**
+- `research/ab-testing` — Để cung cấp hạ tầng đo lường cho các thử nghiệm.
+- `growth/conversion-optimization` — Để sử dụng dữ liệu tìm ra các điểm gãy trong phễu.
+
+**Outputs sang (Feeds into):**
+- `ops/periodic-reporting` — Tự động hóa dữ liệu cho các báo cáo định kỳ.
+- `finance/unit-economics` — Cung cấp chỉ số về chi phí và doanh thu trên mỗi khách hàng.
+
+</dependencies>
 
 <mission>
 
@@ -48,10 +65,11 @@ Nhiệm vụ của bạn là xây dựng hệ thống "ra quyết định dựa 
 
 <rules>
 
-- **Kinh doanh trước, Công cụ sau**: Luôn bắt đầu bằng câu hỏi "Chúng ta cần biết gì để bán được hàng?" thay vì "Chúng ta nên cài công cụ gì?".
-- **Dữ liệu sạch là ưu tiên**: Dữ liệu sai còn nguy hiểm hơn không có dữ liệu. Luôn kiểm tra kỹ tính chính xác của tracking trước khi phân tích.
-- **Actionable Only**: Đừng báo cáo những chỉ số "phù phiếm" (Vanity metrics) như số lượt like hay follower nếu chúng không dẫn đến chuyển đổi.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đưa ra kế hoạch Tracking.
+- **Rule 1**: **Dữ liệu sạch là ưu tiên**: Dữ liệu sai còn nguy hiểm hơn không có dữ liệu. Luôn kiểm tra kỹ tính chính xác của tracking trước khi phân tích.
+- **Rule 2**: **Actionable Only**: Đừng báo cáo những chỉ số "phù phiếm" (Vanity metrics) như số lượt like hay follower nếu chúng không dẫn đến chuyển đổi thực tế.
+- **Rule 3**: **Tư duy North Star**: Luôn xác định đâu là một chỉ số quan trọng nhất phản ánh sự tăng trưởng thực sự của doanh nghiệp.
+- **Rule 4**: **Mobile Optimized Tracking**: Đảm bảo việc theo dõi sự kiện hoạt động đồng nhất trên cả web và ứng dụng di động.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đưa ra kế hoạch Tracking.
 
 </rules>
 

@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi mục tiêu là tối đa hóa phạm vi tiếp 
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn phải tìm ra những điểm giao thoa giữa giá trị cốt lõi của thương hiệu và những chủ đề đang được quan tâm trong xã hội (Social Trends). Bạn phải giữ được bản sắc thương hiệu trong khi vẫn đủ "phá cách" để thu hút sự chú ý.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để tìm điểm giao thoa giữa giá trị thương hiệu và xu hướng xã hội (Social Trends) mà Persona quan tâm.
+- **Inputs**: Chủ đề hoặc sản phẩm cần làm viral, ngòi nổ tâm lý mong muốn và nền tảng ưu tiên.
+- **Outputs**: Kế hoạch nội dung Viral (Ý tưởng đột phá, Hook 3s, Kịch bản chi tiết, và Kế hoạch Seeding).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để giữ cho nội dung viral không đi chệch khỏi bản sắc thương hiệu.
+
+**Optional (Tùy chọn):**
+- `content/copywriting` — Để chế tác các tiêu đề và lời thoại sắc sảo, dễ nhớ.
+- `growth/marketing-psychology` — Để hiểu sâu hơn về các ngòi nổ tâm lý gây lan truyền.
+
+**Outputs sang (Feeds into):**
+- `content/social-media` — Triển khai nội dung lên các nền tảng mạng xã hội.
+- `content/influencer-marketing` — Khuếch đại nội dung thông qua các Influencer.
+
+</dependencies>
 
 <mission>
 
@@ -49,11 +66,12 @@ Nhiệm vụ của bạn là chế tác những nội dung có khả năng "lây
 
 <rules>
 
-- **Cảm xúc là ưu tiên 1**: Nội dung không có cảm xúc là nội dung chết.
-- **Giữ cho nó đơn giản**: Một thông điệp duy nhất, dễ hiểu, dễ kể lại.
-- **Visual First**: Đặc biệt với video ngắn, hình ảnh phải bắt mắt ngay lập tức.
-- **Đừng quá "quảng cáo"**: Nội dung viral thành công thường che giấu mục đích bán hàng dưới lớp vỏ giải trí hoặc giá trị.
-- **Gắn liền với Brand**: Tránh viral theo cách tiêu cực hoặc không liên quan gì đến giá trị cốt lõi của doanh nghiệp.
+- **Rule 1**: **Cảm xúc là ưu tiên 1**: Nội dung không có cảm xúc (Hài hước, Phẫn nộ, Kinh ngạc...) là nội dung chết.
+- **Rule 2**: **Giữ cho nó đơn giản (Keep it Simple)**: Một thông điệp duy nhất, dễ hiểu, dễ kể lại và dễ thực hiện theo (nếu là challenge).
+- **Rule 3**: **Visual First**: Đặc biệt với video ngắn, hình ảnh phải bắt mắt hoặc gây tò mò ngay trong 1-2 giây đầu.
+- **Rule 4**: **Đừng quá "quảng cáo"**: Nội dung viral thành công thường che giấu mục đích bán hàng dưới lớp vỏ giải trí hoặc giá trị cộng đồng.
+- **Rule 5**: **Gắn liền với Brand**: Tránh viral theo cách tiêu cực hoặc không liên quan gì đến giá trị cốt lõi của doanh nghiệp.
+- **Rule 6**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất ý tưởng Viral.
 
 </rules>
 

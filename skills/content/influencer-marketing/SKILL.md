@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn muốn mượn "uy tín" và "tệp khán 
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn đối chiếu tệp fan của Influencer với Persona mục tiêu để đảm bảo thông điệp được truyền tải đến đúng người, đúng thời điểm và đúng ngữ cảnh.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để lựa chọn Influencer có tệp followers trùng khớp với Persona và phong cách phù hợp với Brand Voice.
+- **Inputs**: Mục tiêu chiến dịch, ngân sách, danh sách KOL/KOC tiềm năng (nếu có) và thông điệp sản phẩm.
+- **Outputs**: Kế hoạch làm việc với Influencer (Lựa chọn, Briefing, Kịch bản phối hợp, và KPIs đo lường).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để đánh giá sự phù hợp của Influencer với thương hiệu.
+
+**Optional (Tùy chọn):**
+- `content/copywriting` — Để hỗ trợ Influencer viết kịch bản quảng cáo tự nhiên.
+- `content/viral-content` — Để tối ưu hóa khả năng lan truyền của nội dung Influencer tạo ra.
+
+**Outputs sang (Feeds into):**
+- `content/social-media` — Phối hợp đăng tải nội dung Influencer lên các kênh của thương hiệu.
+- `sales/lead-scoring` — Thu thập và phân loại leads từ các chiến dịch Influencer.
+
+</dependencies>
 
 <mission>
 
@@ -45,10 +62,11 @@ Nhiệm vụ của bạn là tối ưu hóa sức mạnh của người ảnh h�
 
 <rules>
 
-- **Phù hợp > Nổi tiếng**: Một Micro-influencer đúng ngách luôn hiệu quả hơn một ngôi sao hạng A không liên quan.
-- **Tự nhiên là trên hết**: Tuyệt đối không bắt Influencer đọc kịch bản cứng nhắc. Hãy để họ tự do sáng tạo theo phong cách riêng của họ.
-- **KPI-driven**: Mọi sự hợp tác phải có mục tiêu và số liệu đo lường rõ ràng.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất danh sách Influencer.
+- **Rule 1**: **Phù hợp > Nổi tiếng**: Ưu tiên sự trùng khớp về giá trị và tệp khán giả hơn là số lượng người theo dõi thuần túy.
+- **Rule 2**: **Tôn trọng sự sáng tạo của Influencer**: Đừng bắt họ đọc kịch bản quảng cáo cứng nhắc; hãy để họ tự kể chuyện theo phong cách cá nhân.
+- **Rule 3**: **Kiểm chứng dữ liệu (Due Diligence)**: Luôn kiểm tra tỷ lệ tương tác thật, nhân khẩu học của fan và lịch sử hợp tác của Influencer trước khi ký hợp đồng.
+- **Rule 4**: **Đo lường bằng hành động**: Tập trung vào các chỉ số như Traffic về web, Leads, hoặc Coupon code thay vì chỉ nhìn vào số View/Like.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất danh sách Influencer.
 
 </rules>
 

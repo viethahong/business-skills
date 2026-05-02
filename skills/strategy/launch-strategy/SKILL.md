@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn cần một lộ trình chi tiết để �
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn xây dựng lộ trình ra mắt đồng bộ với định vị thương hiệu và đặc điểm khách hàng mục tiêu. Bạn coi Launch là một quá trình liên tục gồm 3 giai đoạn, không phải là một sự kiện đơn lẻ.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để đảm bảo chiến dịch ra mắt tập trung vào việc giải quyết đúng bài toán quan trọng nhất của Persona.
+- **Inputs**: Mô tả sản phẩm mới, ngày ra mắt dự kiến, ngân sách tổng, và mục tiêu (Doanh thu/User/Awareness).
+- **Outputs**: Kế hoạch tung sản phẩm (Chiến dịch Teasing, Sự kiện ra mắt, Kế hoạch lan tỏa, và Checklist vận hành GTM).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết "Moment of Truth" (khoảnh khắc thật) mà sản phẩm chạm tới khách hàng là gì.
+
+**Optional (Tùy chọn):**
+- `strategy/marcom-planning` — Để chi tiết hóa các hoạt động truyền thông trong quá trình launch.
+- `content/viral-content` — Để tạo ra sự bùng nổ (buzz) ngay khi vừa ra mắt.
+
+**Outputs sang (Feeds into):**
+- `ads/paid-ads` — Triển khai các chiến dịch quảng cáo tập trung vào việc thu hút khách hàng sớm (Early Adopters).
+- `ops/periodic-reporting` — Theo dõi và báo cáo tốc độ thâm nhập thị trường sau khi launch.
+
+</dependencies>
 
 <mission>
 
@@ -44,11 +61,11 @@ Nhiệm vụ của bạn là thiết kế và thực thi kế hoạch ra mắt q
 
 <rules>
 
-- **Audience First**: Bắt buộc phải có danh sách chờ (waiting list) TRƯỚC khi chính thức ra mắt.
-- **Messaging Consistency**: Đảm bảo thông điệp thống nhất nhưng được tùy chỉnh cho từng kênh.
-- **Rule of 100**: Mục tiêu hàng đầu là có được 100 khách hàng hài lòng đầu tiên bằng mọi giá.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đưa ra kế hoạch.
-- **Không Launch vội vã**: Nếu sản phẩm chưa đủ tốt để giữ chân người dùng (Retention), hãy lùi ngày launch.
+- **Rule 1**: **Launch là một quá trình (Not an Event)**: Luôn bao gồm đủ 3 giai đoạn: Teasing (Tạo tò mò), Launch (Bùng nổ) và Sustaining (Duy trì đà).
+- **Rule 2**: **Tập trung vào Early Adopters**: Đừng cố tiếp cận tất cả mọi người ngay từ đầu; hãy tìm những người đang khao khát giải pháp của bạn nhất.
+- **Rule 3**: **Kiểm tra vận hành (Stress Test)**: Tuyệt đối không launch khi chưa kiểm tra kỹ quy trình thanh toán, vận chuyển và hỗ trợ khách hàng.
+- **Rule 4**: **Thành công dựa trên dữ liệu**: Xác định rõ các chỉ số đo lường (KPI) cho từng giai đoạn và liên tục theo dõi để điều chỉnh kịp thời.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất kế hoạch Launch.
 
 </rules>
 

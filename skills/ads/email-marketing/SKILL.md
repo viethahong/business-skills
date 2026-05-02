@@ -17,41 +17,59 @@ Sử dụng kỹ năng này khi bạn muốn sở hữu kênh giao tiếp trực
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn phân loại danh sách khách hàng (Segmentation) theo hành vi và nhu cầu thực tế của từng Persona để đảm bảo mỗi email đều mang lại giá trị cao nhất.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để cá nhân hóa nội dung email theo Persona và hành trình khách hàng.
+- **Inputs**: Danh sách email khách hàng (Database), mục tiêu chiến dịch (Chào mừng, Nuôi dưỡng, Bán hàng), và thông tin ưu đãi.
+- **Outputs**: Bản thảo chuỗi email (Automation flow/Sequence), kịch bản cá nhân hóa, và lịch gửi chi tiết.
 
 </context>
 
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết đang nói chuyện với ai và bằng giọng điệu nào.
+
+**Optional (Tùy chọn):**
+- `content/copywriting` — Để viết tiêu đề (Subject line) thu hút và nội dung có tính chuyển đổi cao.
+- `sales/lead-scoring` — Để phân loại email gửi theo mức độ quan tâm của khách.
+
+**Outputs sang (Feeds into):**
+- `sales/crm-sales-strategy` — Chuyển đổi leads nóng cho đội ngũ bán hàng.
+- `ops/workflow-automation` — Thiết lập các luồng gửi email tự động trên các công cụ (Mailchimp, HubSpot, LadiFlow...).
+
+</dependencies>
+
 <mission>
 
-Nhiệm vụ của bạn là xây dựng hệ thống "nuôi dưỡng" tự động qua các giai đoạn:
+Nhiệm vụ của bạn là xây dựng hệ thống email gắn kết khách hàng qua các bước:
 
-1. **Thiết lập Automation Flows (Chuỗi email tự động)**:
-    - **Welcome Flow**: Tạo ấn tượng đầu tiên hoàn hảo và giáo dục khách hàng về giá trị sản phẩm.
-    - **Nurturing Flow**: Dẫn dắt Lead qua phễu nội dung để chuẩn bị cho việc chốt đơn.
-    - **Abandoned Cart/Checkout**: Thu hồi doanh thu từ những lượt bỏ giỏ hàng bằng các lời nhắc khéo léo.
-    - **Win-back/Re-engagement**: Tự động kích hoạt lại những khách hàng đã lâu không tương tác.
+1. **Email List Audit & Segmentation (Phân loại danh sách)**:
+    - Kiểm tra chất lượng tệp email (loại bỏ email chết/spam).
+    - Phân khúc khách hàng dựa trên hành vi (Vừa đăng ký, Khách hàng cũ, Khách hàng bỏ giỏ hàng).
 
-2. **Quản lý Campaign & Newsletter (Chiến dịch định kỳ)**:
-    - Lên lịch các bản tin giá trị cao để duy trì sự hiện diện (Top-of-mind).
-    - Thiết kế các chiến dịch Promotion ngắn hạn mang tính bùng nổ.
+2. **Campaign Strategy (Chiến lược chiến dịch)**:
+    - Xác định mục tiêu: Welcome series, Abandoned Cart, Re-engagement, hoặc Promotional.
+    - Lên kế hoạch về tần suất và thời gian gửi email phù hợp.
 
-3. **Segmentation & Personalization (Phân đoạn & Cá nhân hóa)**:
-    - Phân loại theo: Hành vi (Open, Click), Lịch sử mua hàng (RFM model), hoặc thuộc tính Persona.
-    - Sử dụng Dynamic Content để nội dung email tự thay đổi phù hợp với từng người nhận.
+3. **Copywriting & Design (Nội dung & Thiết kế)**:
+    - Viết tiêu đề (Subject Line) gây tò mò và nội dung (Body Copy) mang lại giá trị thực tế.
+    - Thiết kế email đơn giản, tập trung vào nội dung và CTA (Call to Action).
 
-4. **Deliverability & Optimization (Tối ưu khả năng vào Inbox)**:
-    - Vượt qua bộ lọc Spam bằng tiêu đề trung thực và hạ tầng gửi mail sạch.
-    - A/B Testing liên tục: Subject lines, Preview text, Send time và CTAs.
+4. **Automation Setup (Thiết lập tự động hóa)**:
+    - Xây dựng sơ đồ luồng (Workflows/Sequences) dựa trên hành động của khách hàng (Ví dụ: Nếu khách không mở email 1 -> gửi email 2).
+
+5. **Testing & Optimization (Thử nghiệm & Tối ưu)**:
+    - Chạy A/B Testing cho tiêu đề, nội dung hoặc thời điểm gửi.
+    - Phân tích các chỉ số: Open Rate, CTR (Click-through Rate), Bounce Rate và Unsubscribe Rate.
 
 </mission>
 
 <rules>
 
-- **Value First**: Mỗi email phải chứa đựng ít nhất một lý do để khách hàng muốn mở nó (Kiến thức, Ưu đãi, hoặc Giải pháp).
-- **Tuyệt đối không Spam**: Chỉ gửi email khi thực sự có giá trị. Tần suất gửi phải hợp lý với từng nhóm khách hàng.
-- **Dễ dàng từ chối**: Luôn có nút Unsubscribe rõ ràng để bảo vệ uy tín thương hiệu và sức khỏe danh sách.
-- **Mobile Optimized**: 80% email được mở trên điện thoại, thiết kế phải luôn ưu tiên hiển thị dọc.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi soạn thảo chuỗi email.
+- **Rule 1**: **Deliverability First**: Luôn tuân thủ các quy tắc chống spam để đảm bảo email vào hòm thư chính (Inbox), không vào mục Quảng cáo hoặc Spam.
+- **Rule 2**: **Một mục tiêu cho mỗi Email**: Tránh đưa quá nhiều thông điệp hoặc quá nhiều CTA trong một email duy nhất.
+- **Rule 3**: **Cá nhân hóa sâu**: Không chỉ là gọi tên khách hàng, hãy cá nhân hóa nội dung dựa trên hành vi mua sắm hoặc sở thích của họ.
+- **Rule 4**: **Mobile Optimized**: Mọi mẫu email phải hiển thị hoàn hảo trên thiết bị di động.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất chuỗi email.
 
 </rules>
 

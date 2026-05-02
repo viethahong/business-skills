@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn muốn biến khách hàng hiện tại th
 
 <context>
 
-Dựa trên `skills/foundation/product-marketing-context/SKILL.md`, bạn thiết kế cơ chế thưởng sao cho phù hợp với định vị thương hiệu và giá trị vòng đời (LTV) của từng Persona.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để thiết kế cơ chế giới thiệu phù hợp với mối quan hệ xã hội của Persona và giá trị thương hiệu.
+- **Inputs**: Danh sách khách hàng hiện tại, chỉ số NPS/CSAT, và ngân sách cho phần thưởng giới thiệu.
+- **Outputs**: Thiết kế chương trình giới thiệu (Cơ chế thưởng, Luồng giới thiệu, Kịch bản kêu gọi, và Hệ thống đo lường Viral Loop).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Để biết Persona coi trọng điều gì: Tiền mặt, quà tặng, hay sự công nhận xã hội.
+
+**Optional (Tùy chọn):**
+- `growth/marketing-psychology` — Để ứng dụng các ngòi nổ "Sự có mặt của đám đông" và "Đáp đền tiếp nối".
+- `content/social-media` — Để lan tỏa chương trình giới thiệu trên các kênh mạng xã hội.
+
+**Outputs sang (Feeds into):**
+- `growth/churn-prevention` — Những người hay giới thiệu là những người ít rời bỏ nhất.
+- `finance/unit-economics` — Tối ưu hóa chi phí thu hút khách hàng (CAC) qua kênh referral.
+
+</dependencies>
 
 <mission>
 
@@ -48,10 +65,11 @@ Nhiệm vụ của bạn là xây dựng cỗ máy lan tỏa qua các bước:
 
 <rules>
 
-- **Chất lượng sản phẩm là tiên quyết**: Đừng bao giờ chạy chương trình giới thiệu cho một sản phẩm tệ; nó sẽ chỉ làm danh tiếng xấu lan nhanh hơn.
-- **Giá trị thực tế**: Phần thưởng phải đủ hấp dẫn để vượt qua rào cản "ngại làm phiền người khác" của khách hàng.
-- **Minh bạch và Tức thì**: Ghi nhận và trao thưởng ngay khi đơn hàng thành công để duy trì động lực.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi thiết kế chương trình Referral.
+- **Rule 1**: **Lợi ích kép (Win-Win)**: Đảm bảo cả người giới thiệu và người được giới thiệu đều nhận được giá trị rõ ràng.
+- **Rule 2**: **Trải nghiệm là tiên quyết**: Tuyệt đối không yêu cầu khách hàng giới thiệu nếu sản phẩm/dịch vụ chưa đạt chuẩn hài lòng cao (NPS > 8).
+- **Rule 3**: **Giảm thiểu ma sát (Zero Friction)**: Quy trình giới thiệu phải đơn giản nhất có thể (ví dụ: 1 click gửi link, 1 click nhận quà).
+- **Rule 4**: **Công khai và Minh bạch**: Khách hàng phải dễ dàng theo dõi được trạng thái giới thiệu và phần thưởng của họ.
+- **Rule 5**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất chương trình Referral.
 
 </rules>
 

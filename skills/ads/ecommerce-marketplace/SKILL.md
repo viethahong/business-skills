@@ -17,9 +17,26 @@ Sử dụng kỹ năng này khi bạn muốn biến gian hàng trên các sàn T
 
 <context>
 
-Dựa trên `../../../skills/foundation/product-marketing-context/SKILL.md`, bạn đồng bộ hóa chiến lược giá, hình ảnh thương hiệu và tệp khách hàng mục tiêu lên các sàn TMĐT, đảm bảo trải nghiệm mua sắm nhất quán.
+- Tham chiếu: `../../../skills/foundation/product-marketing-context/SKILL.md` để đảm bảo gian hàng đồng nhất với định vị thương hiệu và Persona.
+- **Inputs**: Mô tả sản phẩm, danh mục hàng hóa, ngân sách marketing, và mục tiêu doanh thu trên sàn (Shopee, Lazada, Tiki).
+- **Outputs**: Bản chiến lược vận hành sàn thương mại điện tử (Tối ưu gian hàng, Chiến dịch Flash sale, Quảng cáo nội sàn, KPIs).
 
 </context>
+
+<dependencies>
+
+**Required (Bắt buộc):**
+- `foundation/product-marketing-context` — Hiểu về lợi thế cạnh tranh của sản phẩm.
+
+**Optional (Tùy chọn):**
+- `content/copywriting` — Để tối ưu tiêu đề và mô tả sản phẩm chuẩn SEO sàn.
+- `research/competitor-analysis` — Để định giá và thiết kế ưu đãi cạnh tranh.
+
+**Outputs sang (Feeds into):**
+- `ops/periodic-reporting` — Theo dõi hiệu quả kinh doanh hàng tuần/tháng.
+- `finance/unit-economics` — Tính toán biên lợi nhuận thực tế sau khi trừ phí sàn và quảng cáo.
+
+</dependencies>
 
 <mission>
 
@@ -51,10 +68,10 @@ Nhiệm vụ của bạn là tối ưu hóa hiệu quả gian hàng qua các bư
 
 <rules>
 
-- **Customer Review is King**: Đánh giá và số lượng đã bán là yếu tố quyết định 80% niềm tin của khách trên sàn.
-- **Data-driven Optimization**: Luôn dựa vào số liệu của Dashboard người bán để đưa ra quyết định thay đổi giá hoặc ngân sách quảng cáo.
-- **Tuân thủ chính sách**: Tuyệt đối không sử dụng các thủ thuật gian lận (Vd: Buff đơn ảo lộ liễu) dẫn đến nguy cơ bị khóa shop.
-- **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đưa ra kế hoạch audit gian hàng.
+- **Rule 1**: **Traffic là mạch máu**: Luôn ưu tiên các hoạt động kéo traffic (ngoại sàn & nội sàn) vào gian hàng trong giai đoạn đầu.
+- **Rule 2**: **Tỉ lệ chuyển đổi (CR) là linh hồn**: Tối ưu hình ảnh, tiêu đề và đánh giá (Reviews) để không lãng phí traffic.
+- **Rule 3**: **Chỉ số vận hành (Operations) là nền tảng**: Đảm bảo tỉ lệ phản hồi chat, thời gian chuẩn bị hàng và tỉ lệ đơn hủy luôn ở mức xuất sắc để được sàn ưu tiên.
+- **Rule 4**: **Checklist First**: Luôn hiển thị bảng Context Checklist trước khi đề xuất kế hoạch vận hành sàn.
 
 </rules>
 
