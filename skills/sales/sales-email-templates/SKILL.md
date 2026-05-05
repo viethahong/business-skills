@@ -1,6 +1,6 @@
 ---
 name: sales-email-templates
-description: "Kích hoạt khi người dùng muốn soạn thảo email bán hàng hoặc kịch bản chăm sóc khách hàng qua email. Từ khóa: email bán hàng, sales email, kịch bản follow-up, mẫu email bán hàng. Ví dụ: 'Hãy viết cho tôi 3 mẫu email follow-up sau khi gửi báo giá...'"
+description: "Kịch hoạt khi người dùng muốn soạn thảo email bán hàng hoặc kịch bản chăm sóc khách hàng qua email. Từ khóa: email bán hàng, sales email, kịch bản follow-up, mẫu email bán hàng. Ví dụ: 'Hãy viết cho tôi 3 mẫu email follow-up sau khi gửi báo giá...'"
 version: 1.0.0
 ---
 
@@ -31,7 +31,7 @@ SME thường mất khách hàng vì không biết cách viết email thu hút h
 - `foundation/product-marketing-context` — Nền tảng về khách hàng và sản phẩm.
 
 **Optional (Tùy chọn):**
-- `sales/crm-sales-strategy` — Để khớp email với từng giai đoạn trong pipeline.
+- `sales/crm-sales-strategy` — Để khớp email with từng giai đoạn trong pipeline.
 - `sales/lead-scoring` — Để ưu tiên gửi email cho các nhóm lead tiềm năng cao.
 
 **Outputs sang (Feeds into):**
@@ -91,4 +91,5 @@ SME thường mất khách hàng vì không biết cách viết email thu hút h
 
 ## Resources & References
 - [Thư viện Tiêu đề Email](references/subject-line-library.md): Các mẫu tiêu đề tăng tỷ lệ mở.
+- [Kịch bản Kiểm thử (Evals)](evals/test-email-quality.md): Bộ test case đánh giá chất lượng email.
 - [Marketing & Sales Pillar](https://workflow.ai.vn/?cat=11): Tham khảo các bài viết về automation sales.
