@@ -90,4 +90,5 @@ SME thường bị "nghẽn" ở khâu sản xuất nội dung: bài viết lẻ
 
 ## Resources & References
 - [Chiến lược Tái mục tiêu nội dung](references/repurposing-strategy.md): Cách biến 1 thành 10 nội dung.
+- [Kịch bản Kiểm thử Hiệu suất (Evals)](evals/test-factory-efficiency.md): Bộ test case đánh giá khả năng sản xuất hàng loạt.
 - [Framework 4C Prompting](https://hahongviet.com/4C): Chuẩn viết câu lệnh hiệu quả.
