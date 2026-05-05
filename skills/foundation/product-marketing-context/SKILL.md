@@ -106,3 +106,4 @@ Agent nên nói rõ:
 - [Bảng hỏi Nghiên cứu Persona](references/buyer-persona-worksheet.md): Giúp đào sâu nỗi đau và mong muốn khách hàng.
 - [Mẫu Tuyên bố Giá trị (Value Prop)](references/value-proposition-template.md): Công thức viết thông điệp cốt lõi.
 - [Hướng dẫn tư duy JTBD](references/jtbd-guide.md): Cách hiểu sâu động lực mua hàng.
+- [Kịch bản Kiểm thử Context (Evals)](evals/test-context-integrity.md): Cách đánh giá độ sẵn sàng của file context.
