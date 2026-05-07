@@ -101,7 +101,7 @@ Tổng = C1×0.15 + C2×0.25 + C3×0.15 + C4×0.20 + C5×0.15 + C6×0.10
 
 ---
 
-## II. Kết quả Đánh giá — Toàn bộ Skills (v2.1 · 2026-05-03)
+## II. Kết quả Đánh giá — Toàn bộ Skills (v2.2 · 2026-05-07)
 
 > Ghi chú: `product-marketing-context` là file Ngữ cảnh, không phải skill. Tất cả skill hiện nằm tại `skills/[category]/[name]/SKILL.md`.
 > 🤖 **Auto-validate**: Chạy `bash scripts/validate-skills.sh` để kiểm tra tự động.
@@ -119,6 +119,7 @@ Tổng = C1×0.15 + C2×0.25 + C3×0.15 + C4×0.20 + C5×0.15 + C6×0.10
 | `competitor-analysis` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
 | `brand-building` | 5 | 4 | 4 | 4 | 4 | 4 | **4.15** | 🟢 Tốt |
 | `marcom-planning` | 5 | 5 | 4 | 5 | 4 | 5 | **4.70** | 🟢 Tốt |
+| `personal-branding` | 5 | 5 | 4 | 5 | 5 | 5 | **4.85** | 🟢 Tốt |
 
 ### ✍️ Nội dung & Kênh
 | Skill | C1 | C2 | C3 | C4 | C5 | C6 | **Tổng** | Trạng thái |
@@ -197,7 +198,7 @@ Tổng = C1×0.15 + C2×0.25 + C3×0.15 + C4×0.20 + C5×0.15 + C6×0.10
 
 ## III. Phân tích — Trạng thái Hệ thống
 
-Hiện tại **60 skills** (tổng cộng) đều đạt mức 🟢 Tốt. Toàn bộ skills mới đã được tích hợp đầy đủ vào hệ thống Orchestration.
+Hiện tại **61 skills** (tổng cộng) đều đạt mức 🟢 Tốt. Toàn bộ skills mới đã được tích hợp đầy đủ vào hệ thống Orchestration.
 
 ---
 
@@ -205,6 +206,7 @@ Hiện tại **60 skills** (tổng cộng) đều đạt mức 🟢 Tốt. Toàn
 
 | Ngày | Version | Tổng Skills | Điểm TB | Skills 🟢 | Skills 🟡 | Skills 🔴 | Ghi chú |
 |---|---|:---:|:---:|:---:|:---:|:---:|---|
+| 2026-05-07 | v2.2 | 61 | **4.79** | 61 | 0 | 0 | Sync `personal-branding` vào Master Orchestrator + audit table. Fix 4 broken cross-references. |
 | 2026-05-03 | v2.1 | 60 | **4.79** | 60 | 0 | 0 | Đồng bộ hóa toàn bộ 60 skills thực tế vào tài liệu. Thêm category CSKH. |
 | 2026-05-01 | v2.0 | 42 | **4.78** | 42 | 0 | 0 | Mở rộng lớn: +16 skills (Ops/Finance/Product/HR/Sales/Legal/Mindset) + Zalo OA + Script auto-validate |
 | 2026-04-29 | v1.3 | 26 | **4.88** | 26 | 0 | 0 | Thêm viral-content và tối ưu template chuẩn mới |

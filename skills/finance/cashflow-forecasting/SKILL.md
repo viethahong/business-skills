@@ -37,7 +37,7 @@ SME thường thất bại vì "cạn tiền" (liquidity crisis) dù vẫn có l
 
 **Outputs sang (Feeds into):**
 - `finance/financial-planning` — Điều chỉnh kế hoạch ngân sách dài hạn.
-- `strategy/strategic-decision-making` — Ra quyết định đầu tư hoặc tạm dừng dự án.
+- `mindset/strategic-decision-making` — Ra quyết định đầu tư hoặc tạm dừng dự án.
 
 </dependencies>
 

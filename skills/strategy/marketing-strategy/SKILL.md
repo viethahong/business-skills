@@ -30,7 +30,7 @@ Sử dụng kỹ năng này khi doanh nghiệp cần một lộ trình bài bả
 
 **Optional (Tùy chọn):**
 - `research/customer-research` — Để làm sâu sắc phần Persona & Insights.
-- `research/competitor-analysis` — Để định vị (Positioning) sắc bén hơn.
+- `strategy/competitor-analysis` — Để định vị (Positioning) sắc bén hơn.
 - `finance/unit-economics` — Để đảm bảo chiến lược có lãi trên từng đơn vị sản phẩm.
 
 **Outputs sang (Feeds into):**

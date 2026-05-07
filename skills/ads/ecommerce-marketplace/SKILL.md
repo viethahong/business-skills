@@ -30,7 +30,7 @@ Sử dụng kỹ năng này khi bạn muốn biến gian hàng trên các sàn T
 
 **Optional (Tùy chọn):**
 - `content/copywriting` — Để tối ưu tiêu đề và mô tả sản phẩm chuẩn SEO sàn.
-- `research/competitor-analysis` — Để định giá và thiết kế ưu đãi cạnh tranh.
+- `strategy/competitor-analysis` — Để định giá và thiết kế ưu đãi cạnh tranh.
 
 **Outputs sang (Feeds into):**
 - `ops/periodic-reporting` — Theo dõi hiệu quả kinh doanh hàng tuần/tháng.

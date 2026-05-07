@@ -36,7 +36,7 @@ Sử dụng kỹ năng này khi bạn (hoặc Founder/Expert) muốn xây dựng
 
 **Outputs sang (Feeds into):**
 - `content/content-marketing` — Để sản xuất nội dung hàng ngày.
-- `sales/sales-strategy` — Để chuyển đổi uy tín thành doanh thu.
+- `sales/crm-sales-strategy` — Để chuyển đổi uy tín thành doanh thu.
 
 </dependencies>
 
