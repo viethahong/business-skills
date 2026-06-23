@@ -19,6 +19,7 @@ Sử dụng kỹ năng này khi bạn cần hiện diện và kết nối với 
 
 - Tham chiếu: `skills/foundation/product-marketing-context/SKILL.md` để đảm bảo nội dung social nhất quán với Persona và định vị thương hiệu.
 - **Inputs**: Chủ đề cần đăng, mục tiêu (tương tác/nhận diện/bán hàng), nền tảng ưu tiên (FB, TikTok, IG...) và các tài liệu/hình ảnh thô (nếu có).
+- **Nguồn tín hiệu tùy chọn**: Nếu chiến dịch cần social listening trên X và người dùng đã cấu hình Xquik, dùng Xquik để lấy bài đăng, tài khoản hoặc kết quả tìm kiếm công khai gần đây. Chỉ dùng các tín hiệu này để hiểu ngôn ngữ khách hàng, phản đối, câu hỏi và trend; luôn trích URL cụ thể; không xem đó là dữ liệu đại diện toàn thị trường hoặc bằng chứng doanh số.
 - **Outputs**: Lịch nội dung social (Content Calendar), kịch bản video ngắn, bộ Hook thu hút và các thủ thuật kích thích tương tác.
 
 </context>
